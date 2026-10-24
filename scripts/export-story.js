@@ -6,7 +6,7 @@ await mkdir(new URL('../docs/',import.meta.url),{recursive:true});
 const report=inspectStory();
 const text=`# ${story.title}\n\n${story.credits}\n\n${report.nodes} 个场景，${report.lines} 段对白槽位、${report.variants} 段条件替换，全部正文约 ${report.characters} 字，${report.choices} 个选择点，${report.endings} 个结局。\n\n条件对白按前置选择替换同一位置的默认文本，不会全部同时显示。\n\n`+Object.entries(nodes).map(([id,n])=>`## ${n.chapter} · ${n.title}\n\n节点：${id}；时间：${n.time}\n\n${n.lines.map(l=>`**${l.speaker}**：${l.text}${(l.variants||[]).map(v=>`\n\n> 条件 ${JSON.stringify(v.when)}：**${v.speaker||l.speaker}**：${v.text}`).join('')}`).join('\n\n')}\n\n${n.choices? n.choices.map((c,i)=>`${i+1}. ${c.text} → ${typeof c.next==='string'?c.next:JSON.stringify(c.next)}${Object.keys(c.set).length?`；标记 ${JSON.stringify(c.set)}`:''}`).join('\n'):n.ending?`结局：${n.ending}`:`后续：${n.next}`}\n`).join('\n');
 await writeFile(new URL('../docs/STORY.md',import.meta.url),text,'utf8');
-const bridges='# 黑屏转场台词\n\n仅用于时间、地点或情绪阶段的衔接，按第一人称显示；不写入对白槽位，不改变 1.1 分支与存档。普通换场没有专属台词时使用短黑屏。点击黑屏或按继续可略过本次转场。\n\n'+Object.entries(transitionLines).map(([position,body])=>`## ${position}\n\n${body.replaceAll('\n','\n\n')}\n`).join('\n');
+const bridges='# 黑屏转场台词\n\n仅用于时间、地点或情绪阶段的衔接，按第一人称显示；不写入对白槽位，不改变 1.1 分支与存档。普通换场没有专属台词时使用自动结束的短黑屏；带专属台词的黑屏始终等待玩家点击或按继续，不按计时自动结束。转场台词按目标对白的位置进入剧情回看。\n\n'+Object.entries(transitionLines).map(([position,body])=>`## ${position}\n\n${body.replaceAll('\n','\n\n')}\n`).join('\n');
 await writeFile(new URL('../docs/TRANSITIONS.md',import.meta.url),bridges,'utf8');
 await writeFile(new URL('../docs/walkthrough.json',import.meta.url),JSON.stringify({note:'含剧透：每个结局的一条可行选择路径',paths:report.paths},null,2));
 console.log(`已导出完整故事与 ${endings.length} 条结局攻略。`);

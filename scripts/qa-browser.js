@@ -16,6 +16,9 @@
     }
     const title=document.getElementById('ending-title').textContent;
     if(title!==ending.title||document.getElementById('ending-panel').hidden)throw Error(`Wrong ending: ${ending.id} / ${title}`);
+    const finalText=document.getElementById('dialogue-text').textContent;
+    if(ending.id==='captivity'&&!finalText.includes('门，没有开'))throw Error('Captivity ended before the completed doorway beat');
+    if(ending.id==='night-death'&&!finalText.includes('只剩雨声'))throw Error('Night death ended before the completed sensory beat');
     results.push({id:ending.id,title,clicks:guard});
   }
   const unlocked=JSON.parse(localStorage.getItem(`jirai.collection.${story.version}`)).endings;

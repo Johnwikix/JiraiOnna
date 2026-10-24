@@ -26,8 +26,11 @@
   check(cut.textContent.includes('隔了一夜')&&getComputedStyle(cut).opacity==='1','Time bridge missing');
   check(el('dialogue-text').textContent==='','Body exposed during black hold');
   check(!JSON.parse(localStorage.getItem('jirai.collection.'+story.version)).read.includes(readKey),'Body marked read behind black');
-  await until(()=>cut.hidden);
-  check(el('dialogue-text').textContent.includes('隔天'),'Natural fade did not reveal dialogue');
+  check(getComputedStyle(cut,'::after').content.includes('点击继续'),'Manual continue hint missing');
+  await wait(3400);
+  check(!cut.hidden&&cut.dataset.phase==='hold'&&el('dialogue-text').textContent==='','Described cut ended by itself');
+  cut.click();
+  check(cut.hidden&&el('dialogue-text').textContent.includes('隔天'),'Confirmation did not reveal dialogue');
   check(JSON.parse(localStorage.getItem('jirai.collection.'+story.version)).read.includes(readKey),'Body not marked after reveal');
 
   await show('endNanaGood',6);el('quick-save').click();el('advance-area').click();
@@ -37,11 +40,25 @@
 
   el('auto-button').click();el('advance-area').click();await until(()=>cut.dataset.phase==='hold');
   check(current().line===7&&el('auto-button').getAttribute('aria-pressed')==='true','Auto mode lost at cut');
-  await wait(500);check(current().line===7,'Auto advanced while bridge visible');
-  await until(()=>cut.hidden);check(current().line===7,'Auto skipped the new paragraph');el('auto-button').click();
+  await wait(500);check(current().line===7&&!cut.hidden,'Auto advanced or closed the bridge');
+  cut.click();check(cut.hidden&&current().line===7,'Auto confirmation skipped the new paragraph');el('auto-button').click();
+
+  await show('endNanaGood',7);await show('endNanaGood',6);el('skip-button').click();
+  await until(()=>cut.dataset.phase==='hold');
+  check(current().line===7&&el('skip-button').getAttribute('aria-pressed')==='true','Skip mode did not reach the read bridge');
+  await wait(500);check(!cut.hidden&&cut.dataset.phase==='hold','Fast mode closed the described bridge');
+  cut.click();check(cut.hidden&&current().line===7&&el('dialogue-text').textContent.length>0,'Skip confirmation did not reveal exactly one paragraph');
+
+  await show('prologue',6);el('advance-area').click();
+  await until(()=>cut.dataset.phase==='hold'&&cut.dataset.hasText==='false');
+  await until(()=>cut.hidden);check(current().nodeId==='prologue'&&current().line===7,'Undescribed cut did not finish automatically');
 
   await show('messages',2);el('advance-area').click();await until(()=>cut.dataset.phase==='hold');
-  cut.click();check(cut.hidden&&current().line===3&&el('dialogue-text').textContent.includes('回东京'),'Click should reveal, not advance');
+  Object.defineProperty(document,'hidden',{configurable:true,get:()=>true});document.dispatchEvent(new Event('visibilitychange'));
+  check(!cut.hidden&&cut.dataset.phase==='hold','Backgrounding ended the described cut');
+  Object.defineProperty(document,'hidden',{configurable:true,get:()=>false});document.dispatchEvent(new Event('visibilitychange'));delete document.hidden;
+  cut.click();check(cut.hidden&&current().line===3,'Cut did not resume after visibility change');
+
   await show('messages',2);el('advance-area').click();el('new-game').click();
   await wait(400);check(cut.hidden&&current().nodeId===story.start&&current().line===0,'New game retained old transition');
 
@@ -53,9 +70,14 @@
   reduced.finish();reduced.finish();check(commits===1&&finishes===1&&element.hidden,'Finish callback duplicated');
   const player=new TransitionPlayer(element);player.play('取消。',()=>commits++,()=>finishes++);player.cancel();await wait(240);
   check(commits===1&&finishes===1&&element.hidden,'Cancelled fade committed');
-  const started=performance.now();await player.play('快进。',()=>commits++,()=>finishes++,true);
-  check(performance.now()-started<650&&element.hidden&&commits===2&&finishes===2,'Fast-forward cut did not finish');
+  const fastPlaying=player.play('快进。',()=>commits++,()=>finishes++,true);
+  await until(()=>element.dataset.phase==='hold');await wait(300);
+  check(!element.hidden&&commits===2&&finishes===1,'Fast-forward described cut finished by itself');
+  player.finish();await fastPlaying;
+  check(element.hidden&&commits===2&&finishes===2,'Fast-forward confirmation failed');
+  await player.play('',()=>commits++,()=>finishes++,true);
+  check(element.hidden&&commits===3&&finishes===3,'Undescribed fast cut did not finish');
   element.remove();
   window.transitionQA={show,current};
-  return {naturalFade:true,firstPersonBridge:true,readOnlyAfterReveal:true,loadCancelsStaleCut:true,autoWaitsForBridge:true,clickSkipsOnlyCut:true,newGameCancelsCut:true,reducedMotion:true,cancelledFadeNeverCommits:true,fastForward:true};
+  return {describedCutWaits:true,continueHint:true,readOnlyAfterReveal:true,loadCancelsStaleCut:true,autoWaitsForConfirmation:true,skipWaitsForConfirmation:true,undescribedCutAutomatic:true,backgroundKeepsDescribedCut:true,clickRevealsOnlyCut:true,newGameCancelsCut:true,reducedMotion:true,cancelledFadeNeverCommits:true,controllerFastAndBlankCuts:true};
 })()

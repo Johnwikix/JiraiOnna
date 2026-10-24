@@ -41,6 +41,15 @@ test('seated cafe conversations use their own CG without a standing actor over t
   }
 });
 
+test('expanded endings hide standing actors and finish at the actual doorway or road',()=>{
+  assert.equal(getStagePortrait(media,'nightInside',nodes.nightInside,11,characters),null);
+  for(const line of nodes.endCaptive.lines.keys())assert.equal(getStagePortrait(media,'endCaptive',nodes.endCaptive,line,characters),null,'endCaptive:'+line);
+  assert.equal(getSceneCue(media,'endCaptive',24).background,'door');
+  assert.equal(getSceneCue(media,'endCaptive',25).background,'door');
+  for(const line of nodes.endNightDeath.lines.keys())assert.equal(getStagePortrait(media,'endNightDeath',nodes.endNightDeath,line,characters),null,'endNightDeath:'+line);
+  assert.equal(getSceneCue(media,'endNightDeath',17).background,'rain');
+});
+
 test('travel, hospital, print shop and returning home select their actual locations',()=>{
   for(const [id,line,bg]of [['messages',0,'airport'],['messages',1,'home'],['messages',3,'station'],['makeover',0,'washroom'],['endShioriBad',0,'hospital'],['qing4',0,'printshop'],['aftermath',10,'room'],['endDeparture',0,'izakaya'],['endDeparture',8,'room'],['endNanaBad',8,'airport'],['dawn2',0,'warehouse']]){
     assert.equal(getSceneCue(media,id,line).background,bg,id+':'+line);

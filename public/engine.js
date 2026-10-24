@@ -68,8 +68,8 @@ export function validateState(value, nodes) {
   } catch { return false; }
 }
 
-export function getBacklog(state, nodes) {
-  const displayed=lines=>lines.map(line=>resolveLine(line,state.flags));
-  return [...state.trail.map(item => ({ nodeId: item.nodeId, choice: item.choice, lines: displayed(nodes[item.nodeId].lines) })),
-    { nodeId: state.nodeId, choice: null, lines: displayed(nodes[state.nodeId].lines.slice(0, state.line + 1)) }];
+export function getBacklog(state, nodes, transitions = {}) {
+  const displayed=(nodeId,lines)=>lines.map((line,index)=>({...resolveLine(line,state.flags),transitionText:transitions[`${nodeId}:${index}`]||''}));
+  return [...state.trail.map(item => ({ nodeId: item.nodeId, choice: item.choice, lines: displayed(item.nodeId,nodes[item.nodeId].lines) })),
+    { nodeId: state.nodeId, choice: null, lines: displayed(state.nodeId,nodes[state.nodeId].lines.slice(0, state.line + 1)) }];
 }

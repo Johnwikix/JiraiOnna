@@ -55,7 +55,7 @@ export const transitionLines = {
   'endQingGood:0':'回去的路上，我没再一遍遍改那段解释。\n见到她以前，反而比在电话里更紧张。',
   'endQingGood:5':'终于坐到同一张桌前，我才发现自己一直没松开肩膀。\n眼前的热气慢慢升起来，有句话又不急着说了。',
   'endQingBad:7':'隔天，我以为删掉的东西已经不会再来。\n屏幕亮起来，我还是下意识先看了一眼名字。',
-  'endQingBad:8':'约好的时间一点点近了，我一直没把包拉上。\n窗外开始亮时，才发现那页画还压在膝上。',
+  'endQingBad:8':'补交期限一点点近了，我一直没把包拉上。\n窗外开始亮时，才发现那页画还压在膝上。',
   'dawn1:0':'再回店里之前，我把备份点开检查了一遍。\n已经确认过的东西，还是忍不住再确认。',
   'dawn2:0':'搬到新住处，去上班的路也换了。\n我拖着包找出口，暂时顾不上再看手机。',
   'dawn2:1':'收工回来，箱子还堆在墙边。\n我弯腰找充电线，坐下以后，才发现已经不想再起来。',
@@ -63,7 +63,9 @@ export const transitionLines = {
   'endDeparture:8':'柜子里的东西终于装回了包。\n新房间空得很，包落在地上，声音比我想的大。',
   'endNanaBad:6':'回去以后，我把事情从头想了一遍。\n想问的越来越多，手机却始终没亮。',
   'endNanaBad:8':'到了走的那天，行李比来时还乱。\n我推着它们往前走，没再回头找熟悉的脸。',
-  'endCaptive:7':'不知道什么时候，水声停了，窗外渐渐亮起来。\n我坐着等她先睡，已经记不清等了多久。',
+  'endCaptive:7':'撕下来的纸还摊在地上。\n窗帘后面，夜的颜色一点点退下去。',
+  'endCaptive:19':'我又试了很久。\n久到走廊里，连靠近的脚步都没有了。',
+  'endCaptive:24':'墙上的时针越过正午。\n我开始分不清，哪一次五分钟才算最后一次。',
   'endDawn:2':'一个月后，日历上终于多了一个和排班无关的圈。\n出门前，我还是把车次又查了一遍。'
 };
 
@@ -118,14 +120,13 @@ export class TransitionPlayer {
     this.cancel();
     const version = this.version;
     this.active = true;this.commit = commit;this.done = done;
-    this.element.hidden = false;this.element.dataset.phase = 'out';
+    this.element.hidden = false;this.element.dataset.phase = 'out';this.element.dataset.hasText = String(!!text);
     const duration = this.reducedMotion ? 0 : fast ? 45 : 180;
     await this.fade(1, duration);
     if (version !== this.version) return;
     this.element.dataset.phase = 'hold';this.text.textContent = text;
     const paint = this.commit;this.commit = null;paint?.();
-    const hold = text ? fast ? 220 : Math.min(3200,900 + text.length * 38) : fast ? 35 : 100;
-    await new Promise(resolve => { this.release=resolve;this.timer=setTimeout(resolve,hold); });
+    await new Promise(resolve => { this.release=resolve;if(!text)this.timer=setTimeout(resolve,fast?35:100); });
     this.release = null;
     if (version !== this.version) return;
     this.element.dataset.phase = 'in';

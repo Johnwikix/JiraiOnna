@@ -30,7 +30,7 @@
     const sprite=el('portrait-slot').querySelector('img');
     if(sprite&&!el('portrait-wrap').hidden)await sprite.decode();
     await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
-    return {node:current().nodeId,line:current().line,cg:el('stage').dataset.cg,portrait:el('portrait-wrap').hidden?null:{...el('portrait-wrap').dataset},text:el('dialogue-text').textContent};
+    return {node:current().nodeId,line:current().line,bg:el('backdrop').dataset.bg,cg:el('stage').dataset.cg,portrait:el('portrait-wrap').hidden?null:{...el('portrait-wrap').dataset},text:el('dialogue-text').textContent};
   }
   function check(condition,message){if(!condition)throw Error(message);}
   const sources=[...Object.values(media.backgrounds),...Object.values(media.portraits).flatMap(entry=>Object.entries(entry).filter(([key])=>key!=='default').map(([,src])=>src)),...Object.values(media.cgs).map(cg=>cg.src)];
@@ -43,6 +43,9 @@
   const photo=await show('rin3',2);check(photo.portrait?.mode==='photo'&&photo.portrait?.outfit==='borrowed-jacket','Phone photo missing');
   const call=await show('rin3',9);check(!call.portrait,'Remote speaker appeared in room');
   const closedDoor=await show('peephole',8);check(!closedDoor.portrait,'Person drawn inside closed door');
+  const seatedInside=await show('nightInside',11);check(!seatedInside.portrait,'Seated captor kept a standing portrait');
+  const captiveFinal=await show('endCaptive',25);check(!captiveFinal.portrait&&captiveFinal.bg==='door','Captivity final doorway is inconsistent');
+  const deathFinal=await show('endNightDeath',17);check(!deathFinal.portrait&&deathFinal.bg==='rain','Accident kept a standing portrait or wrong background');
   const discoveries=[];
   for(const [id,cues]of Object.entries(media.scenes))for(const cue of cues.filter(cue=>cue.cg)){
     const frame=await show(id,cue.from);
@@ -71,6 +74,6 @@
   el('close-modal').click();
   window.artQA={show,media,nodes,current};
   await show('workday',workLine);
-  return {decoded,wardrobes:counts,cgs:discoveries,phonePhoto:true,remoteHidden:true,closedDoor:true,galleryUnlocked:memories.length,progressPreserved:true,overflow:document.documentElement.scrollWidth>innerWidth};
+  return {decoded,wardrobes:counts,cgs:discoveries,phonePhoto:true,remoteHidden:true,closedDoor:true,expandedEndings:true,galleryUnlocked:memories.length,progressPreserved:true,overflow:document.documentElement.scrollWidth>innerWidth};
 })()
 

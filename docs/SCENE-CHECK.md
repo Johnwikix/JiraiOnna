@@ -1,6 +1,6 @@
 # 场景连续性核对
 
-2026-10-24；58 个节点、659 段正文。按正文逐段核对地点、现场人物、远程对白、衣装及 CG 入场，保留 1.1 分支结构。下表索引从 0 开始，含两端；未列区间沿用节点默认背景与衣装。
+2026-10-24；58 个节点、682 段正文。按正文逐段核对地点、现场人物、远程对白、衣装及 CG 入场，保留 1.1 分支结构。下表索引从 0 开始，含两端；未列区间沿用节点默认背景与衣装。
 
 修正了改装前后态度、餐桌遮挡、回国/返东京、医院、打印店、回到公寓、仓库和月台等错配；时间词在真正推进到该时间时转场，提及过往或明天的票不触发误转场。远程人物不画成现场角色，CG 不叠加全身立绘。
 
@@ -58,9 +58,9 @@
 | messagesSilence | room | 默认 |
 | aftermathBlind | izakaya | 默认 |
 | peephole | door | 0–13：door / 隐藏立绘 |
-| nightInside | room | 默认 |
-| endCaptive | room | 默认 |
+| nightInside | room | 11–12：room / 隐藏立绘 |
+| endCaptive | room | 0–23：room / 隐藏立绘；24–25：door / 隐藏立绘 |
 | chase | rain | 3–10：rain / CG chase |
-| endNightDeath | rain | 默认 |
+| endNightDeath | rain | 0–17：rain / 隐藏立绘 |
 | envelope | room | 0–9：room / CG envelope；10–20：room / 隐藏立绘 |
 | shioriOnTime | izakaya | 0–3：station |

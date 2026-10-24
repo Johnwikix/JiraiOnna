@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#14151b">
-  <meta name="description" content="未读，凌晨四点。一部关于东京夜班、未读消息与选择的多路线视觉小说。">
-  <title>未读，凌晨四点</title>
-  <link rel="preload" href="/fonts/story-serif.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/style.css">
-  <script type="module" src="/app.js"></script>
+  <meta name="description" content="你明明醒着。一部关于东京夜班、未读消息与选择的多路线视觉小说。">
+  <title>你明明醒着</title>
+  <link rel="preload" href="fonts/story-serif.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="app.js"></script>
 </head>
 <body data-mode="title">
   <a class="skip-link" href="#stage">跳到阅读舞台</a>
   <div class="app">
     <header class="topbar">
-      <button class="wordmark" id="home" aria-label="返回标题">未读<span class="wordmark-dot">，</span><span>凌晨四点</span></button>
-      <span class="top-subtitle">既読のない、午前四時。</span>
+      <button class="wordmark" id="home" aria-label="返回标题">你明明<span>醒着</span></button>
+      <span class="top-subtitle">起きてるんでしょう。</span>
       <div class="top-actions"><button class="icon-button" id="title-music" aria-label="开启音乐"></button><button class="icon-button" id="title-settings" aria-label="阅读设置"></button></div>
     </header>
     <aside class="sidebar" aria-label="游戏菜单">
@@ -34,12 +34,12 @@
       <div id="backdrop" class="backdrop" data-bg="rain"></div>
       <canvas id="rain" class="rain" aria-hidden="true"></canvas>
       <div id="title-screen" class="title-screen">
-        <div class="title-copy"><h1>未读，<br><span>凌晨四点</span><span class="title-stop">。</span></h1><p class="title-jp" lang="ja">既読のない、午前四時。</p><p class="title-description">「你明明醒着。<br>　为什么装没听见？」</p><button id="start-button" class="primary-button">开始游戏</button><p class="title-note" id="title-note">四条角色路线 · 十二个结局</p></div>
+        <div class="title-copy"><h1>你明明<br><span>醒着</span><span class="title-stop">。</span></h1><p class="title-jp" lang="ja">起きてるんでしょう。</p><p class="title-description">「开门吧。我想见你。<br>　先让我进去，好不好？」</p><button id="start-button" class="primary-button">开始游戏</button><p class="title-note" id="title-note">四条角色路线 · 十二个结局</p></div>
         <div class="title-bottom"><span>十月 / 东京 / 雨</span><span id="title-version">JIRAI ONNA / 1.1</span></div>
       </div>
       <section id="reader" class="reader" hidden aria-label="剧情阅读">
         <div class="story-hud" role="group" aria-label="剧情操作">
-          <div class="hud-left"><button id="pause-button" class="icon-button" aria-label="打开游戏菜单"></button><button id="settings-button" class="icon-button" aria-label="阅读设置"></button><button id="backlog-button" class="icon-button" aria-label="对白回看"></button><button id="hide-ui-button" class="icon-button" aria-label="隐藏界面" aria-pressed="false"></button></div>
+          <div class="hud-left"><button id="pause-button" class="icon-button" aria-label="打开游戏菜单"></button><button id="settings-button" class="icon-button" aria-label="阅读设置"></button><button id="backlog-button" class="icon-button" aria-label="剧情回看"></button><button id="hide-ui-button" class="icon-button" aria-label="隐藏界面" aria-pressed="false"></button></div>
           <div class="hud-right"><button id="auto-button" class="hud-button" aria-pressed="false">自动 <span id="auto-state">OFF</span></button><button id="skip-button" class="hud-button" aria-pressed="false">跳过已读</button></div>
         </div>
         <div class="scene-header" hidden aria-hidden="true"><div><span id="chapter" class="chapter"></span><h2 id="scene-title"></h2></div><span id="scene-time" class="scene-time"></span></div>
@@ -59,7 +59,7 @@
     <footer class="reading-toolbar"><span id="toolbar-status" hidden>雨还没有停。</span><div class="reader-actions"><button id="music-button" class="icon-button" aria-label="开启音乐"></button><button id="quick-save" class="tool-button">快速存档</button><button id="quick-load" class="tool-button">快速读档</button><button id="fullscreen-button" class="icon-button" aria-label="切换全屏"></button></div></footer>
   </div>
   <button id="show-interface" class="restore-interface" hidden>恢复界面</button>
-  <button id="scene-transition" class="scene-transition" aria-label="略过转场，继续阅读" hidden><span role="status" aria-live="polite"></span></button>
+  <button id="scene-transition" class="scene-transition" aria-label="结束转场，继续阅读" hidden><span role="status" aria-live="polite"></span></button>
   <dialog id="modal" aria-labelledby="modal-title"><div class="modal-heading"><h2 id="modal-title"></h2><button id="close-modal" class="icon-button" aria-label="关闭窗口"></button></div><div id="modal-content" class="modal-content"></div></dialog>
   <div id="toast" class="toast" role="status" hidden></div>
   <input id="import-file" type="file" accept=".json,application/json" hidden>

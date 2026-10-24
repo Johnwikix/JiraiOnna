@@ -1,5 +1,5 @@
 ---
-name: "未读，凌晨四点"
+name: "你明明醒着"
 description: "全屏夜景、轻 HUD 与底部渐变对白构成的原创 galgame 阅读界面。"
 colors:
   ink: "#14151b"
@@ -127,7 +127,7 @@ components:
     padding: "12px 12px 34px"
 ---
 
-# Design System: 未读，凌晨四点
+# Design System: 你明明醒着
 
 ## Overview
 

@@ -2,7 +2,7 @@ import { story, nodes, routes, characters, endings } from './story.js';
 import { createState, advance, choose, validateState, getBacklog, resolveLine, getReadKey } from './engine.js';
 import { MusicPlayer, tracks, trackFor } from './music.js';
 import { getPortraitAsset, getSceneCue, getStagePortrait, getSeenCgs } from './visuals.js';
-import { getTransition, TransitionPlayer } from './transitions.js';
+import { getTransition, TransitionPlayer, transitionLines } from './transitions.js';
 
 const $ = id => document.getElementById(id);
 const icons = {
@@ -202,12 +202,12 @@ function showSaves() {
   document.querySelectorAll('[data-load]').forEach(b=>b.onclick=()=>loadState(slots[b.dataset.load].state));
   document.querySelectorAll('[data-delete]').forEach(b=>b.onclick=()=>confirmAction('删除这个存档？','这次操作无法撤销。可以先导出进度文件保留备份。',()=>{delete slots[b.dataset.delete];write(keys.slots,slots);showSaves();updateNav();}));
   $('export-save').onclick=exportSave;$('import-save').onclick=()=>$('import-file').click();
-  if($('export-legacy'))$('export-legacy').onclick=()=>downloadData({format:'jirai-onna-save',version:1,storyVersion:'1.0.0',current:read('jirai.current.v1',null),slots:read('jirai.slots.v1',{}),collection:read('jirai.collection.v1',{endings:[],read:[],checkpoints:{}})},'未读凌晨四点-1.0旧存档.json');
+  if($('export-legacy'))$('export-legacy').onclick=()=>downloadData({format:'jirai-onna-save',version:1,storyVersion:'1.0.0',current:read('jirai.current.v1',null),slots:read('jirai.slots.v1',{}),collection:read('jirai.collection.v1',{endings:[],read:[],checkpoints:{}})},'你明明醒着-1.0旧存档.json');
 }
 function confirmAction(title,text,action) {openModal(title,`<p>${escape(text)}</p><div class="modal-actions"><button id="confirm-action" class="primary-button">确认</button><button id="cancel-action" class="secondary-button">取消</button></div>`);$('confirm-action').onclick=action;$('cancel-action').onclick=showSaves;}
 function exportSave() {
   const data={format:'jirai-onna-save',version:1,storyVersion:story.version,current:state,slots,collection:{endings:[...collection.endings],read:[...collection.read],checkpoints:collection.checkpoints}};
-  downloadData(data,`未读凌晨四点-${new Date().toISOString().slice(0,10)}.json`);
+  downloadData(data,`你明明醒着-${new Date().toISOString().slice(0,10)}.json`);
 }
 function downloadData(data,name){const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 async function importSave(file) {
@@ -284,8 +284,8 @@ function showCG(id) {
   bindArtNav();$('art-back').onclick=showGallery;
 }
 function showBacklog() {
-  if(!state)return;const entries=getBacklog(state,nodes);
-  openModal('对白回看',entries.map(entry=>`${entry.lines.map(l=>`<div class="log-entry"><strong>${escape(l.speaker)}</strong><p>${escape(l.text)}</p></div>`).join('')}${entry.choice!==null?`<p class="log-choice">选择：${escape(nodes[entry.nodeId].choices[entry.choice].text)}</p>`:''}`).join(''));
+  if(!state)return;const entries=getBacklog(state,nodes,transitionLines);
+  openModal('剧情回看',entries.map(entry=>`${entry.lines.map(l=>`${l.transitionText?`<div class="log-entry log-transition"><strong>转场</strong><p>${escape(l.transitionText)}</p></div>`:''}<div class="log-entry"><strong>${escape(l.speaker)}</strong><p>${escape(l.text)}</p></div>`).join('')}${entry.choice!==null?`<p class="log-choice">选择：${escape(nodes[entry.nodeId].choices[entry.choice].text)}</p>`:''}`).join(''));
   $('modal').scrollTop=$('modal').scrollHeight;
 }
 function showSettings() {
@@ -336,7 +336,7 @@ document.addEventListener('keydown',e=>{
   else if(/^[1-5]$/.test(e.key)&&!$('choices').hidden){e.preventDefault();const i=Number(e.key)-1;if(nodes[state.nodeId].choices[i])selectChoice(i);}
   else if(e.key.toLowerCase()==='a')$('auto-button').click();else if(e.key.toLowerCase()==='s')showSaves();else if(e.key.toLowerCase()==='l')showBacklog();else if(e.key.toLowerCase()==='h')setInterfaceHidden(!$('reader').classList.contains('ui-hidden'));
 });
-document.addEventListener('visibilitychange',()=>{if(document.hidden){transition.finish();stopModes();music.pause();persist();}else music.resume();});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){stopModes();music.pause();persist();}else music.resume();});
 window.addEventListener('pagehide',persist);
 
 const rainCanvas=$('rain'),ctx=rainCanvas.getContext('2d');let drops=[],lastFrame=0;
@@ -346,4 +346,6 @@ function drawRain(time){const dt=Math.min((time-lastFrame)/1000,.05);lastFrame=t
 if(!reducedMotion)requestAnimationFrame(drawRain);
 applySettings();updateMusicButton();titleScreen();
 if(!state&&read('jirai.current.v1',null))toast('剧本已重写为 1.1。旧存档保留在浏览器，可在存读档中导出；新剧情请重新开始。');
-fetch('/media.json').then(r=>r.ok?r.json():null).then(data=>{if(data){media={backgrounds:{},portraits:{},cgs:{},scenes:{},...data};renderVisuals();}}).catch(()=>{});
+// media.json 记录站点根绝对路径（/art/...），部署在 GitHub Pages 子路径时需转为相对路径
+const relativize=v=>Array.isArray(v)?v.map(relativize):v&&typeof v==='object'?Object.fromEntries(Object.entries(v).map(([k,val])=>[k,relativize(val)])):typeof v==='string'&&v.startsWith('/')?v.slice(1):v;
+fetch('media.json').then(r=>r.ok?r.json():null).then(data=>{if(data){media={backgrounds:{},portraits:{},cgs:{},scenes:{},...relativize(data)};renderVisuals();}}).catch(()=>{});

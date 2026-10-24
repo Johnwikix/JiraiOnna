@@ -1,9 +1,9 @@
 {
-  "name": "jirai-onna-unread-at-four",
+  "name": "jirai-onna-youre-awake",
   "version": "1.1.0",
   "private": true,
   "type": "module",
-  "description": "未读，凌晨四点 · 多路线恋爱悬疑视觉小说",
+  "description": "你明明醒着 · 多路线恋爱悬疑视觉小说",
   "engines": { "node": ">=22" },
   "scripts": {
     "start": "node server.js",

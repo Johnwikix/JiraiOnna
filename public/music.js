@@ -32,7 +32,7 @@ export class MusicPlayer {
     // Retire any earlier crossfade before starting another one.
     this.players.filter(p => p !== this.current).forEach(p => { p.audio.pause(); p.audio.removeAttribute('src'); p.audio.load(); });
     this.players = this.current ? [this.current] : [];
-    const audio = new Audio(`/audio/${tracks[key].file}`);
+    const audio = new Audio(`audio/${tracks[key].file}`);
     audio.loop = true; audio.volume = 0;
     const next = { key, audio }; const old = this.current;
     this.players.push(next); this.current = next;
