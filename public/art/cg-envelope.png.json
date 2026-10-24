@@ -1,0 +1,114 @@
+{
+  "id": "cg-envelope",
+  "kind": "cg",
+  "width": 1344,
+  "height": 768,
+  "model": "circlestone-labs/Anima / anima-turbo-v1.1.safetensors",
+  "prompt": "safe, original anime visual novel illustration, refined clean linework, soft cel shading, cinematic composition, restrained dusty plum and rose palette, detailed but coherent, atmospheric light, first person looking down at a pillow on a bed inside a small Japanese studio apartment at night, carefully arranged still life in the upper two thirds: pale pink envelope sealed with a small heart shaped sticker, two small photographic prints showing an adult woman with long black hair and black pink clothing, a tiny sealed clear glass bottle containing dark burgundy colored liquid, bottle cap securely closed, warm bedside lamp and cool violet window light, quietly unsettling intimate evidence, no human in room, no hands, lower quarter soft dark bed blanket for dialogue overlay, no readable writing, no gore, no violence",
+  "negative": "worst quality, low quality, blurry, jpeg artifacts, text, letters, watermark, logo, nude, naked, lingerie, sexual, child, school uniform, extra limbs, bad anatomy, cropped head",
+  "seed": 10230503,
+  "steps": 10,
+  "cfg": 1,
+  "workflow": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "anima-turbo-v1.1.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_06b_base.safetensors",
+        "type": "stable_diffusion",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "qwen_image_vae.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "safe, original anime visual novel illustration, refined clean linework, soft cel shading, cinematic composition, restrained dusty plum and rose palette, detailed but coherent, atmospheric light, first person looking down at a pillow on a bed inside a small Japanese studio apartment at night, carefully arranged still life in the upper two thirds: pale pink envelope sealed with a small heart shaped sticker, two small photographic prints showing an adult woman with long black hair and black pink clothing, a tiny sealed clear glass bottle containing dark burgundy colored liquid, bottle cap securely closed, warm bedside lamp and cool violet window light, quietly unsettling intimate evidence, no human in room, no hands, lower quarter soft dark bed blanket for dialogue overlay, no readable writing, no gore, no violence",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "worst quality, low quality, blurry, jpeg artifacts, text, letters, watermark, logo, nude, naked, lingerie, sexual, child, school uniform, extra limbs, bad anatomy, cropped head",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptySD3LatentImage",
+      "inputs": {
+        "width": 1344,
+        "height": 768,
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "seed": 10230503,
+        "steps": 10,
+        "cfg": 1,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "positive": [
+          "4",
+          0
+        ],
+        "negative": [
+          "5",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ],
+        "denoise": 1
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "7",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "jirai/cg-envelope"
+      }
+    }
+  },
+  "generatedAt": "2026-10-23T13:41:33.251Z"
+}

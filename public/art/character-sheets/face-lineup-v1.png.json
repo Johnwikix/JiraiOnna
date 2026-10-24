@@ -1,0 +1,46 @@
+{
+  "id": "face-lineup-v1",
+  "version": 1,
+  "kind": "face-language-comparison-study",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:51:29 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-0cded532-43cf-4b12-a0e7-32321f85f10f.png",
+  "prompt": "Use case: illustration-story / original character facial development study.\n\nCreate ONE wide LANDSCAPE FACE DESIGN COMPARISON BOARD for five ORIGINAL contemporary adult characters in one coherent refined TWO-DIMENSIONAL ANIME drawing language. This is a structural character-design exercise. Five equal columns, TWO rows, TEN head-and-upper-shoulder studies total. Large clear faces with generous separation on a plain neutral light gray background. Small clean column labels only: XU YAN 26 | RIN 24 | NANASE 25 | SHIORI 23 | WANQING 26.\n\nTOP ROW: all five look STRAIGHT FRONT with the same neutral resting expression, relaxed closed mouth, level head, same camera distance, eyes on the same horizontal line and IDENTICAL soft diffuse front-side illumination. Render the entire top row in GRAYSCALE. Simplify hair into restrained gray masses with sparse line detail; omit all hair bows, jewelry, accessories, makeup color and fashion cues, so structural facial differences remain visible. All wear the same plain medium-gray crewneck top. Expose enough of each forehead and brow area to compare eyebrow structure. No head tilts, seductive smiles, varied dramatic shadows or differing camera angles to fake differentiation.\n\nBOTTOM ROW: the SAME five clearly recognizable faces, one natural three-quarter head view each, in restrained slightly desaturated natural colors with the same simple gray tops and the same quiet light. Each has a character-specific small expression described below. Hair identity may be visible but must not do all the work. No accessories.\n\nOne coherent art direction: expressive hand-drawn 2D anime character-development illustration with deliberate organized line-weight variation, elegant colored edges in the bottom row, clear planar/soft layered 2D shadow shapes, selectively detailed irises, restrained texture, small believable skin variations and occasional asymmetry. Human individual features translated into anime design, not photorealism, not realistic thick lips or sculpted 3D noses. Noses are deliberately designed with DIFFERENT bridge lengths, line shapes and tips rather than the same universal tiny diamond dot. Do not give everyone the same huge eye shape, pointed V jaw, smooth pink-white skin, universal blush, glossy lips or generic commercial AI smile. Preserve attractiveness through individual character, not idealized identical beauty.\n\nColumn 1 XU YAN, 26-year-old Chinese MAN: distinctly longer somewhat angular face with a visible but modest squarer mandibular turn and an adult MALE lower face, not a female face with male hair. Narrower eyes with subtly downturned outer corners, straight fairly THICK eyebrows, a noticeably LONGER simple line-indicated nose bridge, thin upper lip, faint tired under-eye shading. Clean shaven, imperfect and weary rather than perfect domineering idol. Neck and shoulders naturally more substantial than the women's. Black slightly unkempt grown-out choppy hair loosely tied in a small LOW nape ponytail, not long feminine waves. Bottom expression: quietly tired, dry doubtful look, slight eyebrow tension, closed thin mouth; no romantic smile. Muted neutral-beige skin, dark brown eyes.\n\nColumn 2 RIN, 24-year-old Japanese WOMAN: a relatively SHORT MIDFACE, narrow HEART-shaped outline but a softly rounded, NOT cone-pointed chin. Narrow upward-tilting ALMOND eyes with a definite eye opening and clear lower-lid/tear-bag structure, fine decisively curved brows, a SHORT simple nose, small slightly TIGHT mouth whose corners press faintly downward at rest. The face itself must differ from the long-faced characters. Straight black hair with THICK precisely cut blunt bangs and straight jaw-level HIME cheek locks; low tied hair visible only unobtrusively, no bows in this face study. Bottom expression: a PRACTICED SWEET business smile over slightly tense lower lids and restrained impatience, not a languid romantic gaze. Purple contact lenses and neat pink/red-brown lower eye makeup appear only in the subdued-color bottom row, human and fashionable. Fair neutral skin without universal blush.\n\nColumn 3 NANASE, 25-year-old Japanese WOMAN: a visibly WIDER OVAL face with natural cheekbone breadth, a gently rounded jaw and a ROUNDISH nose tip. Medium-size almond-round eyes, thicker relatively STRAIGHT eyebrows, a wider natural mouth. A few tiny subtle light freckles close to the nose bridge, not an all-over cosmetic pattern. Warm chestnut SHOULDER-LENGTH SIDE-PART hair with slight bends, not the same long waves as other characters. Do not infantilize her. Bottom expression: an honest asymmetrical smile with ONE mouth corner rising first and a lively but adult look. Warm beige slightly sun-touched skin, amber eyes.\n\nColumn 4 SHIORI, 23-year-old Japanese WOMAN: a LONGER EGG-OVAL face, a narrow but NON-POINTED chin, relatively FINE NARROW eyes with slightly drooping outer corners, thin slightly LOW-SET brows, a small closed mouth with a subtle natural left-right asymmetry, faint under-eye tiredness. A slightly longer finer nose than Rin, kept delicate and 2D. Natural imperfections and fatigue while still attractive. Dark ash-brown STRAIGHT soft long hair, no glossy waves, with a gentle sparse fringe. Bottom expression: hesitant thoughtful reserve with the slightly asymmetric lip closure and uncertain soft eye tension, not a standard tiny sweet smile. Gray-green eyes, lightly ashy pale neutral skin, no imposed pink blush.\n\nColumn 5 WANQING, 26-year-old Chinese WOMAN: a more mature LONG OVAL face with a small recognizable jaw-angle change and a rounded adult chin, narrower HALF-HOODED eyes, subtly closer brow-eye spacing, fine long composed eyebrows. A clear but SOFT longer nose bridge and a slightly fuller LOWER lip represented with restrained 2D lines rather than realistic lip gloss. Adult neck and poised shoulders, not a blue-clothed copy of Rin. Dark brown hair arranged into a simple low BUN with disciplined loose face wisps. Bottom expression: dry understated humor, ONE eyebrow lightly raised and a restrained knowing nearly-smile, not flirtatious. Warm brown eyes and subdued warm neutral/olive-beige skin.\n\nCritical review goal: the five people should remain identifiable from face silhouette, eyebrow/eye structure, nose and mouth even if hair and clothing are mentally removed. Make those differences clearly visible at this board scale. Keep top row lighting and expressions uniform and grayscale. No body drawings, fantasy elements, jewelry, uniforms, logos, watermark, long explanations or additional panels. Produce only ONE comparison board.",
+  "references": [],
+  "referencePolicy": "Fresh original face development; no previously rejected face identities reused. Requested refined 2D anime structural language specified in prompt.",
+  "characters": [
+    {
+      "id": "xu-yan",
+      "age": 26
+    },
+    {
+      "id": "rin",
+      "age": 24
+    },
+    {
+      "id": "nana",
+      "age": 25
+    },
+    {
+      "id": "shiori",
+      "age": 23
+    },
+    {
+      "id": "qing",
+      "age": 26
+    }
+  ],
+  "reviewStatus": "pending-user-review",
+  "visualReview": "Uniform grayscale neutral frontal top row, subdued-color three-quarter expression bottom row checked. Xu Yan has a longer angular male lower face/thicker brows/narrower eyes; Nanase has broader cheeks/rounder nose/freckles; Wanqing has narrower half-hooded eyes/longer adult face. Rin and Shiori remain relatively close in upper-row eye/nose structure. Rendering drifted toward a more semi-realistic sketch style than the requested polished 2D anime; lower-row Rin hair also gathers into a low bun rather than clear twin sections. This is a diagnostic design study, not accepted final identity.",
+  "runtimeRegistered": false,
+  "pausedPendingReview": [
+    "nana-wardrobe-v1",
+    "shiori-wardrobe-v1",
+    "qing-wardrobe-v1",
+    "all related sheet/wardrobe regeneration"
+  ],
+  "width": 1774,
+  "height": 887,
+  "mode": "RGB"
+}

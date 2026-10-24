@@ -1,0 +1,114 @@
+{
+  "id": "cg-window",
+  "kind": "cg",
+  "width": 1536,
+  "height": 896,
+  "model": "circlestone-labs/Anima / anima-turbo-v1.1.safetensors",
+  "prompt": "original premium contemporary Chinese anime mobile RPG promotional illustration, finely finished 2D digital painting, refined painterly rendering, delicate thin colored edges, finely layered individual hair strands, translucent skin shading with soft dimensional gradients, intricate lace and satin with distinct cloth material, nuanced violet iris details, cinematic motivated lighting, atmospheric depth, rich controlled warm-cool color separation, elegant realistic adult proportions, grounded modern urban setting, Cinematic story CG, first-person viewpoint from inside an ordinary small Japanese apartment at four in the morning, looking through rain-covered window glass and several steel security bars. Outside the window very close stands ONE fully clothed adult woman age 24, mature young adult face, her face clearly visible in the upper center between the vertical bars, staring directly at the viewer. Very long jet-black hair with fine damp strands catching small silver-blue highlights, two low black satin ribbon bows tied near her shoulders, vivid violet colored contact lenses with intricate radial iris detail and tiny window reflections, careful full eye makeup, delicate pale skin with translucent warm-cool half-tones, a small sweet possessive smile held unnaturally still and tense unwavering eyes. She wears a modest high-neck pale ivory long-sleeved blouse, intricately rendered black lace collar and dusty pink silk neck ribbon. Distinct embroidered lace threads, soft blouse fabric and lustrous satin. Warm amber room light gently reaches one cheek through the glass while blue predawn rain light rims the opposite hair and face, nuanced dimensional shadows, tiny realistic water beads and streaks in foreground, blurred dark apartment buildings behind her, strong depth and selective focus. Psychological pressure through the intimate gaze and steel bars, grounded modern Tokyo scene. Lower quarter is a shadowed quiet windowsill for dialogue. Rich controlled colors, painted blended edges, no fantasy accessories, no weapons, no writing, no watermark, no blood.",
+  "negative": "low quality, blurry, jpeg artifacts, text, watermark, logo, nude, lingerie, child, school uniform, extra limbs, bad anatomy, cropped head, flat cel shading, thick black outlines, simple TV anime frame, low-detail hair, flat plastic skin, muddy gray colors, cheap game sprite, bland lighting",
+  "seed": 10230521,
+  "steps": 12,
+  "cfg": 1,
+  "workflow": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "anima-turbo-v1.1.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_06b_base.safetensors",
+        "type": "stable_diffusion",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "qwen_image_vae.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "original premium contemporary Chinese anime mobile RPG promotional illustration, finely finished 2D digital painting, refined painterly rendering, delicate thin colored edges, finely layered individual hair strands, translucent skin shading with soft dimensional gradients, intricate lace and satin with distinct cloth material, nuanced violet iris details, cinematic motivated lighting, atmospheric depth, rich controlled warm-cool color separation, elegant realistic adult proportions, grounded modern urban setting, Cinematic story CG, first-person viewpoint from inside an ordinary small Japanese apartment at four in the morning, looking through rain-covered window glass and several steel security bars. Outside the window very close stands ONE fully clothed adult woman age 24, mature young adult face, her face clearly visible in the upper center between the vertical bars, staring directly at the viewer. Very long jet-black hair with fine damp strands catching small silver-blue highlights, two low black satin ribbon bows tied near her shoulders, vivid violet colored contact lenses with intricate radial iris detail and tiny window reflections, careful full eye makeup, delicate pale skin with translucent warm-cool half-tones, a small sweet possessive smile held unnaturally still and tense unwavering eyes. She wears a modest high-neck pale ivory long-sleeved blouse, intricately rendered black lace collar and dusty pink silk neck ribbon. Distinct embroidered lace threads, soft blouse fabric and lustrous satin. Warm amber room light gently reaches one cheek through the glass while blue predawn rain light rims the opposite hair and face, nuanced dimensional shadows, tiny realistic water beads and streaks in foreground, blurred dark apartment buildings behind her, strong depth and selective focus. Psychological pressure through the intimate gaze and steel bars, grounded modern Tokyo scene. Lower quarter is a shadowed quiet windowsill for dialogue. Rich controlled colors, painted blended edges, no fantasy accessories, no weapons, no writing, no watermark, no blood.",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "low quality, blurry, jpeg artifacts, text, watermark, logo, nude, lingerie, child, school uniform, extra limbs, bad anatomy, cropped head, flat cel shading, thick black outlines, simple TV anime frame, low-detail hair, flat plastic skin, muddy gray colors, cheap game sprite, bland lighting",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptySD3LatentImage",
+      "inputs": {
+        "width": 1536,
+        "height": 896,
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "seed": 10230521,
+        "steps": 12,
+        "cfg": 1,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "positive": [
+          "4",
+          0
+        ],
+        "negative": [
+          "5",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ],
+        "denoise": 1
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "7",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "jirai/cg-window"
+      }
+    }
+  },
+  "generatedAt": "2026-10-23T13:54:52.577Z"
+}

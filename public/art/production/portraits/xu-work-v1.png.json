@@ -1,0 +1,37 @@
+{
+  "id": "xu-work-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Xu Yan, adult male age 26",
+  "outfit": "work",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:21:48 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-73a8c831-516e-4f8e-b2fe-47864c565833.png",
+  "prompt": "Use case: identity-preserve. Asset: ONE full-body transparent game character sprite, NOT a design board.\n\nReference image 1 is the APPROVED FACE AND PURE JAPANESE 2D ANIME STYLE for Xu Yan. It shows several head studies of ONE man; use that single identity for ONE full-body figure only. Preserve his distinctly adult male longer/angular lower face and jaw, narrow tired dark-brown eyes with subtle under-eye tones, straight thicker brows, restrained simple anime nose lines and thin mouth. Do not feminize him or replace him with a generic pretty idol. He is explicitly a 26-year-old adult Chinese man, tall and lean with natural adult male proportions, dark slightly grown-out messy hair tied in a small LOW nape ponytail, a few loose fringe strands.\n\nDraw only Xu Yan, full head down to the soles of BOTH shoes, front three-quarter natural standing pose. Quiet slightly tired neutral face, relaxed shoulders, one hand naturally resting near the apron tie and the other relaxed alongside his body with coherent fingers. Keep the complete head, hair, hands and shoes in frame. Tall portrait composition; character occupies about 90% of canvas height with only a small clean transparent margin, not huge empty padding.\n\nWORK outfit: washed old DEEP NAVY BLUE cotton work jacket with ordinary small collar, simple chest/side patch pockets, brass-colored small ordinary buttons and slightly faded seam/cuff edges; charcoal-black button-up shirt beneath; plain BLACK practical bib apron tied at waist and ending around the knees; dark gray full-length straight work trousers; comfortable worn charcoal sneakers with muted off-white sole edges. The open deep-blue work jacket remains clearly visible over/around the black apron. This exact ordinary jacket will later be borrowed by another character, so make its cut, pockets, seam color and faded deep blue visually clear and coherent. No brand or written labels. Fully clothed everyday warehouse/izakaya worker; natural slim proportions, no exaggerated muscles.\n\nMatch the reference's finished PURE JAPANESE 2D ANIME: precise fine organized line weight, clean cel shadow shapes with restrained soft transition edges, matte cloth folds, simple anime facial planes, controlled modest hair highlights, no semi-realistic nose/lips, no photographic skin, no pencil sketch. Neutral soft diffuse character light and accurate garment colors. TRUE TRANSPARENT RGBA background outside the silhouette, clean natural anti-aliased alpha at edges. No floor, backdrop, environment, text, labels, watermark, panels, extra character or accessories outside his outfit. Only one character sprite.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\xu-yan-face-study-v3.png",
+      "role": "Approved Xu Yan v3 face identity and pure Japanese 2D anime rendering; no triptych/panels copied."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 995,
+  "height": 1581,
+  "mode": "RGBA",
+  "bytes": 855205,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    33,
+    0,
+    951,
+    1581
+  ],
+  "transparentPixels": 1070998,
+  "partialAlphaPixels": 501330,
+  "visualReview": "Full head-to-shoes adult male sprite inspected: approved long/angular male face, low ponytail, coherent hands and both shoes; washed navy patch-pocket jacket, charcoal shirt, black apron and dark work trousers consistent. This jacket is the garment anchor for Rin's borrowed-jacket outfit.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

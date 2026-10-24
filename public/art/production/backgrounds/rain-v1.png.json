@@ -1,0 +1,13 @@
+{
+  "id": "rain",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-4c372893-5e44-4fd3-b283-90d9c4486655.png",
+  "savedAt": "2026-10-23T15:22:44.844Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty narrow contemporary Japanese residential lane after autumn rain at 4am, wet dark asphalt, low apartments with exposed pipes, utility poles, one distant white convenience-store glow, violet-blue night with restrained amber window reflections; ordinary lived-in Tokyo, believable perspective, no people anywhere. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant linework in architecture, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent empty 2D contemporary environment with clear foreground space; no major composition defect found.",
+  "runtimeReady": true
+}

@@ -1,0 +1,18 @@
+{
+  "name": "jirai-onna-unread-at-four",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "未读，凌晨四点 · 多路线恋爱悬疑视觉小说",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "story:check": "node scripts/check-story.js",
+    "story:export": "node scripts/export-story.js",
+    "source:inspect": "node scripts/inspect-source.js",
+    "music:generate": "node scripts/synth-music.js",
+    "art:plan": "node scripts/art-workflow.js"
+  }
+}

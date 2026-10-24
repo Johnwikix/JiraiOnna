@@ -1,0 +1,41 @@
+{
+  "id": "rin-casual-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Kurose Rin, adult female age 24",
+  "outfit": "casual",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:36:12 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-5fa73a9b-4acc-46c4-917c-5a2a6228dbfb.png",
+  "prompt": "Create ONE full-body transparent GAME SPRITE of the same original adult RIN, age 24. Reference 1 is her APPROVED pure Japanese 2D ANIME FACE identity: short midface, narrow heart-shaped face, thin tidy straight brows, upward-tilting almond eyes, clear violet contacts, pink/red-brown lower-eye shadow and tear-bag eyeliner, tiny simple anime nose mark, small thin tight mouth. Reference 2 is her FULL-BODY/Hair/Scale/POSE anchor. Preserve exactly the same natural adult proportions, head size, full-body framing and front-three-quarter relaxed standing orientation, same long jet-black straight hair, thick blunt fringe, jaw-level hime cheek locks and TWO LOW BLACK SATIN BOWS near shoulder height. Give her a small practiced sweet smile with slightly tense unchanged eye contact, not a horror face or tender aristocratic-princess expression. Adult natural balanced build, no exaggerated chest or tiny waist.\n\nReplace the work outfit COMPLETELY with modern OFF-DUTY BLACK/PINK JIRAI-KEI street fashion: roomy BLACK short knitted cardigan ending at hip level, a few dusty pink ribbon closures and subtle pink cuff-edge trim, over a modest pale pink high-neck top with a SMALL fine BLACK lace edge. BLACK is the dominant color, pink appears as deliberate high-contrast accents rather than a large pale princess blouse. Small BLACK SATIN RIBBON neck choker with one modest silver heart-shaped fastener. High-waisted BLACK pleated skirt with hem at knee level or only just above it, opaque BLACK KNEE-HIGH SOCKS and visibly chunky BLACK PLATFORM BUCKLE shoes, practical modern multi-strap design. Small ordinary BLACK chain-strap crossbody bag at the hip, no logos. Fine black/deep wine short polished nails. One hand rests lightly at the cardigan/bag-strap edge and the other relaxes at her side; natural coherent fingers. No work shirt/apron/trousers remain.\n\nOnly one fully clothed adult figure with complete head, both hands and BOTH full shoes visible, same body scale as reference 2. Tight tall portrait composition with a small clean transparent margin, keep hair and feet inside canvas. Match approved pure JAPANESE 2D anime linework/cel shadows, precise hair and fabric details, controlled light, no realistic nose/lips, no Western-comic face, no sketch hatching. Native TRUE TRANSPARENT RGBA outside the silhouette with clean anti-aliased alpha. No floor, environment, white backdrop, text, panels, extra faces, fantasy costume or watermark.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-face-study-v3.png",
+      "role": "Approved Rin v3 face identity and pure Japanese 2D anime expression language."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\rin-work-v1.png",
+      "role": "Rin work production sprite: same adult body scale, hair, natural front-three-quarter pose and rendering; outfit fully changed."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 887,
+  "height": 1774,
+  "mode": "RGBA",
+  "bytes": 1018138,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    0,
+    0,
+    873,
+    1761
+  ],
+  "transparentPixels": 1035968,
+  "partialAlphaPixels": 536583,
+  "visualReview": "Same approved Rin v3 face and work-sprite body/hair scale visually checked. Full head, coherent hands/short dark nails and both shoes visible. Black-dominant knit cardigan with pink bows, modest pink inner lace edge, heart ribbon choker, black pleated skirt/knee socks/platform buckle shoes and small chain bag present.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

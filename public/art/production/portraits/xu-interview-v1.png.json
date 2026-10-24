@@ -1,0 +1,41 @@
+{
+  "id": "xu-interview-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Xu Yan, adult male age 26",
+  "outfit": "interview",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:25:29 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-97805a3b-4b35-4f7e-85d5-58437314ce48.png",
+  "prompt": "Use case: identity-preserve. Draw ONE full-body transparent visual novel game sprite of the SAME XU YAN, a 26-year-old adult Chinese MAN.\n\nReference 1 is his approved FACE identity and pure JAPANESE 2D ANIME facial language: longer lightly angular adult male jaw, narrow tired dark brown eyes, straight thicker brows, slightly long simple anime nose line, thin upper lip, faint under-eye tired tones. Reference 2 is his already generated FULL-BODY SCALE / BODY SHAPE / HAIR / RENDERING anchor. Preserve that man's face, natural tall lean adult male build, small LOW nape ponytail of slightly messy black hair, and the same front three-quarter standing perspective. The clothing alone changes to the interview outfit. Do not copy any panel or extra heads from the face reference.\n\nINTERVIEW clothing: clean plain BLACK long-sleeved button-up shirt with a narrow dark tie, neat slightly narrow-cut charcoal jacket with restrained ordinary lapels, clean dark charcoal full-length straight trousers, simple clean black lace-up shoes. He is a young adult graduate-art-school applicant putting effort into appearing presentable, not an executive stereotype. Hair a little tidier but same length and small low ponytail. Quiet slightly awkward composed expression, mouth small and closed; one hand relaxes by his side, the other rests lightly near the lower jacket edge. Natural coherent fingers. No apron, no work jacket, no canvas bag needed, no jewelry or logos.\n\nMatch the exact pure 2D Japanese anime linework and clean restrained CEL SHADOW rendering of the references, simple drawn facial planes, matte fabrics and crisp controlled hair highlight groupings. No realistic nose wings, lip shine, Western comic face or pencil sketch. Neutral soft character illumination, garment colors accurate. Only one adult fully clothed man from complete head to both complete shoes. SAME BODY SCALE as full-body reference 2, tight portrait fit with a small transparent margin around the whole figure; keep hair and shoes safely inside canvas. TRUE transparent RGBA outside silhouette with clean natural alpha edges. No environment, floor or scenery, no text, labels, panels, props or watermark.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\xu-yan-face-study-v3.png",
+      "role": "Approved Xu Yan v3 face identity and pure Japanese 2D facial language."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\xu-work-v1.png",
+      "role": "Xu work production sprite: body scale, hair and rendering anchor; clothing changed to interview outfit."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 995,
+  "height": 1581,
+  "mode": "RGBA",
+  "bytes": 751594,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    145,
+    0,
+    859,
+    1581
+  ],
+  "transparentPixels": 1088759,
+  "partialAlphaPixels": 483183,
+  "visualReview": "Full head, hands and both black shoes visually checked; same approved male face, low ponytail, tall lean body scale and front-three-quarter pose as work sprite. Clean black shirt/thin dark tie/charcoal jacket and trousers present, work apron removed.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

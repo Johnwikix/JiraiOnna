@@ -1,0 +1,13 @@
+{
+  "id": "izakaya",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-64242cf5-5053-40dc-ab78-3d1165fe2531.png",
+  "savedAt": "2026-10-23T15:22:49.781Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty modest Japanese izakaya staff back area after dinner shift: narrow service counter, steel sink, worn wood partition, hanging black aprons and timetable with indistinct blank marks, a beer crate and clean stacked glasses. Warm amber practical ceiling lamps against muted plum shadows. Ordinary workplace with restrained mess, not glamorous. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant linework in architecture, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent empty 2D contemporary environment with clear foreground space; no major composition defect found.",
+  "runtimeReady": true
+}

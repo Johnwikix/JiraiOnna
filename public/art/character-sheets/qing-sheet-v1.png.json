@@ -1,0 +1,31 @@
+{
+  "id": "qing",
+  "version": 1,
+  "kind": "character-reference-sheet",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:34:27 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-0f406cbc-dd32-4e33-878e-636260436225.png",
+  "prompt": "Create a polished, production-style original CHARACTER DESIGN REFERENCE SHEET, one clearly adult human character consistently repeated in three body views and facial expression studies. Wide LANDSCAPE canvas with clean warm light gray-white background, broad margins and an airy precise editorial arrangement. Three complete FULL BODY turnaround views, FRONT, SIDE and BACK, occupying the left two thirds with feet aligned on the same ground line; four clean head-and-shoulder expression studies arranged in a 2x2 grid on the right. Add a small row of six flat palette swatches and two compact material/accessory detail studies in spare bottom space. Keep every body view and every head separated and fully inside frame. Small neat English FRONT / SIDE / BACK labels and short expression labels are optional; no decorative title or paragraphs.\n\nReference image 1 establishes the finished 2D rendering language: clean natural anime facial structure, thin precise colored contour lines, softly layered dimensional 2D shadows, transparent nuanced irises, graceful grouped hair with subordinate fine strands, readable detailed cloth folds, refined material variation. For this neutral reference sheet use gentle warm key illumination and soft pale lavender shadows, with restrained narrow warm rim accents adapted from that image's sunset; keep colors accurate and shadows readable in all three turnaround views. References 2, 3 and 4 are additional STYLE-ONLY references for confident clean shape design, airy articulated hair locks, orderly small folds and delicate fabric/pattern finish. Do not copy the identities, faces, hair colors, costume design or poses from references 2, 3 or 4. No horns, pointed ears, animal features, tails, maid costumes, headdresses, fantasy gowns, armor, magical props or unrelated jewelry. Preserve an elegant clearly TWO-DIMENSIONAL anime face with a small simply indicated nose and delicate mouth; no realistic sculpted nose, heavy lips or deep eye sockets. Natural balanced adult proportions, fully clothed ordinary contemporary outfit, no sexualized pose or emphasized body parts. All three body views MUST show the exact same outfit and consistent hair/accessory placement, color and length. Anatomically coherent hands and feet. Final output is only one reference sheet image; no watermark or logos. \nCharacter: LIN WANQING, explicitly a 26-year-old adult Chinese woman, an editor with a refined practical contemporary city style. A NEW original identity distinct from Rin, Nanase and Shiori: a poised slightly longer soft oval adult face with gently defined cheeks, softly straighter brows, clear WARM BROWN slightly elongated almond eyes, composed warm expression and a delicate natural mouth. Youthful mature adult anime face, not realistic middle-aged features. DARK BROWN hair parted slightly off center and gathered in a loose practical LOW BUN at the nape, with two light face-framing wisps; the bun must read consistently in front, PROFILE side and back. No bows or decorative hair accessories. All references, including Image 1, are STYLE ONLY for this new original person.\n\nOutfit identical in front/side/back: a clean SLATE BLUE ordinary long-sleeved button-up BLOUSE with a modest small collar, soft precise folds and closed cuffs, tucked neatly into CREAM high-waisted full-length straight tailored TROUSERS with a simple waistband and subtle front pleats, simple dark taupe FLAT shoes. Comfortable natural adult proportions, gracefully relaxed working wardrobe with no exaggerated chest or tiny waist. No fantasy details, no jewelry or accessories borrowed from the references. Neutral balanced standing pose with arms relaxed, entire shoes visible and all views aligned.\n\nFour distinct head studies: a gentle attentive warm expression; contained displeasure with lips pressed and a held breath, subtle brow tension rather than exaggerated anger; quietly tired eyes and neutral mouth; a relieved small sincere smile. Keep her brown eyes and low bun identity consistent. Detail studies: low-bun hair construction with discreet ordinary hidden pins, slate-blue blouse cuff/button placket and fine fabric weave. Six palette swatches: dark brown hair, warm brown irises, slate-blue blouse, cream trousers, dark taupe flats, warm skin. Show the same clean refined soft 2D rendering used across the other character sheets while retaining her distinct original face and modern trousers silhouette.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\gpt-rin-style-v2.png",
+      "role": "Finished 2D rendering, warm key and lavender shadows STYLE ONLY; original adult Wanqing identity"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "Clean linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "Clean linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "Clean linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    }
+  ],
+  "reviewStatus": "pending-user-review",
+  "visualReview": "Front/profile/back full bodies, four expressions, low-bun and blouse construction details and six color swatches checked. Original brown-eyed low-bun face, slate-blue long sleeves/cream trousers/flat shoes consistent; no fantasy design. Not registered for runtime.",
+  "runtimeRegistered": false
+}

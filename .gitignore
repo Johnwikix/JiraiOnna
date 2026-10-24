@@ -1,0 +1,7 @@
+node_modules/
+.impeccable/review/
+.local/
+*.log
+test-results/
+# 原始 QQ 聊天记录属私有素材，不得随仓库公开分发（见 README 素材与改编边界）
+Assets/

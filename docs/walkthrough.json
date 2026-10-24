@@ -1,0 +1,659 @@
+{
+  "note": "含剧透：每个结局的一条可行选择路径",
+  "paths": {
+    "night-death": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 1,
+        "text": "从护栏缺口穿过去，甩掉她"
+      }
+    ],
+    "captivity": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 1,
+        "text": "先让她进来，别把邻居都吵醒"
+      }
+    ],
+    "departure": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 0,
+        "text": "立刻辞职搬走，不再回这家店"
+      }
+    ],
+    "dawn": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 4,
+        "text": "把材料交出去，自己从这家店抽身"
+      }
+    ],
+    "rin-good": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 0,
+        "text": "见凛：她知道我住哪，我得弄清她还想做什么"
+      },
+      {
+        "node": "rin1",
+        "index": 0,
+        "text": "另买未开封的水，把手机收好，只问住址和信封"
+      },
+      {
+        "node": "rin2",
+        "index": 0,
+        "text": "保存这段对话，不发那句话，给七濑打电话核对"
+      },
+      {
+        "node": "rin4",
+        "index": 0,
+        "text": "不去她住处，把前后的记录一起交出，放弃这份工作"
+      }
+    ],
+    "rin-bad": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 0,
+        "text": "见凛：她知道我住哪，我得弄清她还想做什么"
+      },
+      {
+        "node": "rin1",
+        "index": 0,
+        "text": "另买未开封的水，把手机收好，只问住址和信封"
+      },
+      {
+        "node": "rin2",
+        "index": 0,
+        "text": "保存这段对话，不发那句话，给七濑打电话核对"
+      },
+      {
+        "node": "rin4",
+        "index": 1,
+        "text": "先跟她回去，亲眼看她把信毁掉"
+      }
+    ],
+    "nana-good": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 1,
+        "text": "找七濑：昨晚能作证的人只剩她"
+      },
+      {
+        "node": "nana1",
+        "index": 0,
+        "text": "请她把给地址的消息也导出，按时间写清楚"
+      },
+      {
+        "node": "nana3",
+        "index": 0,
+        "text": "把漏掉的几行补回去，等她确认后自己签名"
+      },
+      {
+        "node": "nana4",
+        "index": 0,
+        "text": "把两份记录并排放下，请七濑指出改动过的地方"
+      }
+    ],
+    "nana-bad": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 1,
+        "text": "找七濑：昨晚能作证的人只剩她"
+      },
+      {
+        "node": "nana1",
+        "index": 0,
+        "text": "请她把给地址的消息也导出，按时间写清楚"
+      },
+      {
+        "node": "nana3",
+        "index": 0,
+        "text": "把漏掉的几行补回去，等她确认后自己签名"
+      },
+      {
+        "node": "nana4",
+        "index": 1,
+        "text": "接过话头：“她刚才只是想圆场，别再问她了。”"
+      }
+    ],
+    "shiori-good": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 2,
+        "text": "去接栞：凛又在找她"
+      },
+      {
+        "node": "shiori1",
+        "index": 0,
+        "text": "先联系学校改约，算好车程，再告诉她确定的到达时间"
+      },
+      {
+        "node": "shiori3",
+        "index": 0,
+        "text": "把约定地址发给店长，和栞约在车站一起过去"
+      },
+      {
+        "node": "shioriOnTime",
+        "index": 0,
+        "text": "跟栞一起去前厅，让店长在场核对"
+      }
+    ],
+    "shiori-bad": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 2,
+        "text": "去接栞：凛又在找她"
+      },
+      {
+        "node": "shiori1",
+        "index": 0,
+        "text": "先联系学校改约，算好车程，再告诉她确定的到达时间"
+      },
+      {
+        "node": "shiori3",
+        "index": 0,
+        "text": "把约定地址发给店长，和栞约在车站一起过去"
+      },
+      {
+        "node": "shioriOnTime",
+        "index": 1,
+        "text": "让栞先进去拿照片，自己留在门外等"
+      }
+    ],
+    "qing-good": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 3,
+        "text": "回拨晚晴：先看那个陌生号码发了什么"
+      },
+      {
+        "node": "qing1",
+        "index": 0,
+        "text": "从第一次邀请开始共享屏幕，把整段往上翻给她看"
+      },
+      {
+        "node": "qing3",
+        "index": 0,
+        "text": "和她选定日期，把改班与住处的安排记进同一个日历"
+      },
+      {
+        "node": "qing4",
+        "index": 0,
+        "text": "发出整段记录，打开订票页，和她核对回去见面的时间"
+      }
+    ],
+    "qing-bad": [
+      {
+        "node": "workday",
+        "index": 0,
+        "text": "把钱放到柜台：“要买的自己给钱。”"
+      },
+      {
+        "node": "makeover",
+        "index": 0,
+        "text": "把领带抽回来，说自己有女友，只在外面聚餐"
+      },
+      {
+        "node": "dinner",
+        "index": 0,
+        "text": "把纸巾推过去：“她们胡说。吃完走走，你慢慢讲。”"
+      },
+      {
+        "node": "messages",
+        "index": 0,
+        "text": "解释回国失联，回复栞，也把凛跟踪的照片留存"
+      },
+      {
+        "node": "incident",
+        "index": 0,
+        "text": "叫来店长，拍下现场和栞的伤痕，要求保留当班记录"
+      },
+      {
+        "node": "peephole",
+        "index": 0,
+        "text": "等她退开喘气，推门冲出去"
+      },
+      {
+        "node": "chase",
+        "index": 0,
+        "text": "沿主路绕到有灯的便利店"
+      },
+      {
+        "node": "envelope",
+        "index": 1,
+        "text": "留下这晚的记录，回店处理没完的事"
+      },
+      {
+        "node": "morning",
+        "index": 3,
+        "text": "回拨晚晴：先看那个陌生号码发了什么"
+      },
+      {
+        "node": "qing1",
+        "index": 0,
+        "text": "从第一次邀请开始共享屏幕，把整段往上翻给她看"
+      },
+      {
+        "node": "qing3",
+        "index": 0,
+        "text": "和她选定日期，把改班与住处的安排记进同一个日历"
+      },
+      {
+        "node": "qing4",
+        "index": 1,
+        "text": "先挂断视频，告诉她等面试结束再解释"
+      }
+    ]
+  }
+}

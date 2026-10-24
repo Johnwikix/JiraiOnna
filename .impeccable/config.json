@@ -1,0 +1,19 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          ".local/vn-style.css",
+          "public/style.css"
+        ],
+        "createdAt": "2026-10-23T12:24:59.552Z",
+        "reason": "Agent verified: .next-button::after uses transparent top/bottom borders to draw the next-dialogue triangle; it has no rounded card or accent frame. Scope is limited to the production stylesheet and its local draft."
+      }
+    ]
+  }
+}

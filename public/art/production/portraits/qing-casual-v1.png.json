@@ -1,0 +1,29 @@
+{
+  "asset": "qing-casual-v1.png",
+  "character": "qing",
+  "age": 26,
+  "stage": "production",
+  "generationAuthorized": true,
+  "faceAnchorApprovedByUser": "supporting-face-study-v3.png",
+  "tool": "built-in image_gen",
+  "model": "not exposed by tool",
+  "generatedAtUTC": "2026-10-23 15:26:34 UTC",
+  "transparentBackground": true,
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-f1bc-79c0-a33b-783af69b6f6d\\exec-281a6e4f-283b-4bd5-b8be-9afae174c302.png",
+  "prompt": "Use case: identity-preserve. Create ONE new full-body standing character sprite for a Japanese 2D visual novel, changing only the outfit and the small pose/expression described. The supplied full-body portrait is the exact same adult woman: preserve her face, eye shape/color, hairstyle/color, body proportions, refined clean Japanese anime linework and cel-shaded rendering. One centered adult woman only, complete top of hair through BOTH shoes visible, no cropping, natural front three-quarter standing pose, tall portrait with modest margins. True TRANSPARENT alpha background, no backdrop, no ground shadow. Fine expressive ink, detailed tasteful cloth, simple tiny anime nose mark and mouth line, no realistic nose/lips/skin, no 3D or painterly portrait. Fully clothed, no fanservice. No text, labels, panels, extra figures. WANQING age26: preserve her deep brown neat low bun, brown narrow slightly hooded upturned anime eyes, long neat low brows, medium-long egg-shaped face and adult composed bearing. Change office outfit to a soft comfortable CREAM knit sweater with modest round neckline and loose long sleeves, comfortable muted charcoal-gray straight long trousers and simple beige flat slip-on shoes. No tucked blue blouse, no cream tailored trousers. Relaxed calm almost-smile, one hand loosely holding opposite wrist low in front, fingers natural. Contemporary ordinary home/day-off outfit; no accessories needed.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\qing-office-v1.png",
+      "role": "same-character identity, body proportions and clean Japanese 2D anime style; new specified outfit"
+    }
+  ],
+  "validation": {
+    "viewedAtWorkspacePath": true,
+    "footCropping": false,
+    "composition": "one complete head-to-shoe adult standing sprite, natural front three-quarter",
+    "style": "clean Japanese 2D anime, simplified nose and mouth",
+    "runtimeModified": false,
+    "alphaCheck": "included in supporting-production-report.json final independent PNG inspection",
+    "limitations": "Generated outfit illustration may contain small fold/finger variations."
+  }
+}

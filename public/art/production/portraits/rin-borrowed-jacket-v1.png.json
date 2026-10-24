@@ -1,0 +1,45 @@
+{
+  "id": "rin-borrowed-jacket-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Kurose Rin, adult female age 24",
+  "outfit": "borrowed-jacket",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:47:42 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-ba3fe87c-53df-4bee-a969-a3de7d6bd57f.png",
+  "prompt": "Draw ONE full-body true-transparent game sprite of ONLY RIN, an original adult woman age 24, wearing a borrowed jacket. There must be no man or second figure in the result.\n\nReference 1: APPROVED RIN FACE IDENTITY and pure Japanese 2D anime face style. Preserve the short midface/narrow heart face, fine straight brows, upturned anime almond eyes, violet contacts and pink/red-brown lower-eye/tear-bag makeup, tiny anime nose mark and small tight thin mouth. Her practiced small sweet smile keeps a trace of tense unwavering attention. Reference 2: RIN'S FULL-BODY identity, adult proportions, scale, natural front-three-quarter stance, LONG JET-BLACK STRAIGHT hair, thick blunt fringe, hime cheek locks and TWO LOW BLACK SATIN BOWS at shoulder height. Keep this exact woman, not a different face or body. Reference 3: GARMENT REFERENCE ONLY — borrow ONLY the man's faded deep NAVY BLUE WORK JACKET with its exact ordinary collar, patch-pocket shapes, bronze small buttons, light worn seam stitching, faded cuff/hem edges and cotton texture. Do NOT copy the male face, hair, apron, shirt, pants, shoes, body or pose from reference 3.\n\nOUTFIT: Start with Rin's CASUAL outfit from reference 2: modest pale pink high-neck inner top/small black lace edge, black/pink knit details, small silver-heart black ribbon neck choker, BLACK knee/just-above-knee pleated skirt, opaque BLACK KNEE-HIGH socks and chunky BLACK PLATFORM BUCKLE shoes, small black chain bag. OVER her own casual clothing, add the EXACT washed old DEEP NAVY BLUE WORK JACKET from reference 3, worn OPEN and slightly OVERSIZED on her smaller adult shoulders; sleeves extend naturally near her wrists, with neat folded cuffs allowing both hands to be visible. Same construction, same recognizable navy and pale seams/pockets/buttons as Xu Yan's work jacket. The borrowed blue outer jacket must be immediately identifiable as that same man's garment and clearly distinct from her black/pink fashion jacket. No male apron or work trousers on Rin.\n\nNatural adult balanced proportions, fully clothed, no exaggerated chest or tiny waist. One hand lightly holds the borrowed jacket edge near the waist, the other relaxed alongside with coherent short dark polished fingers. Same body scale/portrait format as reference 2, complete head and BOTH complete shoes inside frame, small clean transparent margin. Pure JAPANESE 2D fine linework, clean CEL shadows and orderly hair/cloth detail matching approved reference faces, no realism/sketch. Native TRUE TRANSPARENT RGBA outside silhouette, smooth alpha edges; no environment, floor, white background, text, labels, panels, logos or watermark. ONLY ONE RIN sprite.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-face-study-v3.png",
+      "role": "Approved Rin v3 face identity and pure Japanese 2D anime rendering."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\rin-casual-v1.png",
+      "role": "Rin casual production sprite: adult body/face/hair/scale/pose and own clothing anchor."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\xu-work-v1.png",
+      "role": "Xu work production sprite: GARMENT ONLY, same worn deep-navy work jacket colors/collar/bronze buttons/pale seams/cuffs/patch-pocket language; no male identity or apron transferred."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 887,
+  "height": 1774,
+  "mode": "RGBA",
+  "bytes": 1021016,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    65,
+    0,
+    792,
+    1774
+  ],
+  "transparentPixels": 1028589,
+  "partialAlphaPixels": 543963,
+  "visualReview": "Same Rin v3 face/casual body/hair/pose checked, head/hands/both platform shoes complete. Borrowed navy work jacket is recognizable by Xu's washed blue, bronze buttons, pale seams, ordinary collar and patch-pocket/cuff design; worn open oversized over her own pink inner/black skirt/knee socks/platform shoes. Pocket placement is stylized with the changed figure/pose rather than an exact garment-pattern reconstruction.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

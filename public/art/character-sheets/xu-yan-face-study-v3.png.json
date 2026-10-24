@@ -1,0 +1,23 @@
+{
+  "status": "review-only; not approved",
+  "character": "Xu Yan / 许砚",
+  "adultAge": 26,
+  "asset": "xu-yan-face-study-v3.png",
+  "useCase": "style-transfer",
+  "createdAtUTC": "2026-10-23 14:58:09 UTC",
+  "actualTool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "sourcePath": "C:/Users/90684/.codex/generated_images/01a16940-7136-73a3-9dcd-2fa061f8d809/exec-7572812d-490f-472c-9e72-1bedf041d852.png",
+  "prompt": "Use case: style-transfer.\nUse the supplied image ONLY as an exact reference for its polished, clean Japanese 2D anime drawing language: fine controlled dark outlines, attractive graphic anime eyes, very simplified noses and mouths, flat skin color plus restrained tidy cel-shadow shapes. Transform to an entirely different character and composition below. Do not copy the female reference's face, orange hair, hair ornament, dress, props or identity.\n\nCreate one wide three-panel shoulder-up face study of the SAME original Japanese-style adult male game character, Xu Yan, age 26, a warehouse/restaurant worker studying for entrance exams. Pure 2D anime character illustration, refined and appealing. White background, evenly lit, same gray plain crew-neck shirt in every panel, no text and no other elements.\nLeft panel: straight frontal neutral face, both eyebrows visible. Middle panel: gentle three-quarter turn, a small reluctant smile beginning at one mouth corner. Right panel: another three-quarter expression, quietly tired and watchful with a closed mouth. Three clear readable versions of one identity, same facial proportions.\n\nCharacter: black slightly messy layered hair with a small low short ponytail; longer slightly squared face, a soft flat male jaw rather than a pointed V chin; naturally sized JAPANESE ANIME eyes with flat upper lids and subtly lowered outer corners, dark brown irises, moderately thick straight eyebrows close to the eyes, slight eyebrow asymmetry and a faint single under-eye fatigue mark. Make him look like an ordinary attractive adult anime man, not an idol template and not a girl with short hair.\nEssential facial rendering: nose shown ONLY with one very short delicate stroke and a tiny flat shadow, no nostrils, no modeled nose bridge; mouth ONLY one thin elegant expressive line, no drawn lip outlines or volumetric lips; cheeks smooth flat anime colors, no sculpted cheekbones; neck one simple flat shadow patch with minimal linework. Express his gender through the face outline, eyebrows and eye shape within the reference's simplified 2D anime vocabulary.\nHair can have fine beautiful layered clumps and clean highlights; facial skin stays simple. Match the reference's line-and-shape anime simplification, not realism. No semi-realism, no realistic portrait anatomy rendering, no Western comic face, no 3D, no pores, no hatching, no muscle striations, no glossy painted lips. Preserve distinct individual face choices while staying strongly Japanese anime. No jewelry, no accessories, no logos or watermark.",
+  "references": [
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "Provided to referenced_image_paths. Style only: refined 2D anime linework, simplified nose and mouth, clean cel shapes. Female identity, orange hair, outfit and ornaments excluded."
+    }
+  ],
+  "review": {
+    "improvements": "Simplified Japanese 2D anime eyes/nose/mouth and flat neck/skin shadows. Consistent black low ponytail and plain gray shirt across frontal, reluctant smile and guarded views. No realistic nostrils, volumetric lips, crosshatching, fantasy props or female costume.",
+    "limitations": "Jaw remains softly tapered and the face is still relatively conventionally attractive; character distinction needs user comparison against the other characters. Nose shadow in the frontal view is longer than the requested tiny mark. Not claimed approved.",
+    "integration": "No runtime art mapping changed. v2 remains an unapproved historical study. No wardrobe or CG generated."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "model": "circlestone-labs/Anima / anima-turbo-v1.1.safetensors",
+  "steps": 10,
+  "cfg": 1,
+  "sampler": "euler",
+  "scheduler": "simple",
+  "negative": "worst quality, low quality, blurry, jpeg artifacts, text, letters, watermark, logo, nude, naked, lingerie, sexual, child, school uniform, extra limbs, bad anatomy, cropped head",
+  "style": "safe, original anime visual novel illustration, refined clean linework, soft cel shading, cinematic composition, restrained dusty plum and rose palette, detailed but coherent, atmospheric light",
+  "assets": [
+    {
+      "id": "rain",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230400,
+      "prompt": "no humans, empty narrow residential street in Tokyo at four in the morning, autumn rain, wet asphalt reflecting muted mauve lights, a small closed apartment window with curtains on the right, single warm vending machine in the far distance, quiet melancholy, wide establishing shot, no readable signs"
+    },
+    {
+      "id": "izakaya",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230401,
+      "prompt": "no humans, interior of a modest Japanese izakaya after a busy shift, wooden counter, neat ceramic cups, warm amber pendant lights, dark rain-streaked windows, shelves of bottles without labels, lived-in small restaurant, wide shot at eye level"
+    },
+    {
+      "id": "station",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230402,
+      "prompt": "no humans, quiet suburban Tokyo train platform at night, empty blue benches under a shelter, wet tracks and distant city lights, soft lavender reflections, wistful autumn atmosphere, perspective toward distant lamps, no readable station signs"
+    },
+    {
+      "id": "room",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230403,
+      "prompt": "no humans, small affordable Japanese studio apartment at night, low desk with closed sketchbook and art portfolio, unlit smartphone on desk, bed and navy curtains, warm desk lamp against cool violet window light, modest lived-in space, eye level wide shot"
+    },
+    {
+      "id": "door",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230404,
+      "prompt": "no humans, inside a small Tokyo apartment looking toward a closed front door, metal door with peephole and chain lock, narrow entryway with shoes, faint lavender rain light from a side window, subtle psychological suspense, quiet restrained composition, no horror creature, no blood"
+    },
+    {
+      "id": "konbini",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230405,
+      "prompt": "no humans, a quiet Japanese convenience store at dawn, broad glass windows with rain outside, bright soft white overhead lights, small seating counter with a single paper cup of water, shelves of ordinary groceries without text, refuge after a long night, wide shot"
+    },
+    {
+      "id": "dawn",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230416,
+      "prompt": "scenery, landscape, completely empty riverside promenade at sunrise, no humans anywhere, only river and wet pavement and steel railings, distant Tokyo railway bridge, pale lavender and peach sunrise sky, a peaceful unoccupied urban landscape after autumn rain, wide landscape establishing shot, environment art without any characters"
+    },
+    {
+      "id": "cafe",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230407,
+      "prompt": "no humans, peaceful small Japanese cafe in daylight, table for two beside a rain-streaked window, one ceramic tea cup and one empty place setting, dusty rose chairs and dark wood, gentle natural light, intimate ordinary atmosphere, eye level wide shot"
+    },
+    {
+      "id": "bookshop",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230408,
+      "prompt": "no humans, small independent Japanese bookshop in gentle afternoon light, neatly arranged books with blank spines, table of art books, potted green plant by tall window, quiet sage and rose color accents, warm wooden floor, wide establishing shot"
+    },
+    {
+      "id": "home",
+      "kind": "background",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230409,
+      "prompt": "no humans, cozy small modern Shanghai apartment at sunset, dining table set for two with steaming soup bowls, open balcony door and a potted green plant, warm dusty rose light, ordinary homecoming, eye level cinematic wide shot, no written text"
+    },
+    {
+      "id": "rin",
+      "kind": "portrait",
+      "width": 832,
+      "height": 1216,
+      "seed": 24011,
+      "prompt": "1woman, solo, adult woman age 24, mature young adult face and adult proportions, standing visual novel character sprite, head to below knees, centered with blank white margin around silhouette. Very long straight black hair in two LOW loose ponytails, each tied at shoulder height with a large black ribbon bow, both black bows clearly visible beside her shoulders. Vivid purple colored contact lenses, full eye makeup, sweet possessive smile and tense intense direct gaze. Fully clothed black and dusty pink jirai kei fashion: long sleeved high-neck ivory blouse with black lace collar and dusty pink neck ribbon, black pleated knee-length skirt, hands relaxed at sides. Plain pure white background, no props, isolated single adult character."
+    },
+    {
+      "id": "nana",
+      "kind": "portrait",
+      "width": 832,
+      "height": 1216,
+      "seed": 25002,
+      "prompt": "1woman, solo, adult woman age 25, mature young adult face and adult proportions, standing character sprite from head to below knees, shoulder-length warm chestnut brown hair, side part, amber eyes, mustard knit cardigan over modest white blouse, long navy midi skirt, fully clothed, one hand gently holding cardigan edge, thoughtful confident small smile, front three-quarter view, solid pure white background, no props, isolated character, centered"
+    },
+    {
+      "id": "shiori",
+      "kind": "portrait",
+      "width": 832,
+      "height": 1216,
+      "seed": 23003,
+      "prompt": "1woman, solo, adult woman age 23, mature young adult face and adult proportions, standing character sprite from head to below knees, long dark ash-brown hair with soft bangs, muted green eyes, sage green oversized cardigan over modest cream high-neck blouse, charcoal long skirt, fully clothed, shy thoughtful smile, hands clasped naturally in front, front three-quarter view, solid pure white background, no props, isolated character, centered"
+    },
+    {
+      "id": "qing",
+      "kind": "portrait",
+      "width": 832,
+      "height": 1216,
+      "seed": 26004,
+      "prompt": "1woman, solo, adult Chinese woman age 26, mature young adult face and adult proportions, standing character sprite from head to below knees, dark brown hair in a loose low bun, warm brown eyes, slate blue casual blouse with long sleeves, high-waisted cream long trousers, fully clothed, calm affectionate smile, one hand loosely raised in greeting, front three-quarter view, solid pure white background, no props, isolated character, centered"
+    },
+    {
+      "id": "cg-window",
+      "kind": "cg",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230501,
+      "prompt": "first person view from inside a small Japanese apartment at four in the morning, rain streaked window and steel security bars in foreground, outside the window a single adult woman age 24 looking directly into the room from very close, her face between the vertical security bars, long straight black hair with twin low black ribbon bows, vivid purple contact lenses, full eye makeup, a sweet possessive smile with tense unblinking eyes, high-neck ivory blouse with black lace collar and dusty pink neck ribbon, fully clothed black and dusty pink jirai kei fashion, cold lavender rain light and faint warm room light, psychological suspense, lower quarter is subdued dark windowsill for dialogue overlay, no text, no blood"
+    },
+    {
+      "id": "cg-chase",
+      "kind": "cg",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230512,
+      "prompt": "wide full body action shot, 1woman, solo, only one adult woman age 24 running on a deserted rain soaked Japanese alley at night, entire figure including black platform shoes visible at a distance of six meters, tilted first person camera looking backward while fleeing. Her long black hair and two low black ribbon bows trail behind her, vivid purple eyes fixed on viewer, sweet intense smile, fully clothed ivory long sleeved high-neck blouse with black lace collar and dusty pink neck ribbon, black and dusty pink pleated knee-length skirt. A small distant convenience store window glows white at the end of the empty alley, no other people anywhere. Dark wet asphalt fills lower third for dialogue. Psychological suspense, no weapons, no injury, no readable text."
+    },
+    {
+      "id": "cg-envelope",
+      "kind": "cg",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230513,
+      "prompt": "single coherent still life, overhead close up of a white pillow on a navy bed blanket inside a dim bedroom. ON THE PILLOW lie a pale pink envelope with a small heart shaped sealing sticker, two small photographic prints of an adult black haired woman in black and pink clothes, and one tiny sealed clear glass bottle of dark burgundy colored liquid with a closed silver cap. All three objects are resting directly on the pillow, nothing floating, bed fills the whole picture, no table and no split panel. Soft warm bedside light from outside the frame, a faint cool violet shadow. Upper two thirds contain objects, lower third shows dark navy blanket for dialogue. No person, no hands, no written letters, no text, no gore."
+    },
+    {
+      "id": "cg-dinner",
+      "kind": "cg",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230504,
+      "prompt": "first person seated at a modest Japanese beef rice bowl restaurant at night, across a small wooden table a single adult woman age 23 with mature young adult proportions, long dark ash brown hair with soft bangs, muted green eyes slightly moist with emotion, shy restrained tentative smile, wearing sage green oversized cardigan over a modest cream high-neck blouse, fully clothed, face uncovered, a plain white surgical mask resting beside her bowl after being taken off, two ordinary bowls of beef rice and cups of water, relaxed natural hands near the bowl, warm ordinary restaurant lights, tender quiet late supper, subject face in upper half and dark table in lower quarter for dialogue, no text, no sensuality"
+    },
+    {
+      "id": "cg-departure",
+      "kind": "cg",
+      "width": 1344,
+      "height": 768,
+      "seed": 10230515,
+      "prompt": "wide distant station view through a closed train door window from inside a departing train, the dark interior door panel frames a broad view of the opposite platform ACROSS TWO EMPTY RAILWAY TRACKS. On that far platform only one adult woman age 24 stands alone, a small full body figure entirely visible from black hair to black platform shoes, looking at the departing train. Very long black hair with two low black bows, violet eyes, fully clothed ivory long sleeved high-neck blouse with black lace collar and dusty pink neck ribbon, black and dusty pink knee-length skirt. The woman is far away and occupies less than one third of image height. Pale station lamps, rain and layered glass reflections, lonely psychological suspense. No one near the train door, no other people. Lower quarter is dark train door panel for dialogue. No readable text."
+    }
+  ]
+}

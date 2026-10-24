@@ -1,0 +1,24 @@
+{
+  "id": "gpt-rin-style-v2",
+  "kind": "fusion-style-preview",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed by tool",
+  "savedAt": "2026-10-23 14:17:43 UTC",
+  "width": 1024,
+  "height": 1536,
+  "mode": "RGB",
+  "transparentBackground": false,
+  "baseImage": "public/art/gpt-rin-style-v1.png",
+  "referenceRoles": {
+    "base": "v1 original adult Rin identity, outfit, pose and cafe sunset",
+    "styleOnly": [
+      "C:/Users/90684/AppData/Local/Temp/codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "C:/Users/90684/AppData/Local/Temp/codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "C:/Users/90684/AppData/Local/Temp/codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png"
+    ],
+    "styleBorrowed": "thin colored lines, clear 2D form/shadow layers, flowing grouped hair locks, precise cloth folds",
+    "excluded": "reference identities, faces, hair colors, costumes, horns, ears, tails, fantasy props"
+  },
+  "prompt": "Use case: style-transfer.\nAsset type: one refined original adult character illustration for a contemporary urban romance visual novel.\n\nImage 1 is the EDIT TARGET and identity / clothing / composition / cafe-lighting base. Preserve the same original woman, Rin, explicitly age 24, as a mature young adult. Preserve her jet-black waist-length hair, two LOW shoulder-level BLACK satin hair bows, clear violet eyes, delicate 2D anime facial structure, natural gentle closed-mouth smile, small head tilt, relaxed gaze, and the exact modern city cafe window setting with golden peach sunset and pale lavender interior shadows. Preserve her plain unmarked paper cup held naturally at waist level, anatomically coherent hands, and head-to-knees portrait composition.\n\nImages 2, 3 and 4 are STYLE-ONLY REFERENCES. Borrow ONLY their clean precise thin colored line drawing, clear confident shape design, softly layered 2D shadow transitions, graceful separation of large flowing hair locks with fine subsidiary strands, and precise but orderly folds and tiny cloth details. They are not identity, costume, color-palette or pose references. Do not transfer any of their faces, blue/white/orange hair, horns, pointed ears, animal features, tails, maid aprons, headdresses, fantasy gowns, symbols, jewelry, props or poses.\n\nRevision request: thoughtfully blend those clean character-illustration qualities into Image 1, while keeping its warm sunset story atmosphere. Give the hair a slightly more airy, flowing and clearly grouped silhouette with elegant layered locks; use carefully placed fine strands, controlled narrow highlights and soft black-purple color variation. Keep the fine black lace collar and satin neck ribbons well defined, with delicate visible openwork and precise edges. Make blouse and skirt fold lines more deliberate and readable with refined small secondary folds, avoiding noisy fragments and overly shiny surfaces. Use softly graded 2D shading with clear simple anime forms, small indicated nose and delicate mouth, preserving the beautiful luminous violet irises and calm sweet expression. No realistic sculpted nose, heavy lips or deep realistic eye sockets.\n\nKeep the outfit exactly grounded and fully covered: a modest pale pink-white HIGH-NECK LONG-SLEEVED blouse with fine black lace collar and small dusty pink neck ribbon, plus a high-waisted black pleated KNEE-LENGTH skirt. Refine her adult body to natural balanced proportions: a comfortably draping blouse with less pronounced chest projection and a less pinched waist than Image 1, no body-part emphasis, attractive through expression and clothing design. Maintain a relaxed natural posture.\n\nKeep the contemporary cafe, window frames, wooden counter, city buildings, softly blurred plants and golden evening rim lighting of Image 1. Preserve rich but gentle controlled colors and pale violet shadow layers. One original adult human woman only. No text, watermarks or logos. Produce only one edited image.",
+  "mediaRegistered": false
+}

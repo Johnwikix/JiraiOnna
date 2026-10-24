@@ -1,0 +1,23 @@
+{
+  "asset": "gyudon-v1.png",
+  "status": "production background; user authorized generation",
+  "createdAtUTC": "2026-10-23 15:37:03 UTC",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "prompt": "Use case: background-extraction / precise-object-edit.\nAsset: gyudon-v1, one EMPTY late-night Japanese beef-bowl restaurant environment background for the same visual novel.\nEdit the supplied restaurant CG into its matching completely unoccupied background plate. Preserve this exact small restaurant's warm hanging lamps, night window at left, wooden wall-side seating, chair/table perspective, other empty counter stools, soft distant meal-ticket machine, warm wood and amber lights with a blue late-night view outside.\nREMOVE the entire woman, every part of her body, face, hair, hands and clothing. Reconstruct the ordinary empty chair, wooden wall/paneling, table and restaurant aisle behind the removed person so the result is coherent and believable. Absolutely no people, silhouettes, faces in reflections, portraits, human-shaped shadows or leftover hair/hands.\nAlso REMOVE the white face mask and its napkin: this background is used BEFORE any mask reveal in the story, so no mask or personal character belongings. A plain inexpensive beef-and-rice bowl, water glass and ordinary chopsticks may remain on the far half of the table as quiet restaurant props; move/arrange them naturally without any hand holding them. No floating food or airborne chopsticks. No tension scene or character foreshadowing.\nMaintain the original refined PURE 2D Japanese anime-game background illustration style: clean intentional lines, controlled painted color shapes, detailed but illustrated wood/paper/ceramics, no photorealism, no 3D plastic render, no character art. Wide 16:9 composition. Keep the lower quarter a calm naturally dark mostly empty near tabletop for dialogue. The central upper part should be ordinary unobstructed restaurant environment suitable behind a separate character sprite. No text, readable menu, price, labels, logos, watermarks, subtitle or UI; distant ticket machine buttons are abstract colored lights only. Nontransparent complete background.",
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-7136-73a3-9dcd-2fa061f8d809\\exec-01d44469-6031-41b1-9e22-067525c46e59.png",
+  "output": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\backgrounds\\gyudon-v1.png",
+  "transparentBackground": false,
+  "actualOutput": { "width": 1672, "height": 941, "pngColorType": 2, "mode": "RGB" },
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\cgs\\cg-dinner-v1.png",
+      "purpose": "Exact existing CG restaurant environment, perspective and lighting anchor. All character identity/body parts and face mask removed; no premature face reveal."
+    }
+  ],
+  "review": {
+    "composition": "Matching empty late-night beef-bowl shop with warm lamps, night window, wood seats/tables, distant ticket machine and ordinary bowl/glass/chopsticks.",
+    "checks": "No people, faces, character hair/hands, face mask, readable branding or UI. Near table area calm behind dialogue.",
+    "integration": "Only background image and sidecar created; no browser activity, story/runtime mapping or other background changes."
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-23T16:17:06.880Z",
+  "title": "Design System: 未读，凌晨四点",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "炭黑",
+        "tonalRamp": [
+          "oklch(15% 0.0121 277.78)",
+          "oklch(26.4% 0.0121 277.78)",
+          "oklch(37.9% 0.0121 277.78)",
+          "oklch(49.3% 0.0121 277.78)",
+          "oklch(60.7% 0.0121 277.78)",
+          "oklch(72.1% 0.0121 277.78)",
+          "oklch(83.6% 0.0121 277.78)",
+          "oklch(95% 0.0121 277.78)"
+        ]
+      },
+      "plum": {
+        "role": "neutral",
+        "displayName": "深梅紫",
+        "tonalRamp": [
+          "oklch(15% 0.0171 295.32)",
+          "oklch(26.4% 0.0171 295.32)",
+          "oklch(37.9% 0.0171 295.32)",
+          "oklch(49.3% 0.0171 295.32)",
+          "oklch(60.7% 0.0171 295.32)",
+          "oklch(72.1% 0.0171 295.32)",
+          "oklch(83.6% 0.0171 295.32)",
+          "oklch(95% 0.0171 295.32)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "浮层梅紫",
+        "tonalRamp": [
+          "oklch(15% 0.0168 300.54)",
+          "oklch(26.4% 0.0168 300.54)",
+          "oklch(37.9% 0.0168 300.54)",
+          "oklch(49.3% 0.0168 300.54)",
+          "oklch(60.7% 0.0168 300.54)",
+          "oklch(72.1% 0.0168 300.54)",
+          "oklch(83.6% 0.0168 300.54)",
+          "oklch(95% 0.0168 300.54)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "纸白",
+        "tonalRamp": [
+          "oklch(15% 0.0051 325.62)",
+          "oklch(26.4% 0.0051 325.62)",
+          "oklch(37.9% 0.0051 325.62)",
+          "oklch(49.3% 0.0051 325.62)",
+          "oklch(60.7% 0.0051 325.62)",
+          "oklch(72.1% 0.0051 325.62)",
+          "oklch(83.6% 0.0051 325.62)",
+          "oklch(95% 0.0051 325.62)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "雾紫",
+        "tonalRamp": [
+          "oklch(15% 0.0184 311.54)",
+          "oklch(26.4% 0.0184 311.54)",
+          "oklch(37.9% 0.0184 311.54)",
+          "oklch(49.3% 0.0184 311.54)",
+          "oklch(60.7% 0.0184 311.54)",
+          "oklch(72.1% 0.0184 311.54)",
+          "oklch(83.6% 0.0184 311.54)",
+          "oklch(95% 0.0184 311.54)"
+        ]
+      },
+      "pink": {
+        "role": "primary",
+        "displayName": "淡樱粉",
+        "tonalRamp": [
+          "oklch(15% 0.0779 354.70)",
+          "oklch(26.4% 0.0779 354.70)",
+          "oklch(37.9% 0.0779 354.70)",
+          "oklch(49.3% 0.0779 354.70)",
+          "oklch(60.7% 0.0779 354.70)",
+          "oklch(72.1% 0.0779 354.70)",
+          "oklch(83.6% 0.0779 354.70)",
+          "oklch(95% 0.0779 354.70)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "紫灰细线",
+        "tonalRamp": [
+          "oklch(15% 0.0242 307.86)",
+          "oklch(26.4% 0.0242 307.86)",
+          "oklch(37.9% 0.0242 307.86)",
+          "oklch(49.3% 0.0242 307.86)",
+          "oklch(60.7% 0.0242 307.86)",
+          "oklch(72.1% 0.0242 307.86)",
+          "oklch(83.6% 0.0242 307.86)",
+          "oklch(95% 0.0242 307.86)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "鼠尾草",
+        "tonalRamp": [
+          "oklch(15% 0.0231 160.12)",
+          "oklch(26.4% 0.0231 160.12)",
+          "oklch(37.9% 0.0231 160.12)",
+          "oklch(49.3% 0.0231 160.12)",
+          "oklch(60.7% 0.0231 160.12)",
+          "oklch(72.1% 0.0231 160.12)",
+          "oklch(83.6% 0.0231 160.12)",
+          "oklch(95% 0.0231 160.12)"
+        ]
+      },
+      "blue": {
+        "role": "secondary",
+        "displayName": "远信浅蓝",
+        "tonalRamp": [
+          "oklch(15% 0.0586 268.96)",
+          "oklch(26.4% 0.0586 268.96)",
+          "oklch(37.9% 0.0586 268.96)",
+          "oklch(49.3% 0.0586 268.96)",
+          "oklch(60.7% 0.0586 268.96)",
+          "oklch(72.1% 0.0586 268.96)",
+          "oklch(83.6% 0.0586 268.96)",
+          "oklch(95% 0.0586 268.96)"
+        ]
+      },
+      "gold": {
+        "role": "secondary",
+        "displayName": "信纸金",
+        "tonalRamp": [
+          "oklch(15% 0.0661 72.76)",
+          "oklch(26.4% 0.0661 72.76)",
+          "oklch(37.9% 0.0661 72.76)",
+          "oklch(49.3% 0.0661 72.76)",
+          "oklch(60.7% 0.0661 72.76)",
+          "oklch(72.1% 0.0661 72.76)",
+          "oklch(83.6% 0.0661 72.76)",
+          "oklch(95% 0.0661 72.76)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "书名",
+        "purpose": "标题态左侧大书名。"
+      },
+      "headline": {
+        "displayName": "章节",
+        "purpose": "HUD 下方的低对比场景名。"
+      },
+      "title": {
+        "displayName": "窗口标题",
+        "purpose": "暂停与设置弹窗。"
+      },
+      "body": {
+        "displayName": "界面文字",
+        "purpose": "中文黑体说明与操作。"
+      },
+      "dialogue": {
+        "displayName": "对白",
+        "purpose": "尊重玩家字号设置的底部正文。"
+      },
+      "label": {
+        "displayName": "辅助标记",
+        "purpose": "时间、状态、序号与说明。"
+      }
+    },
+    "shadows": [
+      {
+        "name": "dialogue-text",
+        "value": "0 2px 5px #08090b",
+        "purpose": "渐变对白上的文字阴影；对白自身无盒阴影。"
+      },
+      {
+        "name": "modal",
+        "value": "0 22px 80px #08090b80",
+        "purpose": "原生暂停、设置与存档窗口。"
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 30px #08090b4d",
+        "purpose": "浅色即时反馈。"
+      },
+      {
+        "name": "portrait",
+        "value": "drop-shadow(5px 10px 20px #11111840)",
+        "purpose": "透明立绘与背景的轻微分层；CG 时隐藏重复立绘。"
+      },
+      {
+        "name": "phone-photo",
+        "value": "8px 14px 35px #08090b80",
+        "purpose": "特定手机照片的纸边画中画，不能误作现场人物。"
+      }
+    ],
+    "motion": [
+      {
+        "name": "icon-button",
+        "value": "background .18s,color .18s",
+        "purpose": "轻 HUD 的局部反馈。"
+      },
+      {
+        "name": "title-navigation",
+        "value": "color .2s,transform .2s",
+        "purpose": "菜单项悬停与当前态向右平移 6px。"
+      },
+      {
+        "name": "title-navigation-icon",
+        "value": "opacity .2s",
+        "purpose": "显示对应菜单的粉色图标。"
+      },
+      {
+        "name": "story-choice",
+        "value": "background .2s,border-color .2s",
+        "purpose": "中央长条的选择反馈。"
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition:none!important;animation:none!important;scroll-behavior:auto!important",
+        "purpose": "遵守系统偏好并隐藏雨幕。"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1700px"
+      },
+      {
+        "name": "compact-max",
+        "value": "1000px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "650px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "350px"
+      },
+      {
+        "name": "short-landscape",
+        "value": "(max-height:560px) and (min-width:651px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "主按钮",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "结局回到分歧和确认操作的纸白主按钮。",
+      "html": "<button class=\"ds-primary\">回到分歧</button>",
+      "css": ".ds-primary{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;background:var(--paper,#f0edf0);color:var(--ink,#14151b);border:0;border-radius:2px;font-size:13px}.ds-primary:hover{background:var(--pink,#dda0b7)}.ds-primary:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-primary:disabled{cursor:default;opacity:.35}"
+    },
+    {
+      "name": "次级按钮",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "取消、返回标题及导入导出操作。",
+      "html": "<button class=\"ds-secondary\">返回标题</button>",
+      "css": ".ds-secondary{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;min-height:48px;background:#25232be6;color:var(--paper,#f0edf0);border:1px solid var(--line,#57505e);border-radius:2px;padding:12px 22px;font-size:13px}.ds-secondary:hover{border-color:var(--pink,#dda0b7)}.ds-secondary:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-secondary:disabled{cursor:default;opacity:.35}"
+    },
+    {
+      "name": "紧凑按钮",
+      "kind": "button",
+      "refersTo": "button-small",
+      "description": "存档格和配乐试听中的局部动作。",
+      "html": "<button class=\"ds-small\">保存</button>",
+      "css": ".ds-small{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;background:var(--surface,#2b2831);border:1px solid var(--line,#57505e);color:var(--paper,#f0edf0);padding:7px 14px;border-radius:2px;min-height:38px;font-size:12px}.ds-small:hover{border-color:var(--pink,#dda0b7)}.ds-small:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-small:disabled{cursor:default;opacity:.35}"
+    },
+    {
+      "name": "HUD 图标按钮",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "菜单、设置、回看与隐藏等顶部操作。",
+      "html": "<button class=\"ds-icon\" aria-label=\"阅读设置\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 7h16M4 17h16\"/><circle cx=\"9\" cy=\"7\" r=\"3\"/><circle cx=\"16\" cy=\"17\" r=\"3\"/></svg></button>",
+      "css": ".ds-icon{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;width:44px;height:44px;display:inline-flex;align-items:center;justify-content:center;border:0;background:transparent;color:var(--paper,#f0edf0);border-radius:2px;transition:background .18s,color .18s}.ds-icon:hover{background:#efdfed12;color:var(--pink,#dda0b7)}.ds-icon svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.ds-icon:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-icon:disabled{cursor:default;opacity:.35}@media(prefers-reduced-motion:reduce){.ds-icon{transition:none}}"
+    },
+    {
+      "name": "标题菜单",
+      "kind": "nav",
+      "refersTo": "title-navigation",
+      "description": "标题右侧悬浮文字菜单；手机改为双列。",
+      "html": "<nav class=\"ds-title-nav\" aria-label=\"游戏菜单\"><button class=\"ds-nav ds-active\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m8 5 11 7-11 7z\"/></svg>继续阅读</button><button class=\"ds-nav\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 3h13l4 4v14H3V3zM7 3v6h10V3M7 21v-8h10v8\"/></svg>存档与读档</button></nav>",
+      "css": ".ds-title-nav{display:flex;flex-direction:column;gap:7px}.ds-nav{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;min-height:52px;display:flex;align-items:center;gap:18px;padding:10px 5px;background:none;border:0;text-align:left;font-size:17px;letter-spacing:.1em;color:var(--muted,#bdb6c2);transition:color .2s,transform .2s}.ds-nav svg{width:18px;height:18px;color:var(--pink,#dda0b7);opacity:0;transition:opacity .2s;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}.ds-nav:hover:not(:disabled),.ds-nav.ds-active{color:var(--paper,#f0edf0);transform:translateX(6px)}.ds-nav:hover svg,.ds-nav.ds-active svg{opacity:1}.ds-nav:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-nav:disabled{cursor:default;opacity:.35}@media(max-width:1000px){.ds-nav{font-size:15px}}@media(max-width:650px){.ds-title-nav{display:grid;grid-template-columns:1fr 1fr;gap:5px 18px}.ds-nav{font-size:14px;min-height:46px;gap:8px;padding:6px 0;letter-spacing:.04em}.ds-nav svg{opacity:.6;width:15px;height:15px}}@media(prefers-reduced-motion:reduce){.ds-nav,.ds-nav svg{transition:none}}"
+    },
+    {
+      "name": "HUD 文字开关",
+      "kind": "button",
+      "refersTo": "hud-toggle",
+      "description": "右上自动与跳过已读开关，保留文字和 aria-pressed。",
+      "html": "<button class=\"ds-hud-toggle\" aria-pressed=\"true\">自动 <span>ON</span></button><button class=\"ds-hud-toggle\" aria-pressed=\"false\">跳过已读</button>",
+      "css": ".ds-hud-toggle{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;min-height:44px;padding:8px 12px;color:var(--paper,#f0edf0);border:0;background:none;font-size:15px;letter-spacing:.07em}.ds-hud-toggle:hover,.ds-hud-toggle[aria-pressed=\"true\"]{color:var(--pink,#dda0b7)}.ds-hud-toggle span{font-size:12px;margin-left:7px;color:var(--muted,#bdb6c2)}.ds-hud-toggle:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-hud-toggle:disabled{cursor:default;opacity:.35}@media(max-width:650px){.ds-hud-toggle{font-size:12px;letter-spacing:0;min-height:40px;padding:8px}.ds-hud-toggle span{font-size:11px;margin-left:3px}}"
+    },
+    {
+      "name": "行动长条",
+      "kind": "button",
+      "refersTo": "story-choice",
+      "description": "中央纵向堆叠的行动长条。短横屏选项组最大高度为 calc(100svh - 260px)，独立滚动；溢出时以 11px/20px 提示总选项数及向下或向上滚动。未溢出及 H 隐藏界面时不显示提示。",
+      "html": "<div class=\"ds-choices\"><button class=\"ds-choice\"><span class=\"ds-choice-index\">01</span>先回那条消息<small>确认彼此的时间。</small></button></div><div class=\"ds-choices-scroll-hint\" hidden>共 1 个选项 · 向下滚动</div>",
+      "css": ".ds-choices{max-height:calc(100svh - 340px);overflow:auto;display:flex;flex-direction:column;gap:14px;padding:7px}.ds-choices-scroll-hint{font-size:11px;line-height:20px}.ds-choices-scroll-hint[hidden]{display:none}@media(max-width:650px){.ds-choices{max-height:calc(100svh - 345px);gap:10px;padding:6px}}@media(max-height:560px) and (min-width:651px){.ds-choices{max-height:calc(100svh - 260px);gap:8px}}.ds-choice{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;position:relative;min-height:60px;padding:16px 42px;flex-shrink:0;background:#19191fe8;color:var(--paper,#f0edf0);border:1px solid #b3a8b3;border-radius:0;text-align:center;font-size:17px;line-height:1.65;letter-spacing:.025em;transition:background .2s,border-color .2s}.ds-choice::before{content:\"\";position:absolute;left:-1px;top:21px;width:16px;height:1px;background:var(--pink,#dda0b7)}.ds-choice::after{content:\"\";position:absolute;right:15px;bottom:-1px;width:30px;height:1px;background:var(--paper,#f0edf0)}.ds-choice:hover{background:#41313edb;border-color:var(--pink,#dda0b7)}.ds-choice-index{position:absolute;left:20px;top:19px;color:var(--muted,#bdb6c2);font-size:11px;font-variant-numeric:tabular-nums}.ds-choice small{display:block;margin-top:4px;font-size:11px;color:var(--muted,#bdb6c2)}.ds-choice:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-choice:disabled{cursor:default;opacity:.35}@media(min-width:1700px){.ds-choice{min-height:68px;font-size:19px}}@media(max-width:650px){.ds-choice{min-height:53px;font-size:13px;padding:13px 28px 13px 33px;line-height:1.6}.ds-choice-index{left:11px;top:15px}.ds-choice::before{width:7px}}@media(max-height:560px) and (min-width:651px){.ds-choice{min-height:42px;font-size:13px;padding:9px 32px}.ds-choice-index{top:11px}.ds-choice small{display:none}}@media(prefers-reduced-motion:reduce){.ds-choice{transition:none}}"
+    },
+    {
+      "name": "底部渐变对白",
+      "kind": "custom",
+      "refersTo": "dialogue-region",
+      "description": "没有卡片边框、由底部渐变承载的正文区域。",
+      "html": "<section class=\"ds-dialogue\"><div class=\"ds-dialogue-top\"><span class=\"ds-speaker\">旁白</span><span class=\"ds-line-number\">01 / 07</span></div><p class=\"ds-dialogue-text\">雨还没有停。</p><div class=\"ds-dialogue-bottom\"><span>未读</span><button class=\"ds-next\">继续</button></div></section>",
+      "css": ".ds-dialogue{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);color:var(--paper,#f0edf0);position:relative;min-height:220px;padding:47px 8vw 58px;display:grid;grid-template-columns:115px minmax(0,1fr);column-gap:28px;background:linear-gradient(0deg,#08090bf5 0%,#0a0b0fed 50%,#0a0b0fa3 78%,#0a0b0f00 100%);border:0;border-radius:0}.ds-dialogue-top{grid-column:1;grid-row:1;display:flex;flex-direction:column;align-items:flex-end;gap:14px;padding-top:3px}.ds-speaker{font-size:20px;font-weight:500;letter-spacing:.05em;white-space:nowrap}.ds-line-number{font-size:11px;color:var(--muted,#bdb6c2);font-variant-numeric:tabular-nums;letter-spacing:.05em}.ds-dialogue-text{grid-column:2;grid-row:1;font-size:var(--reader-size,20px);line-height:1.9;letter-spacing:.035em;max-width:64ch;min-height:72px;margin:0;overflow-wrap:anywhere;text-shadow:0 2px 5px #08090b}.ds-dialogue-bottom{grid-column:2;display:flex;justify-content:space-between;align-items:center;gap:20px;color:var(--muted,#bdb6c2);font-size:11px;margin-top:13px}.ds-next{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;background:transparent;color:var(--paper,#f0edf0);border:0;font-size:12px;min-height:36px;display:flex;align-items:center;gap:14px;padding:5px 8px}.ds-next::after{content:\"\";display:inline-block;border-top:4px solid transparent;border-bottom:4px solid transparent;border-left:6px solid var(--pink,#dda0b7)}.ds-next:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}@media(min-width:1700px){.ds-dialogue{padding:55px 12vw 65px;min-height:245px}.ds-dialogue-text{font-size:var(--reader-size,23px)}}@media(max-width:1000px){.ds-dialogue{padding-left:5vw;padding-right:5vw;grid-template-columns:94px minmax(0,1fr);column-gap:20px}.ds-speaker{font-size:17px}.ds-dialogue-text{font-size:var(--reader-size,19px)}}@media(max-width:650px){.ds-dialogue{display:block;min-height:220px;padding:38px 25px 61px}.ds-dialogue-top{flex-direction:row;justify-content:space-between;align-items:center;padding:0;margin-bottom:13px}.ds-dialogue-text{font-size:var(--reader-size,18px);line-height:1.85;min-height:68px}.ds-dialogue-bottom{margin-top:9px}.ds-next{font-size:11px}}@media(max-height:560px) and (min-width:651px){.ds-dialogue{padding:26px 7vw 48px;min-height:135px;grid-template-columns:75px minmax(0,1fr)}.ds-dialogue-text{font-size:min(var(--reader-size,18px),4.3vh);line-height:1.65;min-height:0}.ds-speaker{font-size:16px}.ds-dialogue-bottom{margin-top:3px}}"
+    },
+    {
+      "name": "分支检查点",
+      "kind": "chip",
+      "refersTo": "checkpoint-chip",
+      "description": "已读、当前和未读节点的重读状态。",
+      "html": "<div class=\"ds-route-nodes\"><button class=\"ds-route-node ds-current\">凌晨敲窗</button><button class=\"ds-route-node\" disabled>未读片段 2</button></div>",
+      "css": ".ds-route-nodes{display:flex;gap:8px;flex-wrap:wrap}.ds-route-node{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);cursor:pointer;touch-action:manipulation;font-size:12px;min-height:40px;padding:8px 13px;background:var(--plum,#222029);color:var(--paper,#f0edf0);border:1px solid var(--line,#57505e);border-radius:2px}.ds-route-node:hover,.ds-route-node.ds-current{color:var(--pink,#dda0b7);border-color:var(--pink,#dda0b7)}.ds-route-node:disabled{border-style:dashed}.ds-route-node:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}.ds-route-node:disabled{cursor:default;opacity:.35}"
+    },
+    {
+      "name": "设置滑块",
+      "kind": "input",
+      "refersTo": "settings-range",
+      "description": "关联标签与数值的原生阅读设置。",
+      "html": "<div class=\"ds-setting-row\"><label for=\"ds-font-size\">对白字号</label><input class=\"ds-range\" id=\"ds-font-size\" type=\"range\" min=\"14\" max=\"24\" step=\"1\" value=\"20\"><output for=\"ds-font-size\">20px</output></div>",
+      "css": ".ds-setting-row{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);color:var(--paper,#f0edf0);display:flex;justify-content:space-between;align-items:center;gap:24px;padding:18px 0;border-bottom:1px solid var(--line,#57505e)}.ds-setting-row label{flex:1}.ds-range{font:inherit;accent-color:var(--pink,#dda0b7);caret-color:var(--pink,#dda0b7);width:170px;max-width:45%;touch-action:manipulation}.ds-range:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}@media(max-width:650px){.ds-setting-row{gap:12px}.ds-setting-row label{font-size:13px}.ds-range{width:120px}}"
+    },
+    {
+      "name": "美术浏览导航",
+      "kind": "nav",
+      "refersTo": "art-navigation",
+      "description": "人物衣装与场景回忆共用的文字导航，原有暗色弹窗、字体和粉色当前态，保留 aria-pressed。",
+      "html": "<nav class=\"ds-art-nav\" aria-label=\"人物与画廊\"><button class=\"ds-art-tab\" aria-pressed=\"true\">人物衣装</button><button class=\"ds-art-tab\" aria-pressed=\"false\">场景回忆</button></nav>",
+      "css": ".ds-art-nav{display:flex;gap:24px;border-bottom:1px solid var(--line,#57505e);padding-bottom:10px;margin-bottom:18px}.ds-art-tab{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);background:none;border:0;color:var(--muted,#bdb6c2);padding:9px 0;font-size:14px;cursor:pointer}.ds-art-tab:hover,.ds-art-tab[aria-pressed=\"true\"]{color:var(--pink,#dda0b7)}.ds-art-tab:focus-visible{outline:2px solid var(--pink,#dda0b7);outline-offset:5px}"
+    },
+    {
+      "name": "人物衣装浏览",
+      "kind": "custom",
+      "refersTo": "wardrobe-frame",
+      "description": "五位成年角色的 17 套实际透明衣装。桌面图像与说明双列；手机纵向 flex，衣装按钮置顶，其后为标题、说明、人物图、原图链接，隐藏年龄行。图片仍为 min(54svh,440px) 与 contain，选中衣装使用纸白底炭黑字。",
+      "html": "<div class=\"ds-wardrobe-view\"><figure class=\"ds-wardrobe-frame\"><img src=\"/art/production/portraits/rin-casual-v1.png\" alt=\"黑濑凛的日常衣装\"></figure><div class=\"ds-wardrobe-copy\"><p class=\"ds-wardrobe-age\">24 岁</p><h3>日常衣装</h3><p>同一人物在不同场景下使用对应衣装。</p><div class=\"ds-outfit-options\" role=\"group\" aria-label=\"选择衣装\"><button aria-pressed=\"false\">工作</button><button aria-pressed=\"true\">日常</button><button aria-pressed=\"false\">凌晨来访</button></div><a href=\"/art/production/portraits/rin-casual-v1.png\" target=\"_blank\" rel=\"noopener\">查看原图</a></div></div>",
+      "css": ".ds-wardrobe-view{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);color:var(--paper,#f0edf0);display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:28px;align-items:start}.ds-wardrobe-frame{height:min(64svh,560px);margin:0;background:var(--plum,#222029);display:flex;align-items:center;justify-content:center;overflow:hidden}.ds-wardrobe-frame img{width:100%;height:100%;object-fit:contain}.ds-wardrobe-copy h3{margin:8px 0 16px;font-size:26px}.ds-wardrobe-copy p{color:var(--muted,#bdb6c2);font-size:13px;line-height:1.9}.ds-outfit-options{display:flex;gap:8px;flex-wrap:wrap;margin:24px 0}.ds-outfit-options button{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);background:var(--surface,#2b2831);border:1px solid var(--line,#57505e);color:var(--paper,#f0edf0);padding:7px 14px;border-radius:2px;min-height:38px;font-size:12px;cursor:pointer}.ds-outfit-options [aria-pressed=\"true\"]{background:var(--paper,#f0edf0);color:var(--ink,#14151b);border-color:var(--paper,#f0edf0)}@media(max-width:650px){.ds-wardrobe-view{display:flex;flex-direction:column;gap:16px}.ds-wardrobe-copy{display:contents}.ds-wardrobe-copy .ds-wardrobe-age{display:none}.ds-wardrobe-copy h3{order:1;font-size:22px;margin:0}.ds-wardrobe-copy>p{order:2;margin:0}.ds-wardrobe-copy>a{order:4}.ds-wardrobe-view .ds-outfit-options{order:0;margin:0}.ds-wardrobe-frame{order:3;height:min(54svh,440px);width:100%}}@media(max-height:560px) and (min-width:651px){.ds-wardrobe-frame{height:72svh}}.ds-wardrobe-copy .ds-wardrobe-age{font-size:12px;margin-top:0}.ds-wardrobe-copy>a{color:var(--muted,#bdb6c2);padding:9px 0;font-size:12px;text-decoration:underline;text-underline-offset:5px}"
+    },
+    {
+      "name": "场景回忆缩略图",
+      "kind": "custom",
+      "refersTo": "memory-item",
+      "description": "十二张 CG 按已有已读记录解锁；未读项目只有锁定占位，不展示剧透缩略图。桌面双列、手机单列，直角容器沿用深梅紫。",
+      "html": "<div class=\"ds-memory-grid\"><button class=\"ds-memory-item\"><img src=\"/art/production/cgs/cg-dinner-v1.png\" alt=\"牛丼店桌对面的栞\"><span>摘下来的口罩</span></button><button class=\"ds-memory-item\" disabled><span class=\"ds-memory-locked\">未解锁</span><span>未读片段</span></button></div>",
+      "css": ".ds-memory-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.ds-memory-item{font:14px/1.65 var(--sans,\"Noto Sans SC\",\"Microsoft YaHei\",\"PingFang SC\",sans-serif);padding:0;border:0;background:var(--plum,#222029);color:var(--paper,#f0edf0);border-radius:0;text-align:left;overflow:hidden;cursor:pointer}.ds-memory-item>img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}.ds-memory-item>span:last-child{display:block;padding:12px 14px;font-size:13px}.ds-memory-item:hover:not(:disabled)>span:last-child{color:var(--pink,#dda0b7)}.ds-memory-item:disabled{opacity:1;color:var(--muted,#bdb6c2);cursor:default}.ds-memory-locked{display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;color:var(--muted,#bdb6c2);font-size:12px;letter-spacing:.1em}@media(max-width:650px){.ds-memory-grid{grid-template-columns:1fr;gap:18px}}"
+    },
+    {
+      "name": "完整 CG 查看",
+      "kind": "custom",
+      "refersTo": "cg-frame",
+      "description": "完整 CG 查看复用宽至 1240px 的原生弹窗，以 contain 显示全图，支持返回回忆列表和查看原图。此示例为回忆弹窗；阅读舞台在手机上另由 --cg-mobile-size / --cg-mobile-position 定位，默认 auto 72svh 与 50% top；window 为 68% top，envelope/departure 为 100% auto 与 center 22%。",
+      "html": "<figure class=\"ds-cg-frame\"><img src=\"/art/production/cgs/cg-window-v1.png\" alt=\"玻璃外的凌晨四点\"></figure>",
+      "css": ".ds-cg-frame{margin:0 0 12px;background:var(--ink,#14151b)}.ds-cg-frame img{display:block;width:100%;max-height:66svh;object-fit:contain}@media(max-height:560px) and (min-width:651px){.ds-cg-frame img{max-height:60svh}}"
+    },
+    {
+      "name": "手机照片呈现",
+      "kind": "custom",
+      "refersTo": "phone-photo",
+      "description": "凛借外套片段按逐句 cue 显示对应衣装的照片，浅纸边、-3deg 倾角、下方说明；示例外层仅提供预览高度，舞台定位遵循现有响应式规则。",
+      "html": "<div class=\"ds-photo-preview\"><div class=\"ds-phone-photo\"><img src=\"/art/production/portraits/rin-borrowed-jacket-v1.png\" alt=\"手机照片里的凛穿着借来的外套\"><span>手机里的照片</span></div></div>",
+      "css": ".ds-photo-preview{position:relative;height:560px;background:var(--ink,#14151b)}.ds-phone-photo{position:absolute;top:16%;bottom:27%;left:calc(50% - 150px);width:300px;padding:12px 12px 34px;background:#e8e3e1;transform:rotate(-3deg);box-shadow:8px 14px 35px #08090b80}.ds-phone-photo img{width:100%;height:100%;object-fit:contain;object-position:bottom}.ds-phone-photo span{position:absolute;left:0;right:0;bottom:6px;text-align:center;font-size:12px;color:#51424d}@media(max-width:650px){.ds-phone-photo{left:calc(50% - 120px);width:240px;top:16%;bottom:33%}}@media(max-height:560px) and (min-width:651px){.ds-phone-photo{top:8%;bottom:30%;left:calc(50% - 90px);width:180px;padding:8px 8px 27px}.ds-phone-photo span{font-size:11px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "夜场中的临场抉择",
+    "overview": "阅读舞台覆盖整个视口，操作悬浮在边缘，底部暗色渐变承载对白。炭黑与深梅紫保持夜间叙事氛围，纸白文字承担阅读，淡樱粉只在操作反馈、细刻线和故事状态中出现。轻 HUD 与平直长条选项让界面服从场景和决定。\n\n本文从 v1.1 的 CSS 与 HTML 提取，取代旧版网页侧栏、圆角对白卡片和未读纸片系统。用户提供的参考确定全屏场景、顶部操作与底部对白之间的结构关系；配色、字体和 SVG 控件由本项目实现，不复制参考人物、标识或美术资产。方向与交付范围见 [surface-brief.md](docs/surface-brief.md)。\n\n本轮在原界面中接入已认可的纯日系二维美术，媒体清单登记 16 张背景、17 套透明衣装立绘与 12 张 CG。色彩、字体、阅读版式与既有方向保持；只扩展现有弹窗中的衣装浏览、阅读解锁回忆和特定手机照片呈现，不重抽设计方向，也不把历史未采纳试图当作当前素材。\n\n手机衣装把切换按钮置顶，再排列标题、说明、人物图与原图链接；图片高度仍为 min(54svh,440px)。背景位置由 --scene-focus 传递给 CSS，手机剧情 CG 用 --cg-mobile-size / --cg-mobile-position 控制尺寸与构图，默认 auto 72svh、50% top，window 使用 68% top，envelope/departure 使用 100% auto、center 22%。",
+    "keyCharacteristics": [
+      "炭黑与梅紫构成全屏舞台，纸白负责阅读，樱粉提供局部反馈。",
+      "宋体书名与叙事标题，黑体对白与操作控件。",
+      "顶部轻 HUD、底部无卡片渐变对白、中央长条选项。",
+      "平直边框、细线刻痕和少量小圆角。",
+      "标题与阅读分离；暂停时再进入设置、存档和收集。",
+      "原创日系二维角色随场景换装；CG 和人物的出场时机服从对白，回忆隐藏未读画面。"
+    ],
+    "rules": [
+      {
+        "name": "The Readable Stage Rule",
+        "body": "背景与 CG 变化时保留底部对白渐变与文字阴影；阅读态背景只加轻遮罩。背景焦点通过 --scene-focus 交给 CSS；手机 CG 按 --cg-mobile-size / --cg-mobile-position 保留主体与宽幅物件，完整图在回忆弹窗用 contain 查看。",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "宋体承载书名和叙事标题，连续对白与交互标签使用黑体。",
+        "section": "typography"
+      },
+      {
+        "name": "The Unboxed Dialogue Rule",
+        "body": "对白融入全屏场景的底部渐变，不还原成网页卡片或带边框的独立面板。",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 保持全屏舞台、顶部轻 HUD 与底部渐变对白的关系。",
+      "**Do** 使用宋体标题、黑体对白与可调整的阅读字号。",
+      "**Do** 让全部选项可达，并在短横屏启用选项组独立滚动。",
+      "**Do** 为图标操作保留可访问名称，为开关保留文字和状态。",
+      "**Do** 遵守隐藏界面、恢复操作与减少动态效果偏好。",
+      "**Do** 为新增宋体字形更新本地字体子集并保留许可。",
+      "**Do** 依据当前对白 cue 展示背景、衣装、照片与 CG，保留阅读遮罩和完整图查看方式。"
+    ],
+    "donts": [
+      "**Don't** 将阅读界面恢复为网页侧栏或圆角对白卡片。",
+      "**Don't** 复制参考作品的人物、标识或美术资产。",
+      "**Don't** 用标题页菜单遮挡阅读中的场景与对白。",
+      "**Don't** 将未交付的场景图片或立绘描述为现有资产。",
+      "**Don't** 用裁切或收缩选项掩盖小屏空间不足。",
+      "**Don't** 提前暴露未读回忆，或在已经包含人物的 CG 上重复叠加现场立绘。"
+    ]
+  },
+  "readingRevision": {
+    "date": "2026-10-24",
+    "narrationLabel": false,
+    "sceneHeader": false,
+    "readingProgress": false,
+    "toolbarStatus": false,
+    "characterNames": true,
+    "narrationFullWidth": true,
+    "seatedDinnerCG": true,
+    "blackTransitions": {
+      "bridges": 63,
+      "fadeMs": 180,
+      "fastFadeMs": 45,
+      "maxTextHoldMs": 3200,
+      "reducedMotion": "静态黑屏；无透明度动画",
+      "skip": "点击、空格、回车或右箭头略过当前转场",
+      "load": "取消旧转场，直接恢复已保存位置"
+    }
+  }
+}

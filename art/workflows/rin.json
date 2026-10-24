@@ -1,0 +1,101 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "anima-turbo-v1.1.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_06b_base.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "safe, original anime visual novel illustration, refined clean linework, soft cel shading, cinematic composition, restrained dusty plum and rose palette, detailed but coherent, atmospheric light, 1woman, solo, adult woman age 24, mature young adult face and adult proportions, standing visual novel character sprite, head to below knees, centered with blank white margin around silhouette. Very long straight black hair in two LOW loose ponytails, each tied at shoulder height with a large black ribbon bow, both black bows clearly visible beside her shoulders. Vivid purple colored contact lenses, full eye makeup, sweet possessive smile and tense intense direct gaze. Fully clothed black and dusty pink jirai kei fashion: long sleeved high-neck ivory blouse with black lace collar and dusty pink neck ribbon, black pleated knee-length skirt, hands relaxed at sides. Plain pure white background, no props, isolated single adult character.",
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, blurry, jpeg artifacts, text, letters, watermark, logo, nude, naked, lingerie, sexual, child, school uniform, extra limbs, bad anatomy, cropped head",
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "EmptySD3LatentImage",
+    "inputs": {
+      "width": 832,
+      "height": 1216,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 24011,
+      "steps": 10,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "jirai/rin"
+    }
+  }
+}

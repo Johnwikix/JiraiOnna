@@ -1,0 +1,114 @@
+{
+  "id": "rin",
+  "kind": "portrait",
+  "width": 1024,
+  "height": 1536,
+  "model": "circlestone-labs/Anima / anima-turbo-v1.1.safetensors",
+  "prompt": "original premium contemporary Chinese anime mobile RPG promotional illustration, finely finished 2D digital painting, refined painterly rendering, delicate thin colored edges, finely layered individual hair strands, translucent skin shading with soft dimensional gradients, intricate lace and satin with distinct cloth material, nuanced violet iris details, cinematic motivated lighting, atmospheric depth, rich controlled warm-cool color separation, elegant realistic adult proportions, grounded modern urban setting, Character key art of ONE adult woman age 24, mature young adult face and elegant adult body proportions, standing naturally, head to below knees visible with margin, three-quarter torso facing viewer. Very long straight jet-black hair, soft separated wisps and layered glossy strands, TWO LOW loose ponytails each tied at shoulder height with a substantial black satin ribbon bow. Violet colored contact lenses with finely painted purple radial irises and small reflected window catchlights, complete careful eye makeup, a gentle sweet smile held too deliberately and a tense unwavering direct gaze. Fully clothed in modern black and muted pink jirai kei fashion: modest high-neck pale ivory long-sleeved blouse, intricately embroidered black lace collar with small openwork threads, dusty pink silk neck ribbon, high-waisted black pleated knee-length skirt with weight and soft fabric folds. Hands rest naturally at her sides. Show distinct lustrous satin bows, fine matte blouse weave and delicate lace, finely blended warm skin half-tones, deep cool black hair with restrained colored rim highlights. Soft warm window key light from the upper left, narrow cool reflected rim, subtle contact shadows and volume. Minimal clean near-white background, isolated character, every visible edge delicately colored rather than heavy black contour, grounded contemporary clothing, no fantasy costume, no weapons, no text.",
+  "negative": "low quality, blurry, jpeg artifacts, text, watermark, logo, nude, lingerie, child, school uniform, extra limbs, bad anatomy, cropped head, flat cel shading, thick black outlines, simple TV anime frame, low-detail hair, flat plastic skin, muddy gray colors, cheap game sprite, bland lighting",
+  "seed": 24021,
+  "steps": 12,
+  "cfg": 1,
+  "workflow": {
+    "1": {
+      "class_type": "UNETLoader",
+      "inputs": {
+        "unet_name": "anima-turbo-v1.1.safetensors",
+        "weight_dtype": "default"
+      }
+    },
+    "2": {
+      "class_type": "CLIPLoader",
+      "inputs": {
+        "clip_name": "qwen_3_06b_base.safetensors",
+        "type": "stable_diffusion",
+        "device": "default"
+      }
+    },
+    "3": {
+      "class_type": "VAELoader",
+      "inputs": {
+        "vae_name": "qwen_image_vae.safetensors"
+      }
+    },
+    "4": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "original premium contemporary Chinese anime mobile RPG promotional illustration, finely finished 2D digital painting, refined painterly rendering, delicate thin colored edges, finely layered individual hair strands, translucent skin shading with soft dimensional gradients, intricate lace and satin with distinct cloth material, nuanced violet iris details, cinematic motivated lighting, atmospheric depth, rich controlled warm-cool color separation, elegant realistic adult proportions, grounded modern urban setting, Character key art of ONE adult woman age 24, mature young adult face and elegant adult body proportions, standing naturally, head to below knees visible with margin, three-quarter torso facing viewer. Very long straight jet-black hair, soft separated wisps and layered glossy strands, TWO LOW loose ponytails each tied at shoulder height with a substantial black satin ribbon bow. Violet colored contact lenses with finely painted purple radial irises and small reflected window catchlights, complete careful eye makeup, a gentle sweet smile held too deliberately and a tense unwavering direct gaze. Fully clothed in modern black and muted pink jirai kei fashion: modest high-neck pale ivory long-sleeved blouse, intricately embroidered black lace collar with small openwork threads, dusty pink silk neck ribbon, high-waisted black pleated knee-length skirt with weight and soft fabric folds. Hands rest naturally at her sides. Show distinct lustrous satin bows, fine matte blouse weave and delicate lace, finely blended warm skin half-tones, deep cool black hair with restrained colored rim highlights. Soft warm window key light from the upper left, narrow cool reflected rim, subtle contact shadows and volume. Minimal clean near-white background, isolated character, every visible edge delicately colored rather than heavy black contour, grounded contemporary clothing, no fantasy costume, no weapons, no text.",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "5": {
+      "class_type": "CLIPTextEncode",
+      "inputs": {
+        "text": "low quality, blurry, jpeg artifacts, text, watermark, logo, nude, lingerie, child, school uniform, extra limbs, bad anatomy, cropped head, flat cel shading, thick black outlines, simple TV anime frame, low-detail hair, flat plastic skin, muddy gray colors, cheap game sprite, bland lighting",
+        "clip": [
+          "2",
+          0
+        ]
+      }
+    },
+    "6": {
+      "class_type": "EmptySD3LatentImage",
+      "inputs": {
+        "width": 1024,
+        "height": 1536,
+        "batch_size": 1
+      }
+    },
+    "7": {
+      "class_type": "KSampler",
+      "inputs": {
+        "model": [
+          "1",
+          0
+        ],
+        "seed": 24021,
+        "steps": 12,
+        "cfg": 1,
+        "sampler_name": "euler",
+        "scheduler": "simple",
+        "positive": [
+          "4",
+          0
+        ],
+        "negative": [
+          "5",
+          0
+        ],
+        "latent_image": [
+          "6",
+          0
+        ],
+        "denoise": 1
+      }
+    },
+    "8": {
+      "class_type": "VAEDecode",
+      "inputs": {
+        "samples": [
+          "7",
+          0
+        ],
+        "vae": [
+          "3",
+          0
+        ]
+      }
+    },
+    "9": {
+      "class_type": "SaveImage",
+      "inputs": {
+        "images": [
+          "8",
+          0
+        ],
+        "filename_prefix": "jirai/rin"
+      }
+    }
+  },
+  "generatedAt": "2026-10-23T13:54:46.470Z"
+}

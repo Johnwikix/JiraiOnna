@@ -1,0 +1,41 @@
+{
+  "id": "rin-soft-knit-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Kurose Rin, adult female age 24",
+  "outfit": "soft-knit",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:44:27 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-1713cc3a-9b32-4caf-9de7-5849dc640260.png",
+  "prompt": "Create ONE actual full-body transparent game sprite of the SAME RIN, explicitly a 24-year-old adult Japanese woman.\n\nReference 1 is the APPROVED FACE identity and pure Japanese 2D anime facial language: slightly short midface/narrow heart face, violet contact lenses in upturned anime almond eyes, fine straight brows, signature pink/red-brown under-eye makeup and tear-bag eyeliner, tiny simple nose mark and a small thin tight mouth. Reference 2 is her established BODY/HAIR/SCALE/POSE anchor. Preserve her exact natural adult proportions, full-body head scale, relaxed front-three-quarter stance, LONG STRAIGHT JET-BLACK hair, thick blunt fringe/hime cheek locks and TWO LOW BLACK satin hair bows at shoulder height. The face must be the same original woman, not a more gentle generic new character. She deliberately makes a small quiet polite smile while the eyes remain slightly fixed and tense, no horror or romantic-princess expression.\n\nSOFT-KNIT DAYTIME outfit, a consciously low-key contrast to her black/pink night fashion: a roomy soft MILKY CREAM knitted CARDIGAN with plain small dark buttons and simple ribbed cuffs, open over a modest PLAIN BLACK high-neck fine-knit inner top, a simple BLACK knee-length skirt with quiet pleats, dark opaque tights covering both legs, and ordinary BLACK FLAT strap shoes with thin practical soles. No chunky platform soles in this outfit. A small simple black shoulder bag is fine but keep it restrained. Retain recognizable purple eyes, lower-eye makeup and low black hair bows; do not turn the look into a frilled aristocratic dress. No heart choker, ornate lace bib, pink neck bow, cape or princess gown. Fully clothed practical modern street/daytime knit layers. One hand lightly rests near the cardigan edge at waist height and the other relaxed alongside; coherent natural fingers with short neat dark polish.\n\nComplete head, both hands and BOTH full shoes visible, SAME body scale and portrait framing as reference 2, small clean transparent margin, no large padding. Finished pure JAPANESE 2D ANIME fine organized linework and clean CEL shadow shapes; clear gentle cream-knit texture, matte black fabric and delicate hair groupings, no semi-realistic nose/lips, no sketch. Native TRUE TRANSPARENT RGBA outside the silhouette with clean smooth alpha edges. No floor, white backdrop, environment, text, labels, panels, extra faces, brand or watermark. One original adult character only.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-face-study-v3.png",
+      "role": "Approved Rin v3 face identity and pure Japanese 2D expression language."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\rin-casual-v1.png",
+      "role": "Rin casual production sprite: body scale, hair, stance and rendering anchor; outfit replaced by cream everyday knit and simple black layers."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 887,
+  "height": 1774,
+  "mode": "RGBA",
+  "bytes": 1048404,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    35,
+    0,
+    754,
+    1763
+  ],
+  "transparentPixels": 1021082,
+  "partialAlphaPixels": 551507,
+  "visualReview": "Same Rin face/eye makeup/low black bows and body scale checked. Full head/hands/shoes complete. Low-key cream knit cardigan over plain black high-neck top, quiet black knee skirt/dark tights/simple thin-soled strap shoes clearly contrast night outfit, without princess/lace-choker styling.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

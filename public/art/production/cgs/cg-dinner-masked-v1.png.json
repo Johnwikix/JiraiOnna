@@ -1,0 +1,28 @@
+{
+  "asset": "cg-dinner-masked-v1.png",
+  "use_case": "identity-preserve; precise-object-edit",
+  "tool": "image_gen.imagegen (built-in)",
+  "model": "not exposed by built-in tool",
+  "created_at_utc": "2026-10-23T16:47:33.177Z",
+  "transparent_background": false,
+  "references": [
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/cgs/cg-dinner-v1.png",
+      "role": "Exact edit target; preserve character identity, restaurant, framing and light."
+    }
+  ],
+  "reference_images": [
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/cgs/cg-dinner-v1.png",
+      "role": "exact edit target, character identity, restaurant, composition, lighting"
+    }
+  ],
+  "generated_source": "C:/Users/90684/.codex/generated_images/01a169a5-3a90-7420-8b1c-f4bacddcb544/exec-603165af-0596-40e1-884d-8f0b8bd1ac6b.png",
+  "prompt": "Use case: identity-preserve, precise-object-edit.\nAsset: a 16:9 Japanese 2D visual novel dinner CG, edit of the supplied image, not a character sheet.\nInput image 1 is the exact edit target. Preserve the same 23-year-old adult woman Shiori, same ash-brown long hair, gray-green slightly downturned anime eyes, same sage green cardigan and cream high-neck blouse. Preserve the original beautiful Japanese 2D anime linework, restrained cel shading, warm restaurant lighting, camera angle, her seated position across the table, bowl of gyudon, water glass, booth, window, background, and tabletop foreground.\nChange ONLY this to the moment BEFORE she removes her mask: she is wearing an ordinary clean WHITE surgical face mask over both her nose and mouth, ear loops correctly attached. Her eyes are visible and modestly reserved. Remove the loose mask from the tabletop because she is wearing it. Her chopsticks are now resting horizontally on the tabletop beside the bowl, not holding food. Both her hands rest quietly on the table near the bowl, relaxed and natural, neither hand reaching her face. She is seated BEHIND the table; the table edge and food bowl clearly occlude her lower torso. Her legs and lower body are not visible.\nKeep face identity and hair from original; do not redesign her face. Keep all scene objects in coherent depth. No standing body or full-length dress layered over the table, no clipping through bowl, no floating hands. Do not make live action, realistic Western facial anatomy, 3D, glossy plastic, or painterly skin. No text, no UI, no watermark. Fully clothed, everyday dinner scene.",
+  "review": {
+    "status": "reviewed",
+    "preserved": "same Japanese 2D scene, same character, outfit and seated composition; no standing sprite; bowl/table foreground occlude lower body",
+    "changed": "worn surgical mask, hands resting by bowl, chopsticks on table; removed loose mask",
+    "limitations": "Generated edit may slightly alter line placement and background details; not pixel-identical. Both hands are loosely curled rather than perfectly flat. This CG must be displayed without an additional full-body portrait."
+  }
+}

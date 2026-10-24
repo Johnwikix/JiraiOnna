@@ -1,0 +1,31 @@
+{
+  "id": "xu-yan",
+  "version": 1,
+  "kind": "character-reference-sheet",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:20:56 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-8c7bc688-cf22-470b-a25b-35be2f80ab78.png",
+  "prompt": "Create a polished, production-style original CHARACTER DESIGN REFERENCE SHEET, one clearly adult human character consistently repeated in three body views and facial expression studies. Wide LANDSCAPE canvas with clean warm light gray-white background, broad margins and an airy precise editorial arrangement. Three complete FULL BODY turnaround views, FRONT, SIDE and BACK, occupying the left two thirds with feet aligned on the same ground line; four clean head-and-shoulder expression studies arranged in a 2x2 grid on the right. Add a small row of six flat palette swatches and two compact material/accessory detail studies in spare bottom space. Keep every body view and every head separated and fully inside frame. Small neat English FRONT / SIDE / BACK labels and short expression labels are optional; no decorative title or paragraphs.\n\nReference image 1 establishes the finished 2D rendering language: clean natural anime facial structure, thin precise colored contour lines, softly layered dimensional 2D shadows, transparent nuanced irises, graceful grouped hair with subordinate fine strands, readable detailed cloth folds, refined material variation. For this neutral reference sheet use gentle warm key illumination and soft pale lavender shadows, with restrained narrow warm rim accents adapted from that image's sunset; keep colors accurate and shadows readable in all three turnaround views. References 2, 3 and 4 are additional STYLE-ONLY references for confident clean shape design, airy articulated hair locks, orderly small folds and delicate fabric/pattern finish. Do not copy the identities, faces, hair colors, costume design or poses from references 2, 3 or 4. No horns, pointed ears, animal features, tails, maid costumes, headdresses, fantasy gowns, armor, magical props or unrelated jewelry. Preserve an elegant clearly TWO-DIMENSIONAL anime face with a small simply indicated nose and delicate mouth; no realistic sculpted nose, heavy lips or deep eye sockets. Natural balanced adult proportions, fully clothed ordinary contemporary outfit, no sexualized pose or emphasized body parts. All three body views MUST show the exact same outfit and consistent hair/accessory placement, color and length. Anatomically coherent hands and feet. Final output is only one reference sheet image; no watermark or logos. \nCharacter: XU YAN, a 26-year-old adult Chinese MAN, tall and lean with natural adult male proportions, a distinctly masculine youthful anime face with a softly angular jaw, longish narrow dark brown eyes and faint cool tired under-eye tones, clean shaven. Slightly grown-out tousled BLACK hair, long enough to tie into a small practical LOW ponytail at the nape; loose modest fringe. He is an aspiring graduate art student working warehouse and izakaya shifts, quiet, observant and somewhat exhausted, not a glamorous fantasy hero and not middle-aged. Make his face clearly different from the women in all references. Every reference, including Image 1, is STYLE ONLY for this new original man.\n\nOutfit identical in front/side/back: charcoal-black ordinary button-up long-sleeved shirt under a washed faded DEEP INDIGO BLUE cotton work jacket with simple patch pockets, dark gray straight full-length trousers, worn comfortable dark sneakers. Natural loose cloth drape, modest practical working layers. A plain off-white canvas rectangular art portfolio shoulder bag worn diagonally at the side; show the strap consistently around the body. No jewelry, uniform, armor or logos.\nFour head studies: calm but tired neutral; embarrassed awkward small smile; alert wary concentration; quiet determination. His eyes remain dark brown in all studies. Detail studies: weathered canvas portfolio fabric/strap stitching, work-jacket fabric and cuff fold. Palette: black hair, charcoal shirt, worn indigo jacket, dark gray trousers, natural off-white canvas, warm skin. This is a full turnaround character design sheet with feet and shoes complete in every body view, not a scene illustration.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\gpt-rin-style-v2.png",
+      "role": "Rendering style and warm-light/pale-lavender-shadow language only; original adult male identity"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "Linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "Linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "Linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    }
+  ],
+  "reviewStatus": "pending-user-review",
+  "visualReview": "Full front/side/back, four expression studies, palette, canvas-bag and jacket-cuff details checked. Adult male face distinct, low ponytail and consistent contemporary working outfit visible. Not registered for runtime.",
+  "runtimeRegistered": false
+}

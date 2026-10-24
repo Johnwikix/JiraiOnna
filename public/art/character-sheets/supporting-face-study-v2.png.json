@@ -1,0 +1,51 @@
+{
+  "version": 2,
+  "asset": "supporting-face-study-v2.png",
+  "status": "review-draft-style-self-check-failed",
+  "approved": false,
+  "adoptedInRuntime": false,
+  "generatedAtUTC": "2026-10-23 14:57:38 UTC",
+  "tool": "built-in image_gen",
+  "model": "not exposed by tool",
+  "transparentBackground": false,
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-f1bc-79c0-a33b-783af69b6f6d\\exec-4993b682-a200-49ec-8320-9868dfea062e.png",
+  "prompt": "Use case: stylized-concept\nAsset type: adult visual novel character face design comparison, review draft.\nCreate ONE refined 2D anime production character design board, landscape 3 columns × 2 rows with six LARGE head-and-shoulders portraits. Exact column labels: \"NANASE · 25\", \"SHIORI · 23\", \"WANQING · 26\". Small restrained labels above columns, no other text. Each column shows THE SAME woman twice: top strict straight-on neutral expression, bottom natural three-quarter view with her own subtle personality. Adult women, believable mature anatomy. Same head scale, eye level, simple charcoal crew-neck shirt, neutral soft flat light and pale warm-gray background across all six portraits; nothing to distract from facial identity.\n\nSTYLE-ONLY input images: borrow their polished hand-drawn 2D anime drawing language: elegant variable-width ink contours, clean flat color masses and carefully placed cel shadows, precise eyelids, restrained detailed irises, crisp individual hair clusters, beautifully designed small facial features. DO NOT borrow the input subjects, faces, hairstyles, hair colors, clothing, jewelry, fantasy ears/horns/tails or props. This board depicts three original contemporary adult women. Especially avoid semi-realistic rendering: NO photographic skin, skin pores, shiny nose tips, painted lip highlights, 3D, pencil hatching, photorealistic noses. Noses remain graphic anime lines and small cel shadows. Keep the final treatment as clean, appealing and precise as premium 2D anime promotional character artwork.\n\nCRUCIAL: three clearly different underlying face constructions, not one pretty head with different hair. Facial silhouettes, brow placement, eye proportions, midface lengths and mouth proportions must actually differ even when hair and color are hidden. Do not use the same V-shaped jaw and huge eyes on everyone. Subtle intentional asymmetry, NOT distortion, creates personality.\n\nLEFT — NANASE, 25: chestnut shoulder-length gently tousled hair and amber irises. A wider oval face, natural cheek volume and a soft rounded jaw, slightly broader brow and cheekbone width. Medium almond-round eyes with ordinary-sized irises, thicker fairly straight brows, short-to-medium midface. Small rounder graphic nose shape; mouth somewhat wider than the other two. Only 3–4 tiny faint freckles across the nose bridge. Neutral top portrait gently alert, bottom portrait spontaneous restrained open smile with LEFT corner leading, easy warmth, adult rather than cute child.\n\nCENTER — SHIORI, 23: muted ash-brown long straight hair, gray-green irises. A longer, narrower oval face with long soft chin rather than pointed V. Slightly longer middle third, slender downward-tilting eyes and low thin eyebrows, visible distinction between eye width and eye height. A narrow fine graphic nose and a small, slightly asymmetric closed mouth. Faint understated under-eye fatigue, no blush stamp. Neutral top quiet and inward; bottom 3/4 her gaze returns toward the viewer cautiously with a small uneven closed-lip expression. Not baby-faced.\n\nRIGHT — WANQING, 26: deep-brown neat low hair bun, brown eyes. Mature moderately long oval face with a clearly designed but rounded jaw turn and firmer chin than the others. Narrow slightly hooded eyes, smaller brow-to-eye gap, long well-shaped tidy brows. A softly definite graphic nose bridge, a slightly fuller lower lip and a broader relaxed mouth than SHIORI, without makeup shine. Neutral top steady and discerning. Bottom 3/4 gently raises ONE eyebrow with a hint of dry humor. Elegant adult everyday face, not a generic glamour model.\n\nQuality constraints: exactly six portraits, exactly three distinct identities, identity perfectly consistent between the two views in each column. Keep no hats/accessories/objects/ornamental frames; no strong rim light, no blush cheeks on everyone, no heavy eyelashes, no glassy oversized irises, no shiny airbrushed skin, no Western realistic editorial drawing, no identical triangular noses or mouths. Lovely and memorable through actual drawn face design, not excessive detail.",
+  "inputImages": [
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "style-only reference, inspected and passed in referenced_image_paths"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "style-only reference, inspected and passed in referenced_image_paths"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "style-only reference, inspected and passed in referenced_image_paths"
+    }
+  ],
+  "characters": [
+    {
+      "id": "nana",
+      "name": "Nanase",
+      "age": 25
+    },
+    {
+      "id": "shiori",
+      "name": "Shiori",
+      "age": 23
+    },
+    {
+      "id": "qing",
+      "name": "Wanqing",
+      "age": 26
+    }
+  ],
+  "selfReview": {
+    "composition": "Six portraits in correct three-column two-row arrangement; each character has a front and three-quarter portrait.",
+    "identity": "Moderate separation via eye silhouette, face width and eyebrows; hairstyle still carries much of the separation.",
+    "style": "Failed intended pure Japanese 2D anime constraint: nose plane rendering, highlighted lips and editorial softness still drift semi-realistic/Western.",
+    "latestSteering": "After generation returned, parent relayed newer user preference: more Japanese anime, remove freckles, simplify noses and lips. This output predates that correction.",
+    "limitation": "Not approved. No automatic second generation per parent instruction. Does not update media mapping, story, outfits or runtime."
+  }
+}

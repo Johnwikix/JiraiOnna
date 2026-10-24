@@ -1,0 +1,8 @@
+jirai_art:
+  base_path: ../.local/art-models/
+  diffusion_models: diffusion_models/
+  text_encoders: text_encoders/
+  vae: vae/
+existing_animagine:
+  base_path: G:/AIsoftware/sd-webui/
+  checkpoints: models/Stable-diffusion/

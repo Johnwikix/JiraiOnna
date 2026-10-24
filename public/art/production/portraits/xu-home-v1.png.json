@@ -1,0 +1,41 @@
+{
+  "id": "xu-home-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Xu Yan, adult male age 26",
+  "outfit": "home",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:29:26 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-174a1f3f-e833-48e1-b945-5ca2f340c6c1.png",
+  "prompt": "Draw ONE actual visual-novel game character sprite with a TRUE TRANSPARENT background. ONE original fully clothed adult man from complete head to the soles of both shoes, no board, no panels.\n\nReference 1 is the APPROVED FACE identity and pure Japanese 2D anime face style of XU YAN, age 26: longer lightly angular male jaw, narrow tired dark brown eyes, straight fairly thick brows, simple longer anime nose line and thin mouth, subtle under-eye tones. Reference 2 is the body/hair/rendering/scale anchor: preserve the SAME tall lean natural adult male build, relaxed front-three-quarter standing pose, black slightly messy grown-out hair gathered into a small LOW ponytail at the nape. Keep his face male and distinctive rather than a generic perfect idol or a female face. No realistic nostril/lip modeling or sketch style.\n\nChange only his outfit to HOME: a plain soft heather-gray cotton LONG-SLEEVED crewneck shirt with modest natural relaxed folds, comfortable dark charcoal full-length cotton jogger/sweat trousers with a simple waist drawstring, plain muted socks and soft simple charcoal house slippers. Entirely everyday covered homewear, no jacket, tie, apron, decorative pattern, text or logo. Calm somewhat tired small neutral expression, shoulders less tense, one hand loosely near a trouser pocket and the other relaxed at his side with coherent fingers. Natural non-sexual adult posture.\n\nSame precise pure 2D JAPANESE ANIME linework and restrained clean CEL SHADOW shapes as references, controlled small hair highlight groupings, matte cotton materials, soft neutral character illumination. Maintain the same full-body visual scale as reference 2 and keep all hair, hands, feet and slippers completely inside frame with a small clean transparent margin, no large blank padding. All area outside the silhouette must be actual zero-alpha transparency, clean anti-aliased edges; no floor, environment, gray/white backdrop, cast scene shadow, labels, extra character or watermark. Only one full-body sprite.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\xu-yan-face-study-v3.png",
+      "role": "Approved Xu Yan v3 face identity and pure Japanese 2D rendering."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\xu-work-v1.png",
+      "role": "Xu work production sprite: body scale, hair, pose and rendering anchor only; home outfit replaces work layers."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 995,
+  "height": 1581,
+  "mode": "RGBA",
+  "bytes": 942741,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    17,
+    0,
+    927,
+    1581
+  ],
+  "transparentPixels": 1085757,
+  "partialAlphaPixels": 486443,
+  "visualReview": "Full head-to-slippers sprite checked: same approved male face/low ponytail/body scale; plain gray cotton long sleeves, dark jogger trousers, socks and slippers. One coherent relaxed hand visible, other naturally in pocket. No interview/work layers remain.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

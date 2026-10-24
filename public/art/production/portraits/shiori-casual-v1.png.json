@@ -1,0 +1,39 @@
+{
+  "asset": "shiori-casual-v1.png",
+  "character": "shiori",
+  "age": 23,
+  "stage": "production",
+  "generationAuthorized": true,
+  "faceAnchorApprovedByUser": "supporting-face-study-v3.png",
+  "tool": "built-in image_gen",
+  "model": "not exposed by tool",
+  "generatedAtUTC": "2026-10-23 15:22:33 UTC",
+  "transparentBackground": true,
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-f1bc-79c0-a33b-783af69b6f6d\\exec-07511526-bc0c-4e32-8c8d-35bb2e47d7a9.png",
+  "prompt": "Use case: stylized-concept. Create ONE production-ready FULL BODY transparent PNG character standing sprite for a Japanese 2D bishoujo visual novel. Exactly one adult woman, entire hair top through both shoe soles visible, centered, natural relaxed front three-quarter stance, eye line toward viewer, both hands naturally visible, consistent natural adult body proportions. Tall portrait framing, modest clean margins, no foot cropping. True transparent alpha background, NO white rectangle, NO painted checkerboard, NO cast ground shadow or stage. No text, panels, extra figures, logos.\nUse the supplied face board ONLY for the named woman's face/hair identity and the approved elegant JAPANESE 2D ANIME style. Fine expressive ink contours, beautiful grouped hair strands, simple small nose mark and simple mouth line, luminous stylized anime eyes, pure clean skin tones, flat color with polished clear cel-shaded shadows, detailed tasteful cloth. Keep charming anime simplification; no realistic nose wings, full glossy lips, skin pores, 3D, editorial portrait realism. Fully clothed contemporary everyday outfit, no fanservice pose. Subject: SHIORI age 23, the MIDDLE column woman on the reference board. Long straight muted ash-brown hair and gray-green eyes. Strengthen her identity modestly: elongated narrow oval face but rounded chin, slender downward-tilting anime eyes, low thin brows, a very small restrained mouth line. Quiet cautious expression and inward shoulders; adult, not a child.\nOutfit: muted sage-green knit cardigan over a cream high-neck blouse, charcoal-gray long modest skirt, plain gray flat shoes. Her face is uncovered, no mask on face. Hands gently resting together low in front, naturally drawn fingers. Subtle detailed knit and flowing cloth without photographic textures. Maintain this exact face and anime style rather than copying either of the other women.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\supporting-face-study-v3.png",
+      "role": "approved face identity and Japanese 2D anime style; use only named character column"
+    }
+  ],
+  "validation": {
+    "viewedAtWorkspacePath": true,
+    "mode": "RGBA",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "transparentCorners": true,
+    "foregroundMostlyOpaque": true,
+    "footCropping": false,
+    "composition": "one complete head-to-shoe adult standing sprite, natural front three-quarter",
+    "style": "clean Japanese 2D anime, simplified nose and mouth",
+    "runtimeModified": false,
+    "limitations": "Small antialiased partial-alpha edge pixels; identity and outfit are generated illustrations and may contain minor variation."
+  }
+}

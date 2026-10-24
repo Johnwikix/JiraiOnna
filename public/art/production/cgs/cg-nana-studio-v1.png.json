@@ -1,0 +1,27 @@
+{
+  "asset": "cg-nana-studio-v1.png",
+  "status": "production candidate; user authorized generation; not individually reviewed",
+  "createdAtUTC": "2026-10-23 15:28:35 UTC",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "prompt": "Asset: cg-nana-studio-v1. One widescreen first-person visual novel ending CG in an ordinary working photography studio.\nIdentity references: Image 1 is current adult Nanase, 25, identity only. Image 2 is approved v3 facial study; use ONLY the LEFT woman Nanase. Retain shoulder-length slightly tousled chestnut hair with an airy off-center fringe, warm amber round-almond anime eyes, a subtly broader soft-oval face than Shiori, relatively straight brows and a smile that starts at one corner. Do NOT copy the yellow cardigan outfit: this is a separate practical studio work outfit. Never substitute the middle or right women's faces.\nThe viewer has just arrived at the photography studio doorway to pick her up after a shift. A slim dark doorway edge at far left suggests our first-person view. Nanase stands center-right, upper body and hips in the upper two-thirds of the composition. She wears a washed-blue denim jacket over a plain white cotton shirt and simple dark practical trousers, a brown/black padded camera bag over one shoulder. She has just opened a plain job-offer/contract folder herself on a nearby work cart; one hand rests lightly on its turned-open cover while the other holds the camera bag strap. Any document surface is angled toward HER, entirely unreadable, no generated lettering. A camera rests safely inside an open padded compartment on the cart, not floating or aimed at the viewer.\nMoment: she looks up from the folder toward the viewer with a small relieved, slightly uneven pleased smile and alert tired eyes; a real person who has finally finished a task, not a glamour shoot, no flirty pin-up stance. Her shoulders are relaxed but she still has studio work to tidy up. All hands natural, only two arms, no duplicated fingers.\nEnvironment: a functioning modest photographic studio, rolled paper backdrop, folded reflector, softbox on a stand, secured cables and storage cases, worktable with half-finished coffee, ordinary floor. Clear morning daylight through a high side window mixes with soft neutral studio lighting. No model posing, no fantasy camera, no brand logos, no readable signs.\nComposition: leave the lower quarter as naturally darker studio floor and a low out-of-focus case edge, no face or important contract/camera there, suitable behind the game's dialogue.\nPremium contemporary Japanese 2D anime game CG. Match the supplied approved v3 references exactly for identity and clean simplified anime drawing language: precise varied-weight linework, refined hair clumps, attractive normal anime eyes, very short simplified nose strokes, thin expressive mouth lines, restrained clean cel-shadow shapes on smooth skin, detailed fabric and a beautifully painted believable environment. Keep all people recognizably adults. No semi-realism, no Western comic anatomy, no modeled nostrils or lips, no realistic pores, no 3D render. Widescreen 16:9 cinematic composition, 1920x1080 desired. First-person protagonist viewpoint, never a male face in foreground. Keep faces and important objects in the upper two-thirds; lower 25 percent should be naturally darker unoccupied environment suitable behind a game dialogue overlay, not an added blank banner or lettering. No text, writing, subtitles, logos, watermarks, interface, readable labels or frame. Fully clothed adults, no nudity, no sexual action, no gore. Emotion is subtle and specific, no exaggerated evil grin or horror eyes.",
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-7136-73a3-9dcd-2fa061f8d809\\exec-43266c40-bbae-47ec-b88c-453092403599.png",
+  "output": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\cgs\\cg-nana-studio-v1.png",
+  "transparentBackground": false,
+  "actualOutput": { "width": 1672, "height": 941, "pngColorType": 2, "mode": "RGB" },
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\nana-casual-v1.png",
+      "purpose": "Current adult Nanase 25 identity and slightly enhanced facial distinction; casual cardigan replaced by specified practical denim studio outfit."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\supporting-face-study-v3.png",
+      "purpose": "Left-column Nanase facial identity and pure 2D anime drawing language only."
+    }
+  ],
+  "review": {
+    "identity": "Chestnut shoulder-length hair and amber eyes, denim jacket/white tee/dark trousers, camera bag.",
+    "composition": "First-person studio doorway, work cart with open folder and padded camera case, morning light. Face above dialogue.",
+    "limitations": "Her smile is more visibly cheerful than the restrained uneven smile requested; folder resembles a plain stiff portfolio, paper contents intentionally unreadable."
+  }
+}

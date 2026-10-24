@@ -1,0 +1,13 @@
+{
+  "id": "bookshop",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-50442e78-a6f7-4824-8d19-9d6b96f0aae7.png",
+  "savedAt": "2026-10-23T15:29:43.394Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty small independent Japanese bookshop at late autumn afternoon. Warm wooden shelves, books with blank indistinct spines, table with an open art book of abstract color plates, cream curtains and potted green plant by tall window, sunlight softly entering. Quiet sage and warm cream palette, detailed everyday architecture, no people. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant architectural linework, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent unoccupied contemporary 2D environment; expected furniture/river and lighting present.",
+  "runtimeReady": true
+}

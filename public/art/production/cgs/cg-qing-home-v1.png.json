@@ -1,0 +1,27 @@
+{
+  "asset": "cg-qing-home-v1.png",
+  "status": "production candidate; user authorized generation; not individually reviewed",
+  "createdAtUTC": "2026-10-23 15:34:06 UTC",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "prompt": "Asset: cg-qing-home-v1. A single complete widescreen first-person contemporary visual novel ending CG, quiet reunion dinner in an ordinary small Chinese apartment at dusk.\nIdentity references: Image1 is current Wanqing / Qing, age26, adult woman, identity ONLY. Preserve her exact deep brown hair in a low neat loose bun, long narrow partly hooded brown anime eyes, composed slightly longer oval face, tidy brow shapes and subtle dry humorous half-smile. Image2 is approved v3 supporting face study; use ONLY the RIGHT woman WANQING, never the other two faces. Change the office clothes: she now wears a simple modest deep navy-blue long-sleeved knit dress; a short neutral gray jacket is draped over the back of her chair. No jewelry emphasis.\nThe viewer is sitting at their own small dining table directly across from her, first-person, no protagonist face. Qing sits in the upper-middle of the frame, face and upper body above the central line. There are exactly TWO ORDINARY CERAMIC BOWLS OF NOODLES in clear broth on the tabletop BETWEEN Qing and the viewer, one her bowl and one the viewer's; absolutely NO CHOPPED SCALLIONS, no green onion garnish, no greens mistaken for onion. Simple noodles with an egg or a few mushrooms, normal home-cooked supper rather than a feast. Both bowls and their contents should be placed around the MIDDLE of the frame, well above the bottom-quarter dialogue area.\nQing gently pushes her own bowl a little toward the viewer with one natural hand resting against the outside rim, asking for the broth to be divided more evenly because the viewer's bowl is too full. The other hand rests simply on the tabletop. A plain soup ladle lies neatly between the bowls. Anatomically correct hands, only two arms. Steam rises quietly from both bowls. She looks at the viewer with a small amused almost-smile, still a little reserved but softening; a believable couple after a hard conversation, not a generic coquettish pose. No holding the bowl up to the camera.\nEnvironment: compact lived-in Chinese apartment, modest wooden table, everyday kitchenette and a dish towel in background, small living area and ordinary window carrying warm dusk light. Practical ceiling lamp mixes with last daylight; realistic small-space layout rendered as refined 2D anime background, no luxurious mansion. No readable packaging, letters or labels.\nComposition: camera a little higher than table level and a slightly wider view so both bowls are clearly visible in the central upper two-thirds; near edge of the table in bottom25% is naturally darker and free of important objects for dialogue overlay. No text or signage.\nPremium contemporary Japanese 2D anime game CG. Match the supplied approved v3 references exactly for identity and clean simplified anime drawing language: precise varied-weight linework, refined hair clumps, attractive normal anime eyes, very short simplified nose strokes, thin expressive mouth lines, restrained clean cel-shadow shapes on smooth skin, detailed fabric and a beautifully painted believable environment. Keep all people recognizably adults. No semi-realism, no Western comic anatomy, no modeled nostrils or lips, no realistic pores, no 3D render. Widescreen 16:9 cinematic composition, 1920x1080 desired. First-person protagonist viewpoint, never a male face in foreground. Keep faces and important objects in the upper two-thirds; lower 25 percent should be naturally darker unoccupied environment suitable behind a game dialogue overlay, not an added blank banner or lettering. No text, writing, subtitles, logos, watermarks, interface, readable labels or frame. Fully clothed adults, no nudity, no sexual action, no gore. Emotion is subtle and specific, no exaggerated evil grin or horror eyes.",
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-7136-73a3-9dcd-2fa061f8d809\\exec-0488e7e8-6515-4db7-be2d-62b6bf1eb5ff.png",
+  "output": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\cgs\\cg-qing-home-v1.png",
+  "transparentBackground": false,
+  "actualOutput": { "width": 1672, "height": 941, "pngColorType": 2, "mode": "RGB" },
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\qing-office-v1.png",
+      "purpose": "Current adult Qing/Wanqing identity, dark low bun and narrow partly hooded eyes; office outfit replaced by navy knit dress and jacket on chair."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\supporting-face-study-v3.png",
+      "purpose": "Right-column adult Wanqing v3 facial identity and refined pure 2D anime style only."
+    }
+  ],
+  "review": {
+    "identity": "Adult Qing in navy knit, low brown bun, reserved humorous smile. Exactly two steaming noodle bowls with egg/mushrooms and no scallions, she pushes her bowl toward the viewer, ladle between bowls.",
+    "composition": "First-person home supper, everyday apartment at dusk; face above dialogue and navy/gray clothes match requested scene.",
+    "limitations": "Viewer-side bowl extends into lower dialogue quarter and may be partly covered by text; hide-UI/gallery shows entire meal."
+  }
+}

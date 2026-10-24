@@ -1,0 +1,36 @@
+{
+  "asset": "cg-shiori-cafe-v1.png",
+  "status": "production continuity repair; agent visually checked",
+  "createdAtUTC": "2026-10-23 17:47:45 UTC",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "prompt": "Use case: illustration-story.\nAsset type: final game CG, one complete 16:9 landscape scene, 2048x1152 preferred.\nInputs: Image 1 is the ONLY character identity reference: preserve her specific face, hair, eye color, adult age and clothes. Image 2 supplies the cafe interior only: same rainy street windows on the left, warm wood, red-brown upholstered chairs, plant pots, counter to right. Image 3 is ONLY composition and refined Japanese 2D anime rendering reference: a seated person behind a solid foreground table with natural occlusion. DO NOT borrow Image 3 woman's face, hair or outfit.\nDraw a new complete illustration, not a pasted standing sprite. First person observer sits opposite the adult woman, table-height eye view, chest-up seated framing. Her head is high in the upper half of image, full top of head comfortably visible, face toward viewer; torso and naturally resting hands above table. A broad wooden table completely occludes everything below the upper abdomen: NO visible legs or skirt front, NO standing person behind a tiny table, NO transparent tabletop, NO body crossing tabletop. Bottom 25 percent is quiet clear foreground tabletop reserved for game dialogue.\nPolished hand-drawn Japanese 2D anime visual novel art, expressive simple anime nose and mouth, delicate clean linework, carefully organized cel shadows, detailed hair clusters and cloth texture, coherent drawn anatomy. No realism, 3D render, western comic face, glossy doll face, identical generic face, text, letters, UI, logos, watermark, duplicate person. All characters are adults fully clothed. Overcast rainy afternoon outside, soft cool window light plus gentle warm cafe lights.\nSubject is Amamiya Shiori, age 23, exactly Image 1 identity: long straight ash-brown hair, gray-green slender downturned eyes, longer oval face with a soft rounded chin, low fine brows, shy closed lips with slight natural asymmetry. Sage-green cardigan over cream modest high ruffled-neck blouse. She sits across table, gently holding a ceramic cup with both hands, unmasked visible face, hesitant adult expression, gaze slightly lowered but aware of observer. A smartphone rests face-down beside her cup. Natural reserved posture, NOT seductive, NOT childlike. No mask on her face and no food bowl or chopsticks because this scene is an afternoon cafe, not dinner. Lower body entirely hidden by tabletop.",
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a169db-1c44-7681-a7d0-64258612ccbd\\exec-483f1def-7b29-443d-b326-5b826a1155cb.png",
+  "output": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\cgs\\cg-shiori-cafe-v1.png",
+  "transparentBackground": false,
+  "references": [
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/portraits/shiori-casual-v1.png",
+      "purpose": "Only character identity and current casual clothes"
+    },
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/backgrounds/cafe-v1.png",
+      "purpose": "Same cafe environment, rainy overcast afternoon"
+    },
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/cgs/cg-dinner-v1.png",
+      "purpose": "Seated first-person table occlusion and polished Japanese 2D rendering only; no identity borrowed"
+    }
+  ],
+  "review": {
+    "identity": "Own corresponding portrait used as actual reference; adult and clothed",
+    "composition": "Seated across a broad opaque foreground table; lower body hidden; face in upper half; no standing cutout crossing table",
+    "notes": "Visible unmasked face, both hands cup, phone on table."
+  },
+  "actualOutput": {
+    "width": 1672,
+    "height": 941,
+    "pngColorType": 2,
+    "bytes": 2374510
+  }
+}

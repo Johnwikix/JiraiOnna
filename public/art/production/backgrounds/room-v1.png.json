@@ -1,0 +1,13 @@
+{
+  "id": "room",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-6a73ad2f-be89-4531-af91-b8b70a818864.png",
+  "savedAt": "2026-10-23T15:25:40.884Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty small inexpensive ground-floor Japanese rental room before dawn: single bed with navy blanket and plain white pillow at right, little desk with closed sketch portfolio and phone, cheap chair, small kitchenette edge, a rain-dark window with simple steel security bars and thin curtain. Warm low bedside lamp, blue predawn outside, lived-in and cramped, physically plausible ordinary apartment. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant architectural linework, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent empty contemporary 2D environment with correct main architectural objects and foreground space.",
+  "runtimeReady": true
+}

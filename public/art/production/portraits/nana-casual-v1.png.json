@@ -1,0 +1,39 @@
+{
+  "asset": "nana-casual-v1.png",
+  "character": "nana",
+  "age": 25,
+  "stage": "production",
+  "generationAuthorized": true,
+  "faceAnchorApprovedByUser": "supporting-face-study-v3.png",
+  "tool": "built-in image_gen",
+  "model": "not exposed by tool",
+  "generatedAtUTC": "2026-10-23 15:22:33 UTC",
+  "transparentBackground": true,
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-f1bc-79c0-a33b-783af69b6f6d\\exec-d4abfd67-ceb5-436f-8397-4793eb1970b6.png",
+  "prompt": "Use case: stylized-concept. Create ONE production-ready FULL BODY transparent PNG character standing sprite for a Japanese 2D bishoujo visual novel. Exactly one adult woman, entire hair top through both shoe soles visible, centered, natural relaxed front three-quarter stance, eye line toward viewer, both hands naturally visible, consistent natural adult body proportions. Tall portrait framing, modest clean margins, no foot cropping. True transparent alpha background, NO white rectangle, NO painted checkerboard, NO cast ground shadow or stage. No text, panels, extra figures, logos.\nUse the supplied face board ONLY for the named woman's face/hair identity and the approved elegant JAPANESE 2D ANIME style. Fine expressive ink contours, beautiful grouped hair strands, simple small nose mark and simple mouth line, luminous stylized anime eyes, pure clean skin tones, flat color with polished clear cel-shaded shadows, detailed tasteful cloth. Keep charming anime simplification; no realistic nose wings, full glossy lips, skin pores, 3D, editorial portrait realism. Fully clothed contemporary everyday outfit, no fanservice pose. Subject: NANASE age 25, the LEFT column woman on the reference board. Shoulder-length chestnut slightly tousled hair, amber eyes. Strengthen her identity modestly: short broader rounded face and soft rounded jaw, round almond eyes, fairly straight slightly thicker brows, slightly wider smiling mouth line with left corner leading. Gentle self-assured approachable smile; she is clearly an adult.\nOutfit: warm mustard cardigan open over a crisp ordinary white blouse, navy-blue flowing below-knee midi skirt, brown flat loafers, practical small brown camera shoulder bag with plain strap. One hand rests naturally on the bag strap, other hand relaxed by skirt. Accurate relaxed hands, natural fabric folds. Maintain this exact face and anime style rather than copying either of the other two women.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\supporting-face-study-v3.png",
+      "role": "approved face identity and Japanese 2D anime style; use only named character column"
+    }
+  ],
+  "validation": {
+    "viewedAtWorkspacePath": true,
+    "mode": "RGBA",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "alphaExtrema": [
+      0,
+      254
+    ],
+    "transparentCorners": true,
+    "foregroundMostlyOpaque": true,
+    "footCropping": false,
+    "composition": "one complete head-to-shoe adult standing sprite, natural front three-quarter",
+    "style": "clean Japanese 2D anime, simplified nose and mouth",
+    "runtimeModified": false,
+    "limitations": "Small antialiased partial-alpha edge pixels; identity and outfit are generated illustrations and may contain minor variation."
+  }
+}

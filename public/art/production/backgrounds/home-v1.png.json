@@ -1,0 +1,13 @@
+{
+  "id": "home",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-fbbe9996-6201-45e2-9e2e-b0a99de5f345.png",
+  "savedAt": "2026-10-23T15:29:46.851Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty modest contemporary Chinese city apartment dining area at early evening. Small table with TWO bowls of plain noodles without green onion, soup steam, two chairs, kitchen counter and clean dishes, a potted plant by balcony, travel tote placed by entrance. Warm sunset light and soft blue shadows, intimate ordinary home, no people. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant architectural linework, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent unoccupied contemporary 2D environment; expected furniture/river and lighting present.",
+  "runtimeReady": true
+}

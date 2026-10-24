@@ -1,0 +1,31 @@
+{
+  "id": "rin",
+  "version": 1,
+  "kind": "character-reference-sheet",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:24:11 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-8b5ccad8-0493-448b-be8b-c5080dd1d0e2.png",
+  "prompt": "Create a polished, production-style original CHARACTER DESIGN REFERENCE SHEET, one clearly adult human character consistently repeated in three body views and facial expression studies. Wide LANDSCAPE canvas with clean warm light gray-white background, broad margins and an airy precise editorial arrangement. Three complete FULL BODY turnaround views, FRONT, SIDE and BACK, occupying the left two thirds with feet aligned on the same ground line; four clean head-and-shoulder expression studies arranged in a 2x2 grid on the right. Add a small row of six flat palette swatches and two compact material/accessory detail studies in spare bottom space. Keep every body view and every head separated and fully inside frame. Small neat English FRONT / SIDE / BACK labels and short expression labels are optional; no decorative title or paragraphs.\n\nReference image 1 establishes the finished 2D rendering language: clean natural anime facial structure, thin precise colored contour lines, softly layered dimensional 2D shadows, transparent nuanced irises, graceful grouped hair with subordinate fine strands, readable detailed cloth folds, refined material variation. For this neutral reference sheet use gentle warm key illumination and soft pale lavender shadows, with restrained narrow warm rim accents adapted from that image's sunset; keep colors accurate and shadows readable in all three turnaround views. References 2, 3 and 4 are additional STYLE-ONLY references for confident clean shape design, airy articulated hair locks, orderly small folds and delicate fabric/pattern finish. Do not copy the identities, faces, hair colors, costume design or poses from references 2, 3 or 4. No horns, pointed ears, animal features, tails, maid costumes, headdresses, fantasy gowns, armor, magical props or unrelated jewelry. Preserve an elegant clearly TWO-DIMENSIONAL anime face with a small simply indicated nose and delicate mouth; no realistic sculpted nose, heavy lips or deep eye sockets. Natural balanced adult proportions, fully clothed ordinary contemporary outfit, no sexualized pose or emphasized body parts. All three body views MUST show the exact same outfit and consistent hair/accessory placement, color and length. Anatomically coherent hands and feet. Final output is only one reference sheet image; no watermark or logos. \nCharacter: KUROSE RIN, explicitly a 24-year-old adult woman. For THIS character Image 1 is ALSO THE IDENTITY AND CLOTHING ANCHOR: preserve that original woman's recognizable delicate mature-young-adult face, softly shaped bangs, clear violet colored contact lenses, small closed-mouth sweet smile, long jet-black hair and modern pale pink/black clothing design. Recompose her into a clean neutral full-body turnaround sheet rather than retaining the cafe scene or cup pose. Natural balanced adult proportions with a comfortably draping blouse, no exaggerated chest or pinched waist.\n\nHair identical in all body and face views: very long jet-black straight hair reaching below the waist, airy separated locks and fine strands, two loosely tied LOW side sections each with a black satin bow at SHOULDER level, the rest falling naturally. Keep both low bows black and in the same position; no high pigtails. Violet eyes with careful delicate full eye makeup and clear layered iris detail.\n\nExact fully covered contemporary jirai-kei outfit: pale PINK-WHITE high-neck LONG-SLEEVED blouse, delicately embroidered BLACK LACE collar with tiny openwork, small DUSTY PINK neck ribbon, high-waisted BLACK pleated KNEE-LENGTH skirt, simple opaque black ankle socks and BLACK PLATFORM shoes. The skirt hem reaches the knees in front, side and back. Neutral comfortable standing pose with arms resting naturally; crisp consistent collar/bow/pleat construction across all three views.\nFour head studies clearly distinct: natural gentle sweet smile; lips pressed in mild displeasure; smile gone with cool reserved serious eye contact; restrained uncertainty with slightly vulnerable eyes. Keep every expression human and believable, no horror eyes, no manic grin. The cool expression uses calm ordinary eyes rather than an exaggerated stare.\nDetail studies: the low black satin hair bow and one delicate black lace collar/rose-pink neck-ribbon closeup. Palette: jet black, dark charcoal, pale pink-white, dusty pink, clear violet iris, soft warm skin. Only Rin's original adult identity from Image 1 carries through; none of the fantasy reference people's faces or costumes.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\gpt-rin-style-v2.png",
+      "role": "Original adult Rin identity and clothing anchor plus finished 2D style"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "Linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "Linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "Linework, layered 2D shading, hair grouping and fabric detail STYLE ONLY"
+    }
+  ],
+  "reviewStatus": "pending-user-review",
+  "visualReview": "Full front/side/back, four restrained expressions, palette, low hair-bow and lace-collar closeups checked. Black low bows, violet eyes, covered pink-white blouse, knee-length pleated skirt and platform shoes consistent. Not registered for runtime.",
+  "runtimeRegistered": false
+}

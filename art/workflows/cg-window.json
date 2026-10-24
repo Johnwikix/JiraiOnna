@@ -1,0 +1,101 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "anima-turbo-v1.1.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_06b_base.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "safe, original anime visual novel illustration, refined clean linework, soft cel shading, cinematic composition, restrained dusty plum and rose palette, detailed but coherent, atmospheric light, first person view from inside a small Japanese apartment at four in the morning, rain streaked window and steel security bars in foreground, outside the window a single adult woman age 24 looking directly into the room from very close, her face between the vertical security bars, long straight black hair with twin low black ribbon bows, vivid purple contact lenses, full eye makeup, a sweet possessive smile with tense unblinking eyes, high-neck ivory blouse with black lace collar and dusty pink neck ribbon, fully clothed black and dusty pink jirai kei fashion, cold lavender rain light and faint warm room light, psychological suspense, lower quarter is subdued dark windowsill for dialogue overlay, no text, no blood",
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, blurry, jpeg artifacts, text, letters, watermark, logo, nude, naked, lingerie, sexual, child, school uniform, extra limbs, bad anatomy, cropped head",
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "EmptySD3LatentImage",
+    "inputs": {
+      "width": 1344,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "seed": 10230501,
+      "steps": 10,
+      "cfg": 1,
+      "sampler_name": "euler",
+      "scheduler": "simple",
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "denoise": 1
+    }
+  },
+  "8": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "7",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "jirai/cg-window"
+    }
+  }
+}

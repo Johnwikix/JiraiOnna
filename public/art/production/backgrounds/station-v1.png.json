@@ -1,0 +1,13 @@
+{
+  "id": "station",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-aa5a207d-8019-4e1f-a733-4c42dbfac92c.png",
+  "savedAt": "2026-10-23T15:25:37.074Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty contemporary suburban Japanese train station platform in late evening, tiled platform edge, metal canopy and benches, tracks and opposite platform, vending machine with no legible branding, pale fluorescent lights and autumn drizzle, quiet wide perspective and lavender blue shadows. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant architectural linework, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent empty contemporary 2D environment with correct main architectural objects and foreground space.",
+  "runtimeReady": true
+}

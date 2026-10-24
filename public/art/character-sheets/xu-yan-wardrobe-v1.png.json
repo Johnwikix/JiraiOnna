@@ -1,0 +1,36 @@
+{
+  "id": "xu-yan-wardrobe-v1",
+  "version": 1,
+  "kind": "wardrobe-design-board",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:47:00 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-5c93b0bb-0694-4079-8b54-267b04c2e599.png",
+  "prompt": "Create one polished LANDSCAPE contemporary character WARDROBE DESIGN BOARD on a clean warm off-white/light gray background. Exactly THREE complete full-body FRONT outfit views of the SAME original adult person standing side by side with aligned feet and generous space; do not make three different people. Every view repeats the same face, iris color, hair color, body height and balanced adult proportions. The outfit changes according to the three scenario briefs. Head-to-shoes fully visible, comfortable natural poses, hands anatomically coherent, no emphasized body parts. Above or below each view use only a small readable English scenario label as specified. Include a small discreet shared color palette and compact outfit detail swatches in the remaining margin if space permits, without crowding or hiding any full-body view. This is an outfit reference board, not a scene image and not a three-view turnaround. No profile/back views needed.\n\nUse image 1 as the original character IDENTITY anchor: preserve that person's recognizable original 2D face and specified physical traits. Use images 2-4 only as rendering style references: fine precise colored linework, soft but clearly layered 2D shading, natural delicate anime nose/mouth, transparent iris detail, airy grouped hair locks with fine strands, precise orderly modern cloth folds and distinct fabric materials. Gentle warm key light, soft pale lavender shadows, accurate garment colors. Images 2-4 must contribute NO character design, faces, colors, costume shapes, poses, jewelry, horns, animal ears, tails, maid details, fantasy gowns or magical objects. All outfits are fully clothed practical modern adult daily clothes. No uniform/campus costume, no text paragraphs, brand names, signatures, watermark or fantasy accessories. Only one board image. \nIdentity: XU YAN, the SAME original 26-year-old adult Chinese MAN as Image 1: tall and lean, softly angular youthful masculine anime face, narrow dark brown eyes, faint cool tired under-eye tones, clean shaven, slightly grown-out tousled BLACK hair gathered into a small LOW ponytail at the nape. Keep his face, dark eyes and natural adult male build identical across all three looks. Clothes change, not the person. His expression is quiet and observant, not a glamour idol grin.\n\nThree fully dressed contemporary looks, left to right:\n1 WORK: a visibly washed old DEEP BLUE cotton work jacket with simple patch pockets over a charcoal-black long-sleeved shirt, a plain BLACK practical bib apron tied at the waist for an izakaya shift, comfortable dark gray casual work trousers and worn dark sneakers. Work clothes can also suit moving through a warehouse; the apron is a removable work layer. Practical loosely draped fabric, visible wear at cuffs/seams, no written logos. Canvas art portfolio bag as a small accessory/detail, not blocking the apron.\n2 INTERVIEW: clean BLACK button-up shirt with a narrow plain dark TIE, a neat narrow-cut charcoal jacket/blazer with minimal lapels, dark well-fitting straight trousers and clean simple black lace-up shoes. Low ponytail slightly tidier but exactly the same hair length and identity. A young adult art-graduate applicant trying to appear put together, restrained and believable rather than an executive suit stereotype.\n3 HOME: plain soft heather gray cotton LONG-SLEEVED crewneck top, comfortable dark gray full-length jogger/sweat trousers, simple house slippers with plain socks. Hair a little looser in the same low small ponytail, relaxed shoulders, tired calm expression, fully clothed comfortable indoor outfit.\n\nKeep natural slim adult male proportions in each view, avoid changing his face into the female style references. The three silhouettes and fabrics should visibly differ: washed working layers/apron; clean interview structure; soft loose cotton homewear. Include small restrained palette and closeups of apron/jacket wear, thin tie and cotton knit only if space allows. English labels only WORK, INTERVIEW, HOME.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\xu-yan-sheet-v1.png",
+      "role": "Original adult Xu Yan identity anchor"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "STYLE ONLY: linework, layered 2D shading and hair/cloth finish; no character design"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "STYLE ONLY: linework, layered 2D shading and hair/cloth finish; no character design"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "STYLE ONLY: linework, layered 2D shading and hair/cloth finish; no character design"
+    }
+  ],
+  "outfitIds": [
+    "work",
+    "interview",
+    "home"
+  ],
+  "reviewStatus": "pending-user-review (subsequent face-language redesign requested)",
+  "visualReview": "Three full-body work/interview/home looks checked, with working apron/washed navy jacket, clean black-shirt/thin-tie jacket, and gray cotton top/joggers/slippers. Low ponytail and male identity consistent. Completed before request to pause remaining wardrobes. No runtime registration.",
+  "runtimeRegistered": false
+}

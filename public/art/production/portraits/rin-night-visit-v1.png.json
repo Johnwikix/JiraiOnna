@@ -1,0 +1,41 @@
+{
+  "id": "rin-night-visit-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Kurose Rin, adult female age 24",
+  "outfit": "night-visit",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:38:51 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-e2a30d1c-8df9-43c7-b032-52c4c0f0c3d4.png",
+  "prompt": "Draw ONE full-body true-transparent game sprite of the SAME original RIN, explicitly adult age 24. Reference 1 is her APPROVED pure JAPANESE 2D ANIME face and expression identity: short midface/narrow heart face, thin straight brows, narrow upturned anime almond eyes, violet contacts, pink/red-brown under-eye shadow, lower eyeliner/tear-bag makeup, tiny anime nose mark and small thin tight mouth. Reference 2 is her already established FULL-BODY identity, scale, hair and clothing-construction anchor. Keep exactly her natural adult proportions, full-body head scale and front-three-quarter relaxed stance, LONG STRAIGHT JET-BLACK hair with thick blunt fringe/hime cheek locks and TWO LOW black satin bows at shoulder height. A small practiced sweet smile with slightly tense steady eyes, not a monster or exaggerated threat.\n\nNIGHT-VISIT outfit: a more deliberately coordinated complete BLACK/PINK modern JIRAI-KEI street outfit. Replace the casual knit cardigan with a contemporary cropped/hip-length BLACK bomber-style short JACKET with DUSTY PINK color-block inserts and restrained pink ribbon/zip-pull accents, ordinary realistic metal zip/fasteners, no giant fantasy ornament. Under it a fully covered modest BLACK high-neck top with fine small BLACK LACE edging and a DUSTY PINK neck ribbon. A small silver-heart fastener on a BLACK ribbon choker. Same practical BLACK pleated skirt, hem near the knees or only just above, opaque BLACK TIGHTS covering both legs and chunky BLACK PLATFORM BUCKLE shoes consistent with reference 2. Small black chain-strap bag at the hip. Hair low bows carefully arranged with a tiny pink lining/edge; full neat lower-eye pink/red-brown makeup more deliberate than the work look, layered violet contacts remain clear. Fine short dark manicure, no injuries or blood.\n\nOne hand loosely near the jacket edge/chain strap and the other relaxed naturally; coherent fingers, both shoes and complete head inside the frame. Only one fully clothed natural adult figure, same visual scale and portrait format as reference 2, small clean transparent margin. Approved pure JAPANESE 2D linework, precise matte/lace/jacket material distinction and clean CEL shadows, not painterly realism or Western face. TRUE native TRANSPARENT RGBA outside the silhouette, smooth alpha edges; no environment, floor, white backdrop, panels, text, labels, extra portraits, watermark or fantasy costume.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-face-study-v3.png",
+      "role": "Approved Rin v3 face identity and pure Japanese 2D expression language."
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\rin-casual-v1.png",
+      "role": "Rin casual production sprite: body/pose/face/hair scale, skirt/shoe/bag construction anchor; cardigan replaced with coordinated night jacket/black inner and dark tights."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 887,
+  "height": 1774,
+  "mode": "RGBA",
+  "bytes": 1031326,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    25,
+    0,
+    863,
+    1774
+  ],
+  "transparentPixels": 1017451,
+  "partialAlphaPixels": 554858,
+  "visualReview": "Same approved Rin v3 face and casual-sprite body/hair scale checked. Full head, hands/nails and both platform shoes complete. Black-pink modern short bomber jacket, black fine-lace inner, pink ribbon/heart choker, black pleated skirt, dark full-leg hosiery and chain bag distinguish night visit from casual; eye makeup/low black bows intact.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

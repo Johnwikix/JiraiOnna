@@ -1,0 +1,36 @@
+{
+  "asset": "cg-nana-cafe-v1.png",
+  "status": "production continuity repair; agent visually checked",
+  "createdAtUTC": "2026-10-23 17:47:45 UTC",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "prompt": "Use case: illustration-story.\nAsset type: final game CG, one complete 16:9 landscape scene, 2048x1152 preferred.\nInputs: Image 1 is the ONLY character identity reference: preserve her specific face, hair, eye color, adult age and clothes. Image 2 supplies the cafe interior only: same rainy street windows on the left, warm wood, red-brown upholstered chairs, plant pots, counter to right. Image 3 is ONLY composition and refined Japanese 2D anime rendering reference: a seated person behind a solid foreground table with natural occlusion. DO NOT borrow Image 3 woman's face, hair or outfit.\nDraw a new complete illustration, not a pasted standing sprite. First person observer sits opposite the adult woman, table-height eye view, chest-up seated framing. Her head is high in the upper half of image, full top of head comfortably visible, face toward viewer; torso and naturally resting hands above table. A broad wooden table completely occludes everything below the upper abdomen: NO visible legs or skirt front, NO standing person behind a tiny table, NO transparent tabletop, NO body crossing tabletop. Bottom 25 percent is quiet clear foreground tabletop reserved for game dialogue.\nPolished hand-drawn Japanese 2D anime visual novel art, expressive simple anime nose and mouth, delicate clean linework, carefully organized cel shadows, detailed hair clusters and cloth texture, coherent drawn anatomy. No realism, 3D render, western comic face, glossy doll face, identical generic face, text, letters, UI, logos, watermark, duplicate person. All characters are adults fully clothed. Overcast rainy afternoon outside, soft cool window light plus gentle warm cafe lights.\nSubject is Hinata Nana, age 25, exactly Image 1 identity: chestnut-brown shoulder-length hair, adult wider short-oval cheeks, amber almond-round eyes, fuller straight eyebrows, short simple nose. Mustard cardigan with white collared blouse, navy skirt hidden by table. She sits opposite the observer, a little worried and self-conscious, closed mouth, one corner barely moving, NOT a big happy smile. Her hands rest beside a few paper documents on table. One old smartphone has a visibly chipped corner and sits by the papers; one steaming ceramic drink cup. Only this one woman. Preserve warm chestnut hair and amber eyes, NOT long gray hair or gray-green eyes from composition reference.",
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a169db-1c44-7681-a7d0-64258612ccbd\\exec-70481c3e-76cc-479e-8e02-1c1ebf26cb05.png",
+  "output": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\cgs\\cg-nana-cafe-v1.png",
+  "transparentBackground": false,
+  "references": [
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/portraits/nana-casual-v1.png",
+      "purpose": "Only character identity and current casual clothes"
+    },
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/backgrounds/cafe-v1.png",
+      "purpose": "Same cafe environment, rainy overcast afternoon"
+    },
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/cgs/cg-dinner-v1.png",
+      "purpose": "Seated first-person table occlusion and polished Japanese 2D rendering only; no identity borrowed"
+    }
+  ],
+  "review": {
+    "identity": "Own corresponding portrait used as actual reference; adult and clothed",
+    "composition": "Seated across a broad opaque foreground table; lower body hidden; face in upper half; no standing cutout crossing table",
+    "notes": "Documents have indistinct incidental marks, no readable text. Phone has worn/chipped corner."
+  },
+  "actualOutput": {
+    "width": 1672,
+    "height": 940,
+    "pngColorType": 2,
+    "bytes": 2232857
+  }
+}

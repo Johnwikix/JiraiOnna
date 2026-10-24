@@ -1,0 +1,37 @@
+{
+  "id": "rin-work-v1",
+  "kind": "production-transparent-portrait",
+  "character": "Kurose Rin, adult female age 24",
+  "outfit": "work",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version not exposed by tool",
+  "savedAt": "2026-10-23 15:32:24 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-abee54d0-cc52-47cf-9b2a-ceb5b207fac4.png",
+  "prompt": "Draw ONE actual game CHARACTER SPRITE of the SAME original RIN in reference 1, explicitly a 24-year-old adult Japanese woman. Reference 1 is the APPROVED FACE identity and pure JAPANESE 2D ANIME style, not a panel layout to reproduce. Preserve its slightly short midface, narrow heart-shaped anime face, thin tidy straight brows, upward-tilting almond eyes at normal anime scale, clear VIOLET contact lenses, conspicuous dusty pink/red-brown lower-eye shadow, clear lower eyeliner/tear-bag makeup, tiny simply indicated nose and small thin tight mouth. No realistic nose/lips or Western/semirealistic face. Give her a practiced small customer-service sweet smile whose lower eyelids remain slightly tense; recognizable jirai-kei eye makeup but human and natural, not horror or languid princess romance.\n\nPreserve LONG JET-BLACK STRAIGHT hair, thick precisely cut blunt fringe and straight jaw-level hime side locks; TWO LOW side sections tied at SHOULDER height with plain BLACK SATIN BOWS, the rest neatly kept behind the shoulders. Match the approved identity exactly, not a generic same-face girl. Adult natural balanced figure and neck/shoulders, no exaggerated chest or tiny waist, fully clothed.\n\nWORK outfit: ordinary BLACK long-sleeved work button-up shirt with sleeves neatly cuffed for movement; plain BLACK practical bib apron tied at waist, a modest simple front pocket, apron hem around knee level; dark charcoal FULL-LENGTH straight work trousers and practical simple BLACK flat non-slip shoes. Neat dark manicure at a practical short length. No frilly maid apron, decorative neck choker, jewelry, camera bag, text or logos. This is ordinary modern restaurant-shift clothing, not the off-duty fashion look.\n\nOnly ONE character, full head to the soles of BOTH shoes, front three-quarter natural relaxed standing pose, one hand loosely near the apron knot and the other relaxed by her side; anatomically coherent hands. Consistent natural body scale, tightly fit tall portrait canvas with only a small clean transparent margin and all hair/shoes inside the frame. Fine organized 2D linework, detailed but orderly hair strands, crisp soft-edged CEL shadows, matte black cloth folds with subtle value separation, neutral soft character illumination. Actual TRANSPARENT RGBA outside her silhouette and smooth natural alpha edges, no white/gray backdrop, floor, cast scene shadow, environment, labels, panels, extra portraits or watermark.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-face-study-v3.png",
+      "role": "Approved Rin v3 face identity, practiced smile and pure Japanese 2D anime rendering; only one full-body character produced."
+    }
+  ],
+  "transparentBackgroundRequested": true,
+  "width": 887,
+  "height": 1774,
+  "mode": "RGBA",
+  "bytes": 909667,
+  "alphaExtrema": [
+    0,
+    255
+  ],
+  "alphaBounds": [
+    65,
+    0,
+    815,
+    1774
+  ],
+  "transparentPixels": 1037074,
+  "partialAlphaPixels": 535585,
+  "visualReview": "Full head-to-shoes sprite checked against approved Rin v3: same short-midface anime identity, violet contacts/pink under-eye makeup, low black bows/blunt fringe/hime cheek locks. Black practical shirt/apron, full trousers and simple dark shoes, coherent hands/short dark nails. Sweet mouth with a restrained fixed gaze retained.",
+  "alphaMethod": "Native imagegen transparency; no local background removal, cropping or pixel editing",
+  "runtimeRegistered": false
+}

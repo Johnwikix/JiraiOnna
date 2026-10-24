@@ -1,0 +1,32 @@
+{
+  "id": "rin-sheet-v2",
+  "version": 2,
+  "kind": "character-reference-sheet",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:38:21 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-5a5446a8-10cd-4bce-8d87-c0f9c89a5749.png",
+  "prompt": "Use case: identity-preserve / character design revision.\nCreate ONE wide LANDSCAPE clean character reference sheet on a light warm gray-white background. Image 1 is the ORIGINAL ADULT RIN identity/edit target, but her hair styling, makeup, wardrobe and range of expressions must be substantially redesigned according to the brief below. Preserve a recognizable original 24-year-old young adult woman's face in refined 2D anime form and natural adult proportions, not a different reference character. Images 2-4 are STYLE-ONLY: borrow clean precise thin colored lines, clear shapes, soft layered 2D shading, airy grouped strands and detailed cloth folds. Do not copy their people, costumes, colors, horns, animal features, tails, maid or fantasy design.\n\nLayout: Three complete aligned FULL BODY turnaround views FRONT, SIDE PROFILE, BACK on the left 60%; SIX distinct head-and-shoulder expression studies in a 2-column by 3-row grid on the right. Include a compact six-color palette and small detail studies of eye makeup, low black hair bow and shoe/choker hardware along spare margins without crowding any figure. Full head, hands, legs, socks and shoes visible in each body view. Delicate neutral warm key light with pale lavender shadows, accurate garment color, no scene background or decorative paragraphs.\n\nRin is a 24-year-old adult woman in authentic contemporary Japanese urban JIRAI-KEI street fashion. This redesign must visibly communicate that subculture through MAKEUP, HAIRCUT, MODERN GARMENT SHAPES, ACCESSORIES and EXPRESSIONS. Keep BLACK as the dominant clothing color with clear high-contrast pink accents. Her attractive face has vivid PURPLE colored contact lenses, clearly drawn lower eyeliner and tear-bag eye makeup, pink/red-brown diffused eyeshadow below the eyes, deliberate neat lashes. Makeup is fashionable and human, not bruises, gore, monster eyes or horror.\n\nHair: glossy very LONG JET-BLACK hair in LOW loose twin ponytail sections tied at shoulder height with TWO BLACK SATIN BOWS. Add a thick straight accurately cut FULL FRINGE and straight HIME-CUT cheek-framing side locks trimmed at jaw level. Keep that same silhouette, straight fringe, cheek locks and low bows in all views and expression studies. Fine black/deep wine-colored neatly polished nails, normal practical length.\n\nMain modern OFF-DUTY outfit, identical in all turnaround views: a roomy BLACK knitted short cardigan ending around the hips, simple contemporary cut with dusty pink ribbon closures and restrained pink edge accents, over a modest pale pink high-neck inner blouse with a SMALL black lace edge rather than an enormous court collar. Black ribbon neck choker with one SMALL silver heart-shaped fastener. BLACK neat pleated skirt ending only a few centimeters above the knees, opaque black knee-high socks and conspicuous chunky BLACK PLATFORM BUCKLE SHOES with realistic soles and straps. A small ordinary BLACK chain-strap bag at the hip and a plain smartphone in a dark pink/black case as realistic everyday accessories; no readable screen text. Garment silhouettes and textures are modern street fashion, not a ball gown or historical aristocrat. Entire outfit fully covering and practical, natural non-sexual pose, no body-part emphasis. Reduce large pale pink blouse areas; BLACK knit, skirt, socks, shoes and bag should dominate.\n\nSIX clearly different expression heads: 1 natural practiced customer-service sweet smile; 2 obvious sulky pressed-lip pout; 3 visibly tense STIFF smile held at the corners; 4 cool unsmiling reserved face; 5 clearly IRRITATED with lowered brows and a tense slightly open mouth; 6 tightly held hurt/anger with moist eyes and pressed lips. Do not soften all six into romantic smiles. Her makeup and violet contacts remain consistent in each, and no expression becomes grotesque or manic. Small simple English labels are acceptable. Keep original adult identity, modern black/pink subculture styling and precise attractive 2D rendering. No fantasy jewelry, insignia, logos, watermark or long text.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-sheet-v1.png",
+      "role": "Original adult Rin identity; explicitly redesign hair styling, makeup, modern jirai-kei outfit and expression range"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "STYLE ONLY: fine 2D linework, layered shading, hair/cloth detail; no character design"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "STYLE ONLY: fine 2D linework, layered shading, hair/cloth detail; no character design"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "STYLE ONLY: fine 2D linework, layered shading, hair/cloth detail; no character design"
+    }
+  ],
+  "reviewStatus": "pending-user-review",
+  "replacesForReview": "rin-sheet-v1.png (retained as rejected comparison)",
+  "visualReview": "Three full-body views and six visibly varied expressions checked. Black-dominant knit/pink accents, purple contacts, pink under-eye makeup, low black bows, dark nails, heart choker, small chain bag/phone, knee-high socks/platform buckle shoes visible. The hime-cut cheek locks and thick fringe remain softer than the brief; do not treat as user-approved final design. No runtime registration.",
+  "runtimeRegistered": false
+}

@@ -1,0 +1,38 @@
+{
+  "id": "rin-wardrobe-v1",
+  "version": 1,
+  "kind": "wardrobe-design-board",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact model version not exposed",
+  "savedAt": "2026-10-23 14:42:50 UTC",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-3f9f11f8-9b1f-4587-89fe-d8251f8b0d0b.png",
+  "prompt": "Create one polished LANDSCAPE contemporary character WARDROBE DESIGN BOARD on a clean warm off-white/light gray background. Exactly FOUR complete full-body FRONT outfit views of the SAME original adult person standing side by side with aligned feet and generous space; do not make four different people. Every view repeats the same face, iris color, hair color, body height and balanced adult proportions. The outfit changes according to the four scenario briefs. Head-to-shoes fully visible, comfortable natural poses, hands anatomically coherent, no emphasized body parts. Above or below each view use only a small readable English scenario label as specified. Include a small discreet shared color palette and compact outfit detail swatches in the remaining margin if space permits, without crowding or hiding any full-body view. This is an outfit reference board, not a scene image and not a three-view turnaround. No profile/back views needed.\n\nUse image 1 as the original character IDENTITY anchor: preserve that person's recognizable original 2D face and specified physical traits. Use images 2-4 only as rendering style references: fine precise colored linework, soft but clearly layered 2D shading, natural delicate anime nose/mouth, transparent iris detail, airy grouped hair locks with fine strands, precise orderly modern cloth folds and distinct fabric materials. Gentle warm key light, soft pale lavender shadows, accurate garment colors. Images 2-4 must contribute NO character design, faces, colors, costume shapes, poses, jewelry, horns, animal ears, tails, maid details, fantasy gowns or magical objects. All outfits are fully clothed practical modern adult daily clothes. No uniform/campus costume, no text paragraphs, brand names, signatures, watermark or fantasy accessories. Only one board image. \nCharacter identity: KUROSE RIN, a 24-year-old adult Japanese urban jirai-kei woman. Image 1 is her revised IDENTITY anchor. Preserve her long jet-black hair, LOW black satin twin bows, straight fringe and cheek-framing hime-style side locks, clear vivid VIOLET contacts, pink/red-brown under-eye shadow, lower eyeliner and tear-bag makeup, fine dark polished nails and delicate original 2D adult face. Natural balanced adult proportions. Do not soften her into an aristocratic princess. Her expression is a naturally practiced small smile or quiet slightly stubborn face, not a horror stare. Keep the hair, face and body visibly the SAME woman in all FOUR front full-body views. Shared dominant black with pink fashion accents, except the intentionally low-key cream daytime knit contrast.\n\nFour looks in this left-to-right order, each complete from head to shoes, labels:\n1 WORK: ordinary BLACK long-sleeved work shirt with sleeves neatly cuffed, plain BLACK practical bib apron tied at waist with a simple front pocket, charcoal full-length work trousers and black flat non-slip work shoes. Long hair gathered into two practical LOW tied sections with restrained black bows; retain violet contacts and signature neat eye makeup. Entirely modern restaurant shift clothing that allows movement, no frilly maid apron, no brand. Hands at rest.\n2 OFF-DUTY: authentic contemporary black/pink jirai-kei street outfit matching the revised anchor: roomy BLACK short knitted cardigan with dusty pink ribbon closures, modest pink high-neck inner top with small fine black lace edge, small silver-heart black ribbon choker, BLACK pleated skirt ending just above the knees, opaque black knee-high socks and chunky black platform BUCKLE shoes, small black chain-strap bag and a plain phone. Black dominates, pink is controlled contrast.\n3 04:00 VISIT: a more carefully coordinated full jirai-kei NIGHT LOOK, cropped BLACK AND DUSTY PINK modern street jacket with black cuffs and modern zipper/piping, black lace-trimmed high-neck inner layer and pink neck ribbon, small heart-fastener choker, matching black pleated knee/just-above-knee skirt, opaque black tights, conspicuous thick-soled black multi-buckle platform shoes. Slightly fuller lower-eye pink/red-brown makeup and well-defined violet contacts, carefully arranged low twin black bows with tiny pink trim and a small chain bag. Human fashionable face, no gore, no monster styling, no fantasy court gown.\n4 SOFT KNIT: deliberate low-key DAYTIME contrast for a bookshop meeting: loose soft MILKY CREAM knitted cardigan over a modest plain black inner top, simple BLACK knee-length skirt, dark opaque tights and ordinary black low flat strap shoes. Same black long hair, low black bows, violet contacts and recognizable eye makeup. Quiet everyday knit layers, relaxed and subtly deliberate small smile, no ornate lace/court-dress or aristocratic costume.\n\nKeep all four views the same scale and natural adult figure, show each outfit clearly, use at most tiny shared makeup/bow/palette details below. No extra body view or scene. No readable phone screen, logos, long text or watermark.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\character-sheets\\rin-sheet-v2.png",
+      "role": "Revised original adult Rin identity and jirai-kei style anchor"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "STYLE ONLY: linework, layered 2D shading, grouped hair and cloth finish; no character design"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "STYLE ONLY: linework, layered 2D shading, grouped hair and cloth finish; no character design"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "STYLE ONLY: linework, layered 2D shading, grouped hair and cloth finish; no character design"
+    }
+  ],
+  "outfitIds": [
+    "work",
+    "casual",
+    "night-visit",
+    "soft-knit"
+  ],
+  "sharedPropNote": "A later story/CG may depict Rin borrowing Xu Yan's washed deep-blue work jacket from xu-yan-sheet-v1.png. This is a shared borrowed garment prop, deliberately not an extra complete wardrobe view here.",
+  "reviewStatus": "pending-user-review",
+  "visualReview": "Four full-body front outfit looks checked: practical black work shirt/apron/trousers; black-pink jirai knit off-duty; coordinated black-pink short jacket night visit; low-key cream knit over black for daytime contrast. Shared low bows/violet eye makeup/face preserved. Palette and eye/bow/choker/ribbon/bag/platform details present. No runtime registration.",
+  "runtimeRegistered": false
+}

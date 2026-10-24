@@ -1,0 +1,49 @@
+{
+  "version": 3,
+  "asset": "supporting-face-study-v3.png",
+  "status": "awaiting-user-review",
+  "approved": false,
+  "adoptedInRuntime": false,
+  "generatedAtUTC": "2026-10-23 15:02:24 UTC",
+  "tool": "built-in image_gen",
+  "model": "not exposed by tool",
+  "transparentBackground": false,
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a16940-f1bc-79c0-a33b-783af69b6f6d\\exec-7cfe1914-7338-4804-9570-5ebe3d677fde.png",
+  "prompt": "Use case: stylized-concept. Draw a beautiful JAPANESE 2D ANIME character face comparison board for a commercial bishoujo visual novel. Closely match the supplied illustration's ANIME DRAWING STYLE ONLY: crisp fine ink contours, charming luminous anime eyes, clean flat skin colors, clear cel-shaded shadow shapes, delicate stylized hair strands. Nose = one tiny dot or short stroke. Mouth = one simple curved line. Everything remains distinctly drawn anime, as stylized as the reference; do not make realistic portrait illustrations. Original contemporary human characters, no fantasy traits or reference character design.\n\nSix large head-and-shoulder portraits in a neat landscape three-column two-row layout, white background. Top row: front view, neutral expression, identical scale. Bottom row: same person in natural three-quarter view. All wear identical plain gray crew-neck shirts under soft neutral lighting. Small column headings only: \"NANASE 25\", \"SHIORI 23\", \"WANQING 26\".\n\nLEFT: NANASE age 25. Shoulder-length chestnut hair, amber eyes. Broader SHORT ROUNDED face and round soft chin, almond-round bright anime eyes, fairly straight eyebrows, wider curved mouth line. Bottom view: candid cheerful smile, one mouth corner leads. No freckles.\nMIDDLE: SHIORI age 23. Long straight ash-brown hair, gray-green eyes. LONG NARROW oval face but ROUNDED chin, clearly slender DOWN-TILTING anime eyes, thin low eyebrows, longer space between eyes and tiny nose, very small mouth line. Bottom view: shy sidelong gaze with a faint uneven smile.\nRIGHT: WANQING age 26. Deep-brown neat LOW BUN, brown eyes. Medium-long egg-shaped face with soft round jaw; elegantly UP-TILTING NARROW anime eyes, eyebrows closer to eyelids and longer than the others, compact mouth line. Bottom view: one eyebrow slightly raised, composed dry humor.\n\nThree noticeably different anime face shapes and eye silhouettes, same appealing refined 2D style. Keep each identity consistent across its two views. No realistic nose bridges, nostrils, full lips, skin texture, painterly portraits, hatching, 3D, glossy lips, freckles, jewelry, or props.",
+  "inputImages": [
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "style-only reference: inspected and actually passed in referenced_image_paths; no character design borrowed"
+    }
+  ],
+  "inspectedContextOnly": [
+    "nana-sheet-v1.png",
+    "shiori-sheet-v1.png",
+    "qing-sheet-v1.png"
+  ],
+  "characters": [
+    {
+      "id": "nana",
+      "name": "Nanase",
+      "age": 25
+    },
+    {
+      "id": "shiori",
+      "name": "Shiori",
+      "age": 23
+    },
+    {
+      "id": "qing",
+      "name": "Wanqing",
+      "age": 26
+    }
+  ],
+  "selfReview": {
+    "composition": "Correct three-column two-row board, front and three-quarter views of each character, matching gray shirts and neutral white background.",
+    "style": "Strong improvement over v2: distinctly 2D anime, simplified short nose marks and mouth lines, cel shadows, no freckles or realistic nostril/lip rendering.",
+    "distinction": "Nanase has larger rounder eyes and wider/shorter cheeks; Shiori has narrower downward eye line and longer slim face; Wanqing has narrower upturned eyes and lower brow gap. Hairstyles and eye colors are secondary identifiers.",
+    "limitations": "Facial differences remain stylized and restrained; neutral mouths and jaw tips are still relatively similar. Await user review before any character-sheet/outfit adoption.",
+    "identity": "Front and three-quarter appearances consistent per column.",
+    "runtime": "No media-map/story/runtime edits; this is a review board only."
+  }
+}

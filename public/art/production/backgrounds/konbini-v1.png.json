@@ -1,0 +1,13 @@
+{
+  "id": "konbini",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a1684e-3382-7871-9e86-7e37862810da\\exec-5c000cce-0f92-4a67-8bee-d490e146e8a1.png",
+  "savedAt": "2026-10-23T15:25:56.858Z",
+  "prompt": "Use case: illustration-story. Asset: final full-screen background for a Japanese-style 2D visual novel. One SINGLE wide 16:9 landscape illustration, aim 1920x1080. Empty small Japanese convenience store at dawn seen from seating corner. Large rain-streaked street windows, bright clean fluorescent practical lighting, ordinary shelves without readable labels, a paper cup of water on narrow counter and two simple stools. Outside dim rain, inside a safe white glow. Human-scale modest everyday store. Refined hand-painted TWO-DIMENSIONAL anime game environment, precise elegant architectural linework, organized clean cel-like light and shadow with delicate atmospheric gradients, detailed materials without photographic textures, beautiful controlled contemporary colors. Eye-level first-person environment, natural unoccupied space near center for a standing character, lower quarter quiet for dialogue. No inset panels, no lettering, no watermark, no interface, no characters, no photorealism, no 3D render.",
+  "references": [],
+  "visualReview": "Generated result inspected: coherent empty contemporary 2D environment with correct main architectural objects and foreground space.",
+  "runtimeReady": true
+}

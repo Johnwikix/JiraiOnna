@@ -1,0 +1,22 @@
+{
+  "id": "airport",
+  "version": 1,
+  "kind": "background",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact version not exposed",
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a169da-41c4-78a2-b588-45c786798dc9\\exec-57ced34d-26c3-4adc-8a42-8b84926b8ab9.png",
+  "savedAt": "2026-10-23T17:46:07.392Z",
+  "prompt": "Use case: illustration-story. Production background for a Japanese adult visual novel (environment only, no sexual content). Create one landscape 16:9 illustration. Reference images are STYLE ONLY: match their precise yet painterly 2D anime environmental rendering, coherent human-scale architecture, subtle material texture, cinematic layered lighting, restrained natural palette, crisp elegant drawn lines, high-quality Japanese game background. Do not copy either room layout or restaurant subject. No characters, people, silhouettes, faces, readable writing, text, logos, watermark, game interface. Single coherent scene, not a collage. Eye-level first-person view. An ordinary international airport departure waiting lounge. Rows of dark upholstered airport seats, a boarding gate desk and a very large glass window onto the apron where a passenger airplane is clearly parked with its jet bridge. Late afternoon into dusk outside, natural soft interior lighting, quiet realistic ordinary airport, not futuristic or luxury hotel. Unobstructed readable spatial composition with enough floor space.",
+  "references": [
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\backgrounds\\room-v1.png",
+      "role": "style-only"
+    },
+    {
+      "path": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\backgrounds\\izakaya-v1.png",
+      "role": "style-only"
+    }
+  ],
+  "visualReview": "Generated result inspected: correct empty ordinary contemporary scene with coherent drawn architecture, no characters or readable signage.",
+  "runtimeReady": true
+}

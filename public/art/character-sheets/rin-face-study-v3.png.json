@@ -1,0 +1,48 @@
+{
+  "id": "rin-face-study-v3",
+  "version": 3,
+  "kind": "individual-anime-face-study",
+  "tool": "image_gen__imagegen",
+  "model": "Built-in image generation; exact underlying model version is not exposed by the tool",
+  "savedAt": "2026-10-23 15:05:22 UTC",
+  "width": 1942,
+  "height": 809,
+  "mode": "RGB",
+  "bytes": 2316541,
+  "sourceGeneratedFile": "C:\\Users\\90684\\.codex\\generated_images\\01a168fb-ffb9-7073-8701-f335e53ffbd7\\exec-d5383a8f-6af0-4c4b-bc13-e04822606e05.png",
+  "prompt": "Create ONE finished PURE JAPANESE 2D ANIME character-face study, a wide horizontal triptych of THREE large head-and-upper-shoulder portraits of the SAME original 24-year-old adult Japanese woman, Rin. Do not use Western-comic, semi-realistic portrait, painterly-realism or pencil-sketch face grammar. The provided three reference images are STYLE ONLY: borrow their clean Japanese anime face simplification, thin precise variable colored lines, clear flat-to-soft layered 2D shadow shapes and fine neatly grouped hair strands. Create an original face. Do not reproduce any reference person's face, hair color, costume, horns, ears, tails, jewelry or fantasy design.\n\nHighest priority face language: clearly hand-drawn JAPANESE ANIME with attractive NORMAL ANIME-SIZED eyes, simply indicated tiny nose dot or SHORT little nose line, a delicate thin closed mouth line. No modeled nostrils, no realistic nose wings or nose volume, no realistically fleshy lips, lip texture or lip shine, no cheekbone anatomy shadow, deep eye sockets, hatching or sketchy shading. Preserve the reference's pretty clear animated 2D eye and face language. The differences in this original character come from ANIME eye silhouette, eye spacing, eyebrow shape, cheek/jaw contour and midface proportion, never by making her look realistic, Western or middle-aged.\n\nRin is an ORIGINAL adult age 24, not a child: naturally proportioned adult head/neck/shoulders, a slightly short midface, a slim heart-shaped face with softly defined jaw turns and a small ROUNDED chin rather than a long sharp V. Eyes remain normal appealing anime size, with a LONGER slightly narrower UPWARD-TILTING ALMOND silhouette, definite upper/lower eyelid edges and somewhat reduced visible white compared with round doe eyes; clear rich VIOLET colored contacts with layered luminous anime iris detail. Thin tidy relatively STRAIGHT brows. Very short simple nose mark and small thin TIGHT mouth, its corners faintly downpressed at rest. No universal rosy blush or glamorous lip gloss.\n\nHer contemporary jirai-kei makeup is precise and CLEAR: conspicuous dusty pink / red-brown soft shadow below the eyes, deliberate LOWER EYELINER, fine lower lashes and highlighted tear-bag eye makeup. Make it recognizable fashion makeup, with no injury or bruising. Long jet-BLACK STRAIGHT hair, a THICK clean straight blunt fringe, straight HIME-CUT cheek-framing side locks cut around jaw level, two LOW loose side bundles tied at SHOULDER height with plain BLACK SATIN BOWS. Fine subordinate strands and controlled highlights, not generic wavy ringlets. Preserve this hair/eye/face structure in all three portraits, with no earrings or other jewelry.\n\nEvery portrait wears the SAME unadorned black-charcoal ordinary CREWNECK shirt; no dress, choker or collar pattern to distract from face design. The crop includes only head, neck and upper shoulders, no emphasized chest. All three panels have the SAME head scale, same soft neutral diffuse illumination, plain white/light-gray backdrop and clean separation. No sunset or dramatic lighting to hide the expression.\n\nPanel 1, FRONT NEUTRAL: straight-on face, head level, ordinary direct eye contact, relaxed closed mouth with corners slightly down, a trace of resting impatience.\nPanel 2, THREE-QUARTER PRACTICED SMILE: the mouth makes a believable SWEET customer-service smile, but the lower lids and brows have not fully relaxed; she is visibly exerting effort to maintain friendliness, without a monster grin.\nPanel 3, THREE-QUARTER SMILE GONE: the smile is completely withdrawn, small closed lips press slightly, the drawn jaw contour/neck posture is subtly tense, a cool restrained impatient face. Not sleepy romance, not seductive, not grotesque anger.\n\nSubtle human adult presence with stylish Japanese 2D beauty, clear black/violet/pink makeup identity and precisely readable expression changes. Small simple English labels FRONT / PRACTICED SMILE / SMILE GONE are optional. No watermark, logo, extra portraits, realism or long explanatory text. Produce only this one image.",
+  "references": [
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "STYLE ONLY: pure Japanese anime face simplification, fine variable colored lines, layered 2D shadows and precise grouped hair. No reference character identity, hair color, costume, pose or fantasy design."
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "STYLE ONLY: pure Japanese anime face simplification, fine variable colored lines, layered 2D shadows and precise grouped hair. No reference character identity, hair color, costume, pose or fantasy design."
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "STYLE ONLY: pure Japanese anime face simplification, fine variable colored lines, layered 2D shadows and precise grouped hair. No reference character identity, hair color, costume, pose or fantasy design."
+    }
+  ],
+  "unusedReference": "face-lineup-v1.png deliberately not supplied; its semi-realistic/sketch face language was rejected.",
+  "character": {
+    "name": "Kurose Rin",
+    "age": 24,
+    "adult": true
+  },
+  "panels": [
+    "front-neutral",
+    "three-quarter-practiced-smile",
+    "three-quarter-smile-gone"
+  ],
+  "reviewStatus": "pending-user-review",
+  "visualReview": "Pure Japanese 2D anime grammar restored: simplified short nose marks and thin mouth lines, no modeled nostrils/lips or sketch hatching. Violet eyes, pink lower-eye makeup, heavy blunt fringe, cheek locks, low black bows and shared charcoal crewneck checked. Neutral/maintained smile/withdrawn smile are visible.",
+  "remainingIssues": [
+    "Jaw/chin remains fairly pointed rather than the requested softer turn.",
+    "Front-view nose retains a small geometric highlight.",
+    "Expression changes are relatively subtle; the center smile retains some soft romantic appeal."
+  ],
+  "runtimeRegistered": false,
+  "disposition": "One new face-study image only; no automatic revisions, outfits, CGs or media registration. Wait for user review."
+}

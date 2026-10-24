@@ -1,0 +1,299 @@
+{
+  "scope": "Nine supporting female character wardrobe standing sprites",
+  "generatedWith": "built-in image_gen only",
+  "checkedAtUTC": "2026-10-23T15:30:52.706128+00:00",
+  "count": 9,
+  "allNineHaveRealAlpha": true,
+  "allNineHaveSidecars": true,
+  "allNineHeadToShoesVisuallyInspected": true,
+  "imageProcessing": "None; original generated PNGs copied unchanged. Pillow used solely for read-only PNG validation.",
+  "notes": [
+    "Transparent RGB pixels may contain black and colored halos; sampled halo alpha is zero and does not become a game backdrop.",
+    "Subject alpha peaks at 254, ordinary near-opaque image-generation output, with antialiased partial-alpha edges.",
+    "Nana work/casual/studio share identity and camera bag where applicable; Shiori work wears mask and tied hair, casual/bookshop reveal face; Qing has office/casual/date outfits.",
+    "No runtime, story, media mapping, or other agent files edited.",
+    "Shiori bookshop has one corner alpha=1/255 instead of zero; all nine have true alpha, transparent surrounds and no opaque backdrop. This tiny generated antialias residual is retained without image editing."
+  ],
+  "items": [
+    {
+      "file": "nana-work-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\nana-work-v1.png",
+      "bytes": 1272923,
+      "sha256": "56901d616130ef07211a50d01138beb1098f6383f288921798b1d8f306e3c1a2",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        335,
+        6,
+        760,
+        1526
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "nana-casual-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\nana-casual-v1.png",
+      "bytes": 1433288,
+      "sha256": "d0e7dbbca93d62b19ec82666f3877554273ef9946df2c16aea4b7daa98d7378b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        278,
+        7,
+        864,
+        1527
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "nana-studio-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\nana-studio-v1.png",
+      "bytes": 1402882,
+      "sha256": "3be49a870fb6f45fad9fbcd25d478b2a79baa0aad9b8c4f61ba578e67acf9a94",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        289,
+        7,
+        773,
+        1526
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "shiori-work-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\shiori-work-v1.png",
+      "bytes": 1241334,
+      "sha256": "253cbdb5530c5e2fe1cc40ef790be30140beb62b34b0d63e32699b54fb735d44",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        361,
+        8,
+        755,
+        1529
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "shiori-casual-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\shiori-casual-v1.png",
+      "bytes": 1512631,
+      "sha256": "67c0ee0e0fe2cf17198174a797050e6c689f0f4de77d706972a1d3637fcbd2ff",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        252,
+        13,
+        826,
+        1532
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "shiori-bookshop-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\shiori-bookshop-v1.png",
+      "bytes": 1403145,
+      "sha256": "99aa097d091c2908b578438f1fab7bdd340fa8acbb8040de6fe0c5e84d390c93",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        279,
+        13,
+        814,
+        1521
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": false
+    },
+    {
+      "file": "qing-office-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\qing-office-v1.png",
+      "bytes": 1319445,
+      "sha256": "a2c6bf319adc1201f35053c47bad209817d58e9d71d3290baa5a468a9cc7758e",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        313,
+        6,
+        784,
+        1527
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "qing-casual-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\qing-casual-v1.png",
+      "bytes": 1344609,
+      "sha256": "b7b3fc89b607e9e3fc43a3d058e67ba69dfceff3bb57559ecf684a7475dccb1d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        348,
+        6,
+        796,
+        1530
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    },
+    {
+      "file": "qing-date-v1.png",
+      "absolutePath": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\portraits\\qing-date-v1.png",
+      "bytes": 1270682,
+      "sha256": "b449318e50c8f93702b00eaa12d79f0fcad72ee0a0975a1049963497773b2036",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "visibleBoundingBoxAlphaAbove32": [
+        310,
+        6,
+        799,
+        1524
+      ],
+      "transparent": true,
+      "workspaceViewInspected": true,
+      "hasPromptSidecar": true,
+      "allCornersFullyClear": true
+    }
+  ],
+  "allNineHaveClearOrNearClearCorners": true
+}

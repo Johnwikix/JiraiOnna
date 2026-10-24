@@ -1,0 +1,550 @@
+{
+  "version": 1,
+  "edition": "gpt-production-1",
+  "backgrounds": {
+    "rain": "/art/production/backgrounds/rain-v1.png",
+    "izakaya": "/art/production/backgrounds/izakaya-v1.png",
+    "station": "/art/production/backgrounds/station-v1.png",
+    "room": "/art/production/backgrounds/room-v1.png",
+    "door": "/art/production/backgrounds/door-v1.png",
+    "konbini": "/art/production/backgrounds/konbini-v1.png",
+    "dawn": "/art/production/backgrounds/dawn-v1.png",
+    "cafe": "/art/production/backgrounds/cafe-v1.png",
+    "bookshop": "/art/production/backgrounds/bookshop-v1.png",
+    "home": "/art/production/backgrounds/home-v1.png",
+    "gyudon": "/art/production/backgrounds/gyudon-v1.png",
+    "airport": "/art/production/backgrounds/airport-v1.png",
+    "washroom": "/art/production/backgrounds/washroom-v1.png",
+    "hospital": "/art/production/backgrounds/hospital-v1.png",
+    "printshop": "/art/production/backgrounds/printshop-v1.png",
+    "warehouse": "/art/production/backgrounds/warehouse-v1.png"
+  },
+  "portraits": {
+    "xu": {
+      "work": "/art/production/portraits/xu-work-v1.png",
+      "interview": "/art/production/portraits/xu-interview-v1.png",
+      "home": "/art/production/portraits/xu-home-v1.png",
+      "default": "/art/production/portraits/xu-home-v1.png"
+    },
+    "rin": {
+      "work": "/art/production/portraits/rin-work-v1.png",
+      "casual": "/art/production/portraits/rin-casual-v1.png",
+      "night-visit": "/art/production/portraits/rin-night-visit-v1.png",
+      "soft-knit": "/art/production/portraits/rin-soft-knit-v1.png",
+      "borrowed-jacket": "/art/production/portraits/rin-borrowed-jacket-v1.png",
+      "default": "/art/production/portraits/rin-casual-v1.png"
+    },
+    "nana": {
+      "work": "/art/production/portraits/nana-work-v1.png",
+      "casual": "/art/production/portraits/nana-casual-v1.png",
+      "studio": "/art/production/portraits/nana-studio-v1.png",
+      "default": "/art/production/portraits/nana-casual-v1.png"
+    },
+    "shiori": {
+      "work": "/art/production/portraits/shiori-work-v1.png",
+      "casual": "/art/production/portraits/shiori-casual-v1.png",
+      "bookshop": "/art/production/portraits/shiori-bookshop-v1.png",
+      "default": "/art/production/portraits/shiori-casual-v1.png"
+    },
+    "qing": {
+      "office": "/art/production/portraits/qing-office-v1.png",
+      "casual": "/art/production/portraits/qing-casual-v1.png",
+      "date": "/art/production/portraits/qing-date-v1.png",
+      "default": "/art/production/portraits/qing-office-v1.png"
+    }
+  },
+  "cgs": {
+    "dinner-masked": {
+      "src": "/art/production/cgs/cg-dinner-masked-v1.png",
+      "title": "还没摘下的口罩",
+      "alt": "栞戴着白色口罩坐在餐桌后，饭碗和桌沿遮住下身。",
+      "focus": "50% 34%"
+    },
+    "window": {
+      "src": "/art/production/cgs/cg-window-v1.png",
+      "title": "玻璃外的凌晨四点",
+      "alt": "雨玻璃和防盗栏外，凛穿着黑粉夜访装凝视室内。",
+      "focus": "50% 42%",
+      "mobilePosition": "68% top"
+    },
+    "chase": {
+      "src": "/art/production/cgs/cg-chase-v1.png",
+      "title": "厚底鞋的声音",
+      "alt": "雨夜巷道中，凛追上来，街口透着便利店的白光。",
+      "focus": "50% 38%"
+    },
+    "envelope": {
+      "src": "/art/production/cgs/cg-envelope-v1.png",
+      "title": "枕头上的礼物",
+      "alt": "白枕头上的粉色信封、照片和密封的暗红色小瓶。",
+      "focus": "50% 42%",
+      "mobilePosition": "center 22%",
+      "mobileSize": "100% auto"
+    },
+    "dinner": {
+      "src": "/art/production/cgs/cg-dinner-v1.png",
+      "title": "摘下来的口罩",
+      "alt": "牛丼店桌对面的栞摘下口罩，暖灯照着她和饭碗。",
+      "focus": "50% 34%"
+    },
+    "departure": {
+      "src": "/art/production/cgs/cg-departure-v1.png",
+      "title": "对面月台",
+      "alt": "从列车内看去，凛站在隔着轨道的另一侧月台。",
+      "focus": "50% 40%",
+      "mobilePosition": "center 22%",
+      "mobileSize": "100% auto"
+    },
+    "nana-studio": {
+      "src": "/art/production/cgs/cg-nana-studio-v1.png",
+      "title": "试用合同",
+      "alt": "七濑背着摄影包，在摄影棚打开自己的工作文件。",
+      "focus": "50% 34%"
+    },
+    "shiori-bookshop": {
+      "src": "/art/production/cgs/cg-shiori-bookshop-v1.png",
+      "title": "入冬的画册",
+      "alt": "米色针织衫的栞在书店桌边指着翻开的画册。",
+      "focus": "50% 34%"
+    },
+    "qing-home": {
+      "src": "/art/production/cgs/cg-qing-home-v1.png",
+      "title": "同一张餐桌",
+      "alt": "晚晴在家里的餐桌前推过面碗，桌上是两碗没有葱的面。",
+      "focus": "50% 34%"
+    },
+    "rin-cafe": {
+      "src": "/art/production/cgs/cg-rin-cafe-v1.png",
+      "title": "没有喝下的热饮",
+      "alt": "凛穿黑粉私服坐在咖啡馆桌后，桌上放着两杯热饮和手机。",
+      "focus": "50% 34%"
+    },
+    "nana-cafe": {
+      "src": "/art/production/cgs/cg-nana-cafe-v1.png",
+      "title": "旧手机与申请表",
+      "alt": "七濑穿芥末色开衫坐在桌后，桌上有旧手机和工作申请资料。",
+      "focus": "50% 34%"
+    },
+    "shiori-cafe": {
+      "src": "/art/production/cgs/cg-shiori-cafe-v1.png",
+      "title": "递过来的消息",
+      "alt": "栞穿灰绿开衫坐在桌后，双手握着热饮，手机放在手边。",
+      "focus": "50% 34%"
+    }
+  },
+  "scenes": {
+    "dinner": [
+      {
+        "from": 0,
+        "to": 0,
+        "background": "izakaya",
+        "hidePortrait": true
+      },
+      {
+        "from": 5,
+        "to": 7,
+        "background": "gyudon",
+        "cg": "dinner-masked"
+      },
+      {
+        "from": 8,
+        "to": 15,
+        "cg": "dinner",
+        "background": "gyudon"
+      }
+    ],
+    "knock": [
+      {
+        "from": 0,
+        "to": 1,
+        "hidePortrait": true
+      },
+      {
+        "from": 2,
+        "to": 13,
+        "cg": "window"
+      },
+      {
+        "from": 14,
+        "to": 16,
+        "hidePortrait": true
+      }
+    ],
+    "peephole": [
+      {
+        "from": 0,
+        "to": 13,
+        "hidePortrait": true
+      }
+    ],
+    "chase": [
+      {
+        "from": 3,
+        "to": 10,
+        "cg": "chase"
+      }
+    ],
+    "envelope": [
+      {
+        "from": 0,
+        "to": 9,
+        "cg": "envelope"
+      },
+      {
+        "from": 10,
+        "to": 20,
+        "hidePortrait": true
+      }
+    ],
+    "rin3": [
+      {
+        "from": 0,
+        "to": 1,
+        "hidePortrait": true
+      },
+      {
+        "from": 2,
+        "to": 7,
+        "photo": {
+          "character": "rin",
+          "outfit": "borrowed-jacket"
+        }
+      },
+      {
+        "from": 8,
+        "to": 14,
+        "hidePortrait": true
+      }
+    ],
+    "endRinGood": [
+      {
+        "from": 0,
+        "to": 1,
+        "background": "station"
+      },
+      {
+        "from": 2,
+        "to": 4,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 5,
+        "to": 8,
+        "cg": "departure"
+      }
+    ],
+    "endNanaGood": [
+      {
+        "from": 0,
+        "to": 1,
+        "background": "izakaya",
+        "outfits": {
+          "nana": "work",
+          "rin": "work"
+        }
+      },
+      {
+        "from": 2,
+        "to": 6,
+        "background": "station",
+        "outfits": {
+          "nana": "casual"
+        }
+      },
+      {
+        "from": 7,
+        "to": 9,
+        "cg": "nana-studio"
+      }
+    ],
+    "endShioriGood": [
+      {
+        "from": 0,
+        "to": 2,
+        "background": "izakaya",
+        "outfits": {
+          "shiori": "work",
+          "rin": "work"
+        }
+      },
+      {
+        "from": 3,
+        "to": 5,
+        "background": "gyudon",
+        "outfits": {
+          "shiori": "casual"
+        },
+        "cg": "dinner"
+      },
+      {
+        "from": 6,
+        "to": 8,
+        "cg": "shiori-bookshop"
+      },
+      {
+        "from": 9,
+        "to": 9,
+        "background": "bookshop",
+        "hidePortrait": true
+      }
+    ],
+    "endQingGood": [
+      {
+        "from": 0,
+        "to": 4,
+        "background": "airport"
+      },
+      {
+        "from": 5,
+        "to": 10,
+        "cg": "qing-home"
+      }
+    ],
+    "prologue": [
+      {
+        "from": 0,
+        "to": 6,
+        "background": "rain",
+        "hidePortrait": true
+      }
+    ],
+    "makeover": [
+      {
+        "from": 0,
+        "to": 1,
+        "background": "washroom",
+        "hidePortrait": true
+      }
+    ],
+    "messages": [
+      {
+        "from": 0,
+        "to": 0,
+        "background": "airport",
+        "hidePortrait": true
+      },
+      {
+        "from": 1,
+        "to": 2,
+        "background": "home",
+        "hidePortrait": true
+      },
+      {
+        "from": 3,
+        "to": 13,
+        "background": "station",
+        "hidePortrait": true
+      }
+    ],
+    "messagesReply": [
+      {
+        "from": 8,
+        "to": 8,
+        "background": "izakaya",
+        "hidePortrait": true
+      }
+    ],
+    "rin1": [
+      {
+        "from": 0,
+        "to": 0,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 1,
+        "to": 11,
+        "cg": "rin-cafe",
+        "background": "cafe"
+      }
+    ],
+    "rin2": [
+      {
+        "from": 0,
+        "to": 11,
+        "cg": "rin-cafe",
+        "background": "cafe"
+      }
+    ],
+    "nana2": [
+      {
+        "from": 0,
+        "to": 11,
+        "cg": "nana-cafe",
+        "background": "cafe"
+      }
+    ],
+    "nana3": [
+      {
+        "from": 0,
+        "to": 1,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 2,
+        "to": 9,
+        "cg": "nana-cafe",
+        "background": "cafe"
+      }
+    ],
+    "shiori3": [
+      {
+        "from": 0,
+        "to": 0,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 1,
+        "to": 8,
+        "cg": "shiori-cafe",
+        "background": "cafe"
+      }
+    ],
+    "qing4": [
+      {
+        "from": 0,
+        "to": 7,
+        "background": "printshop",
+        "hidePortrait": true
+      }
+    ],
+    "endShioriBad": [
+      {
+        "from": 0,
+        "to": 8,
+        "background": "hospital",
+        "hidePortrait": true
+      }
+    ],
+    "dawn1": [
+      {
+        "from": 0,
+        "to": 0,
+        "background": "room",
+        "hidePortrait": true
+      }
+    ],
+    "dawn2": [
+      {
+        "from": 0,
+        "to": 0,
+        "background": "warehouse",
+        "hidePortrait": true
+      },
+      {
+        "from": 1,
+        "to": 5,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 6,
+        "to": 8,
+        "background": "station",
+        "hidePortrait": true
+      }
+    ],
+    "endNanaBad": [
+      {
+        "from": 6,
+        "to": 7,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 8,
+        "to": 10,
+        "background": "airport",
+        "hidePortrait": true
+      }
+    ],
+    "endDeparture": [
+      {
+        "from": 0,
+        "to": 7,
+        "background": "izakaya",
+        "outfits": {
+          "shiori": "work"
+        }
+      },
+      {
+        "from": 8,
+        "to": 11,
+        "background": "room",
+        "hidePortrait": true
+      }
+    ],
+    "endDawn": [
+      {
+        "from": 0,
+        "to": 2,
+        "background": "room",
+        "hidePortrait": true
+      },
+      {
+        "from": 3,
+        "to": 7,
+        "background": "bookshop",
+        "hidePortrait": true
+      }
+    ],
+    "aftermath": [
+      {
+        "from": 10,
+        "to": 11,
+        "background": "room",
+        "hidePortrait": true
+      }
+    ],
+    "departure1": [
+      {
+        "from": 8,
+        "to": 10,
+        "background": "room",
+        "hidePortrait": true
+      }
+    ],
+    "morning": [
+      {
+        "from": 0,
+        "to": 10,
+        "background": "washroom",
+        "hidePortrait": true
+      }
+    ],
+    "river": [
+      {
+        "from": 13,
+        "to": 13,
+        "background": "room",
+        "hidePortrait": true
+      }
+    ],
+    "riverMirror": [
+      {
+        "from": 11,
+        "to": 11,
+        "background": "room",
+        "hidePortrait": true
+      }
+    ],
+    "shioriOnTime": [
+      {
+        "from": 0,
+        "to": 3,
+        "background": "station"
+      }
+    ],
+    "endRinBad": [
+      {
+        "from": 5,
+        "to": 6,
+        "background": "warehouse",
+        "hidePortrait": true
+      }
+    ]
+  }
+}

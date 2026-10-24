@@ -1,0 +1,36 @@
+{
+  "asset": "cg-rin-cafe-v1.png",
+  "status": "production continuity repair; agent visually checked",
+  "createdAtUTC": "2026-10-23 17:47:45 UTC",
+  "tool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "prompt": "Use case: illustration-story.\nAsset type: final game CG, one complete 16:9 landscape scene, 2048x1152 preferred.\nInputs: Image 1 is the ONLY character identity reference: preserve her specific face, hair, eye color, adult age and clothes. Image 2 supplies the cafe interior only: same rainy street windows on the left, warm wood, red-brown upholstered chairs, plant pots, counter to right. Image 3 is ONLY composition and refined Japanese 2D anime rendering reference: a seated person behind a solid foreground table with natural occlusion. DO NOT borrow Image 3 woman's face, hair or outfit.\nDraw a new complete illustration, not a pasted standing sprite. First person observer sits opposite the adult woman, table-height eye view, chest-up seated framing. Her head is high in the upper half of image, full top of head comfortably visible, face toward viewer; torso and naturally resting hands above table. A broad wooden table completely occludes everything below the upper abdomen: NO visible legs or skirt front, NO standing person behind a tiny table, NO transparent tabletop, NO body crossing tabletop. Bottom 25 percent is quiet clear foreground tabletop reserved for game dialogue.\nPolished hand-drawn Japanese 2D anime visual novel art, expressive simple anime nose and mouth, delicate clean linework, carefully organized cel shadows, detailed hair clusters and cloth texture, coherent drawn anatomy. No realism, 3D render, western comic face, glossy doll face, identical generic face, text, letters, UI, logos, watermark, duplicate person. All characters are adults fully clothed. Overcast rainy afternoon outside, soft cool window light plus gentle warm cafe lights.\nSubject is Kurose Rin, age 24, exactly Image 1 identity: long black hair, heavy straight fringe, low black twin ribbon bows, narrow purple eyes with deliberate pink lower-eye makeup, narrow heart-shaped face and small tight mouth. Black cardigan with small dusty-pink bows over dusty-pink high-neck ribbed blouse and black lace detail, black heart ribbon choker; dark nails. She sits upright, deliberately maintaining a tiny social smile while staring attentively at the first-person viewer, one hand close to her own cup. She should feel jirai-kei and emotionally watchful rather than a gentle aristocratic lady. On table exactly two cups of ordinary clear amber tea and one face-down smartphone at table edge. No red or unknown liquid, no bottle. Keep her own distinctive Rin face, NEVER gray-green eyes or gray-brown hair from composition reference.",
+  "source": "C:\\Users\\90684\\.codex\\generated_images\\01a169db-1c44-7681-a7d0-64258612ccbd\\exec-171d4f90-d582-495a-a293-54d0bbfc956c.png",
+  "output": "G:\\SoftwareProject\\Game\\JiraiOnna\\public\\art\\production\\cgs\\cg-rin-cafe-v1.png",
+  "transparentBackground": false,
+  "references": [
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/portraits/rin-casual-v1.png",
+      "purpose": "Only character identity and current casual clothes"
+    },
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/backgrounds/cafe-v1.png",
+      "purpose": "Same cafe environment, rainy overcast afternoon"
+    },
+    {
+      "path": "G:/SoftwareProject/Game/JiraiOnna/public/art/production/cgs/cg-dinner-v1.png",
+      "purpose": "Seated first-person table occlusion and polished Japanese 2D rendering only; no identity borrowed"
+    }
+  ],
+  "review": {
+    "identity": "Own corresponding portrait used as actual reference; adult and clothed",
+    "composition": "Seated across a broad opaque foreground table; lower body hidden; face in upper half; no standing cutout crossing table",
+    "notes": "Two cups of ordinary amber tea, one face-down phone."
+  },
+  "actualOutput": {
+    "width": 1672,
+    "height": 941,
+    "pngColorType": 2,
+    "bytes": 2330213
+  }
+}

@@ -1,0 +1,32 @@
+(async()=>{
+  const {story}=await import('/story.js');
+  const el=id=>document.getElementById(id),wait=ms=>new Promise(r=>setTimeout(r,ms));
+  if(el('modal').open)el('close-modal').click();el('settings-button').click();
+  if(el('modal').scrollTop!==0)throw Error('Settings opened at stale scroll position');
+  const originalAudio=window.Audio,audios=[];
+  window.Audio=function(...args){const audio=new originalAudio(...args);audios.push(audio);return audio;};
+  document.querySelector('[data-track="rin"]').click();await wait(1600);
+  document.querySelector('[data-track="shiori"]').click();await wait(1600);
+  const last=audios.at(-1);
+  if(!last||last.paused||last.currentTime===0||!last.loop)throw Error('Music did not play');
+  const sound={playing:true,track:last.src.split('/').at(-1),time:last.currentTime,volume:last.volume,oldPaused:audios.length>1?audios.at(-2).paused:true};
+  el('setting-volume').value=.2;el('setting-volume').dispatchEvent(new Event('input'));
+  if(Math.abs(last.volume-.2)>.01)throw Error('Volume setting did not apply');
+  el('setting-music').checked=false;el('setting-music').dispatchEvent(new Event('change'));
+  if(!last.paused)throw Error('Mute did not stop music');window.Audio=originalAudio;el('close-modal').click();
+  el('save-menu').click();
+  const create=URL.createObjectURL;let exported;
+  URL.createObjectURL=blob=>{exported=blob;return create(blob);};
+  const clickAnchor=HTMLAnchorElement.prototype.click;HTMLAnchorElement.prototype.click=function(){if(!this.download)clickAnchor.call(this);};
+  el('export-save').click();URL.createObjectURL=create;HTMLAnchorElement.prototype.click=clickAnchor;
+  const json=await exported.text(),data=JSON.parse(json);
+  const transfer=new DataTransfer();transfer.items.add(new File([json],'qa-progress.json',{type:'application/json'}));
+  el('import-file').files=transfer.files;el('import-file').dispatchEvent(new Event('change'));await wait(100);
+  if(!el('do-import'))throw Error('Valid save was rejected');el('do-import').click();
+  const imported=JSON.parse(localStorage.getItem(`jirai.current.${story.version}`));
+  if(imported.nodeId!==data.current.nodeId||imported.line!==data.current.line)throw Error('Imported progress differs');
+  const corrupt=new DataTransfer();data.current.nodeId='not-a-real-node';corrupt.items.add(new File([JSON.stringify(data)],'invalid.json',{type:'application/json'}));
+  el('import-file').files=corrupt.files;el('import-file').dispatchEvent(new Event('change'));await wait(100);
+  if(!el('toast').textContent.includes('无法导入'))throw Error('Invalid save not reported');
+  return {music:sound,volume:true,mute:true,export:true,import:true,rejectInvalid:true,settingsScrollReset:true};
+})()

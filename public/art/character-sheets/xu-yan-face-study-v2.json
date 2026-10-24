@@ -1,0 +1,33 @@
+{
+  "status": "review-only; not approved; style mismatch remains",
+  "character": "Xu Yan / 许砚",
+  "adultAge": 26,
+  "useCase": "stylized-concept",
+  "asset": "xu-yan-face-study-v2.png",
+  "createdAtUTC": "2026-10-23T14:55:09Z",
+  "actualTool": "built-in image_gen.imagegen",
+  "modelVersion": "not exposed by tool",
+  "sourcePath": "C:/Users/90684/.codex/generated_images/01a16940-7136-73a3-9dcd-2fa061f8d809/exec-1ea52092-65ba-4c13-87f0-134434351250.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: one review-only character face design sheet for an original contemporary visual novel, landscape 3:2 composition with three equally sized shoulder-up portrait panels on a clean white/light-gray background, no text.\nPrimary request: invent a distinctive appealing male face for Xu Yan, a 26-year-old East Asian warehouse/izakaya worker studying for graduate entrance exams. All three portraits MUST be exactly the same adult man with consistent bone structure and hairline. Left: direct frontal neutral expression with brows and both eyes clearly visible. Center: three-quarter view, a reluctant crooked half-smile that begins at one corner. Right: three-quarter view, exhausted and guarded, lips slightly pressed rather than an exaggerated angry face.\nFace design: a noticeably long, slightly rectangular face with cheek-to-jaw transitions, a clear but modest male jaw, rounded-square chin rather than V-shaped chin; moderately narrow eyes with subtly drooping outer corners, smaller muted brown irises, an upper eyelid fold, thick straight eyebrows with a small natural left/right asymmetry; a nose with an actual medium-long bridge and an understated drawn nose tip, still simplified into elegant 2D anime lines; thinner upper lip and a slightly fuller lower lip, one mouth corner naturally tenser; delicate quiet signs of fatigue under the eyes, no heavy aging. His expression should suggest someone trying to remain civil after a long physical shift. Neck has a restrained Adam's apple and believable male neck anatomy. Black untidy layered hair, irregular soft clumps, a small low short ponytail visible in the turned views, no long perfectly symmetric bangs covering the entire face. Plain charcoal crew-neck T-shirt, no jewelry, no props.\nStyle/medium: use ONLY the 2D illustration craftsmanship of the three preceding style-reference images: meticulous varied-weight dark linework, sophisticated clean anime color shapes, controlled cel shading with a few soft edge transitions, delicate layered hair clumps, crisp attractive eyes, restrained highlights, polished character art comparable to premium contemporary Chinese anime games. Translate that line-and-shape treatment to a convincing adult MALE face. Do NOT copy any reference character's face, hair color, hairstyle, costume, animal features, horns, ears or tail.\nLighting: identical neutral soft light and skin tone in all panels, no colored cinematic rim light. Palette: natural fair-to-medium warm skin, charcoal-black hair with subtle cool highlights, dark brown irises.\nConstraints: identity judged by anatomy, not accessories. This is a specific ordinary adult man, neither female-faced nor a flawless CEO idol, no generic gigantic glitter eyes, no needle chin, no perfectly symmetric doll lips, no beauty-filter blush, no template bishonen face. Do not make him ugly or grotesque to prove uniqueness. Keep the drawing unmistakably sophisticated 2D ANIME: no semi-realistic painting, no photorealism, no 3D, no rendered pores, no pencil sketch, no hatching. No extra people, symbols, layout decorations, watermark or lettering.",
+  "references": [
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-80eef999-a582-4756-9df0-6d325a88a7f2.png",
+      "role": "viewed style-only reference: 2D linework, restrained cel shading and polished anime rendering; no identity, costume or fantasy features copied"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-1a18c290-f3f7-47fd-aa21-f5e02d2eeb62.png",
+      "role": "viewed style-only reference: 2D linework, restrained cel shading and polished anime rendering; no identity, costume or fantasy features copied"
+    },
+    {
+      "path": "C:\\Users\\90684\\AppData\\Local\\Temp\\codex-clipboard-5afcbd77-826d-4f99-aa41-e5e3467b0ba4.png",
+      "role": "viewed style-only reference: 2D linework, restrained cel shading and polished anime rendering; no identity, costume or fantasy features copied"
+    }
+  ],
+  "imageToolInputMechanism": "References viewed in conversation; brand-new image generation omitted referenced_image_paths and num_last_images_to_include per tool instructions.",
+  "review": {
+    "identity": "Consistent three-panel adult male identity with thicker brows, narrow eyes, square-round chin, tired under-eyes, uneven half-smile and low short ponytail.",
+    "styleLimitation": "Face has more nose bridge, lip volume and neck modeling than current requested simplified Japanese 2D anime target. Latest feedback arrived after submission. Do not use as the group's approved style anchor.",
+    "productionIntegration": "No media.json or other runtime mapping changed. No CG or wardrobe generated.",
+    "nextStep": "Await parent and user review; do not generate a second image automatically."
+  }
+}
